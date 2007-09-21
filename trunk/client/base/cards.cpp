@@ -202,6 +202,7 @@ BOOL Cards::loadBitmaps()
 
   bmpCardsMask_.LoadBitmap(IDB_MASK);
   bmpBack_.LoadBitmap(IDB_BACK);
+
   bmpBackMask_.LoadBitmap(IDB_MASK);
 
   return rc;
@@ -227,9 +228,19 @@ BOOL Cards::drawCard(CDC* pDC, const Card& card, int xpos, int ypos, DWORD dwFla
 
   if (dwFlags & C_BackSide)
   {
-    rc = bltCard(pDC, xpos, ypos, 
-                 BacksideCardWidth_, BacksideCardHeight_,
-                 0, 0, &bmpBack_, &bmpBackMask_);
+    //MP REM
+	// rc = bltCard(pDC, xpos, ypos, 
+       //       BacksideCardWidth_, BacksideCardHeight_,
+      //        0, 0, &bmpBack_, &bmpBackMask_);
+	  
+	//MP AHA
+	   CBitmap& cardImage = getImage(card);
+    if (cardImage.GetSafeHandle())
+    {
+      rc = bltCard(pDC, xpos, ypos, OpenCardWidth_, OpenCardHeight_,
+                  cardx, cardy, &cardImage, &bmpCardsMask_);
+    }
+
   }
   else if (drawFaceDown)
   { 

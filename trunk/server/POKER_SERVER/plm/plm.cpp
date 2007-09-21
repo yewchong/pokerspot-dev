@@ -162,14 +162,22 @@ void Cplm::bet()
   int numBets = (currentInstr_.operand & iBET_CAP_MASK);
   CChips raise = table_->getLo();
   
-  if (currentInstr_.operand & iBET_NO_LIMIT)
-    raise = 0;
-  else if (currentInstr_.operand & iBET_HI_LIMIT)
-    raise = table_->getHi();
-  else if (currentInstr_.operand & iBET_LO_LIMIT)
+  if (currentInstr_.operand & iBET_NO_LIMIT) {
     raise = table_->getLo();
-  else if (currentInstr_.operand & iBET_POT_LIMIT)
-    raise = -1;
+	betStructure_ = BS_NoLimit;
+  }
+  else if (currentInstr_.operand & iBET_HI_LIMIT) {
+    raise = table_->getHi();
+	betStructure_ = BS_Limit;
+  }
+  else if (currentInstr_.operand & iBET_LO_LIMIT) {
+    raise = table_->getLo();
+	betStructure_ = BS_Limit;
+  }
+  else if (currentInstr_.operand & iBET_POT_LIMIT) {
+    raise = table_->getLo();
+	betStructure_ = BS_PotLimit;
+  }
   
   if (0)//DEBUG & DEBUG_PLM_BET)
   {

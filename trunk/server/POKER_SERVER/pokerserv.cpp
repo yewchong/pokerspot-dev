@@ -119,7 +119,7 @@ int main(int argc, char *argv[])
   bool ssl = false;
   if (argc > 1)
     ssl = (strcmp(argv[argc-1], "-ssl") == 0);
-  
+  ssl=false;
   int rc = poller.init(argc, argv, servAddr, &table, ssl); 
   if (rc == -1)
   {   // Initialization failed, makes no sense to continue

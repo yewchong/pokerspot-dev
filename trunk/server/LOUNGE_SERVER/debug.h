@@ -22,8 +22,9 @@ extern bool GetDebug(int debugCategory);
 #define DEBUG_MAIN          0x0001
 #define DEBUG_POLLER        0x0002
 #define	DEBUG_TABLE         0x0004
-//#define	DEBUG_DATABASE      0x0008 
-#define	DEBUG_DATABASE      0x0000
+//MP
+#define	DEBUG_DATABASE      0x0008 
+//#define	DEBUG_DATABASE      0x0000
 
 // PLM Debugs
 #define DEBUG_PLM_ANTE      0x0010

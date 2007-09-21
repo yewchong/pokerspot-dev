@@ -614,8 +614,9 @@ void CActionBar::setSpread(const CChips& lo, const CChips& hi)
         slider_.EnableWindow(TRUE);
         // XXX CChips: this control needs to be
         // adapted to handle cents
-        slider_.SetRange(lo.getDollars(), hi.getDollars());
-        slider_.SetPos(lo.getDollars());
+        slider_.SetRange(lo.getDollars()*100, hi.getDollars()*100);
+        slider_.SetPos(lo.getDollars()*100);
+	
     }            
 
    
@@ -1002,17 +1003,18 @@ void CActionBar::OnHScroll(UINT nSBCode, UINT nPos, CScrollBar* pScrollBar)
             return; // Should never happen
     }
     
+	//MP SLIDER
     int pos = slider_.GetPos();
     if (pos != 0)
     {
         CString s;
-        s.Format("%d", pos);
+        s.Format("%.2f", (float)(pos / 100));
         GetDlgItem(IDC_RAISEAMOUNT)->SetWindowText(s);
         GetDlgItem(ID_BTN_2)->GetWindowText(s);
         if (s.Find("Bet") != -1)
-            s.Format("Bet %d", pos);
+            s.Format("Bet %.2f", (float)(pos /100));
         else
-            s.Format("Raise %d", pos);
+            s.Format("Raise %.2f", (float)(pos/100));
         GetDlgItem(ID_BTN_2)->SetWindowText(s);
     }
 }
@@ -1026,19 +1028,21 @@ void CActionBar::OnChangeRaiseamount()
         if (!slider_.GetSafeHwnd())
             return; // Should never happen
     }
-
+	//MP SLIDER
     CString s;
     GetDlgItem(IDC_RAISEAMOUNT)->GetWindowText(s);
-    int pos = atoi(s);
+	s.Remove ('$');
+    float pos = atof(s) * 100 ;  //MP *100
+	int p = atof(s) * 100;
     if (pos != 0)
     {
         GetDlgItem(ID_BTN_2)->GetWindowText(s);
         if (s.Find("Bet") != -1)
-            s.Format("Bet %d", pos);
+            s.Format("Bet %.2f", float(pos /100));
         else
-            s.Format("Raise %d", pos);
+            s.Format("Raise %.2f",float(pos /100));
         GetDlgItem(ID_BTN_2)->SetWindowText(s);
-        slider_.SetPos(pos);
+        slider_.SetPos(p);
     }
 }
 

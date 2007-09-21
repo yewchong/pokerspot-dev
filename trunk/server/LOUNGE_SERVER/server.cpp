@@ -106,9 +106,10 @@ int Server::initialize(int argc, char* argv[])
   // Initialize SSL - run without SSL if last argument
   // is -nossl
   if (argc > 1 && strcmp(argv[1], "-nossl") == 0)
-    Sys_DisableSSL();
+    //MP SSL
+	Sys_DisableSSL();
   else
-    Sys_EnableSSL();
+    Sys_DisableSSL();
   
   if (Sys_IsSSLEnabled() && init_ssl() == -1)
   {

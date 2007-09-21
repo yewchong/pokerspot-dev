@@ -257,8 +257,11 @@ Plm_Action Cplm::promptActionSpread(CPlayer* player,
         maxRaise = raiseChips;
     }
 
-    CChips raiseLo = raise;
-    CChips raiseHi = (raise != 0) ? maxRaise : 0;
+	//MPNL
+    //CChips raiseLo = raise;
+	CChips raiseLo = maximum(toPay,raise);
+    //CChips raiseHi = (raise != 0) ? maxRaise : 0;
+	CChips raiseHi = maxRaise;
 
     // CHECK against maximum dollar amount (32M)
 #ifndef _WIN32

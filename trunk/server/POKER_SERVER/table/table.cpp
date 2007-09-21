@@ -1117,7 +1117,8 @@ bool CTable::checkLogin(u_int32_t ipaddr, const char* username)
 
 // The table will leave after this number of
 // seconds if there has been no players
-#define NOPLAYERS_TIMEOUT 60
+//MP SHUTDOWN
+#define NOPLAYERS_TIMEOUT 6000
 
 u_int16_t CTable::getShutdown()
 {

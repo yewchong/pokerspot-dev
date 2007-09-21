@@ -173,6 +173,8 @@ bool CdbHandler::mySQLInit(void)
 
 bool CdbHandler::mySQLConnect(void)
 {
+
+	
 	// Open Connection To MySQL Database
 
 	if (mysql_real_connect(mySQLQuery_, dbHost_, username_, password_,

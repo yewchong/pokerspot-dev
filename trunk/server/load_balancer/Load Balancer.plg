@@ -6,63 +6,105 @@
 --------------------Configuration: Load Balancer - Win32 Debug--------------------
 </h3>
 <h3>Command Lines</h3>
-Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP117.tmp" with contents
+Creating temporary file "C:\Users\Max\AppData\Local\Temp\RSP90C4.tmp" with contents
 [
 /nologo /MDd /W3 /Gm /GX /Zi /Od /I "." /I "..\..\lib\common\include" /I "..\..\lib\openssl\inc32" /I "../../lib/sgi_stl" /D "_DEBUG" /D "WIN32" /D "_CONSOLE" /D "_MBCS" /Fp"Debug/Load Balancer.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
-"C:\Documents and Settings\administrator\Desktop\poker_source\server\load_balancer\loadbalancer\loadbalancer.cpp"
-"C:\Documents and Settings\administrator\Desktop\poker_source\server\load_balancer\pdu\pdu.cpp"
-"C:\Documents and Settings\administrator\Desktop\poker_source\server\load_balancer\pdu\pduloungeinfo.cpp"
-"C:\Documents and Settings\administrator\Desktop\poker_source\server\load_balancer\pdu\pduloungelogin.cpp"
-"C:\Documents and Settings\administrator\Desktop\poker_source\server\load_balancer\pdu\pduredirectlogin.cpp"
-"C:\Documents and Settings\administrator\Desktop\poker_source\server\load_balancer\pdu\pduunknown.cpp"
-"C:\Documents and Settings\administrator\Desktop\poker_source\server\load_balancer\pdu\pduwaitinglistconfig.cpp"
-"C:\Documents and Settings\administrator\Desktop\poker_source\server\load_balancer\main.cpp"
+"D:\pokerspot6\svn\trunk\lib\common\src\errorlog.cpp"
+"D:\pokerspot6\svn\trunk\lib\common\src\filelogger.cpp"
+"D:\pokerspot6\svn\trunk\lib\common\src\log.cpp"
+"D:\pokerspot6\svn\trunk\lib\common\src\ssl_funcs.cpp"
+"D:\pokerspot6\svn\trunk\lib\common\src\stringoutput.cpp"
+"D:\pokerspot6\svn\trunk\lib\common\src\sync.cpp"
+"D:\pokerspot6\svn\trunk\lib\common\src\sys.cpp"
+"D:\pokerspot6\svn\trunk\server\load_balancer\loadbalancer\loadbalancer.cpp"
+"D:\pokerspot6\svn\trunk\server\load_balancer\loadbalancer\lounge.cpp"
+"D:\pokerspot6\svn\trunk\server\load_balancer\pdu\pdu.cpp"
+"D:\pokerspot6\svn\trunk\server\load_balancer\pdu\pduallocator.cpp"
+"D:\pokerspot6\svn\trunk\server\load_balancer\pdu\pduloungeinfo.cpp"
+"D:\pokerspot6\svn\trunk\server\load_balancer\pdu\pduloungelogin.cpp"
+"D:\pokerspot6\svn\trunk\server\load_balancer\pdu\pduloungestats.cpp"
+"D:\pokerspot6\svn\trunk\server\load_balancer\pdu\pdunotify.cpp"
+"D:\pokerspot6\svn\trunk\server\load_balancer\pdu\pduplayerhandshake.cpp"
+"D:\pokerspot6\svn\trunk\server\load_balancer\pdu\pduplayerloggedin.cpp"
+"D:\pokerspot6\svn\trunk\server\load_balancer\pdu\pduplayerloggedout.cpp"
+"D:\pokerspot6\svn\trunk\server\load_balancer\pdu\pduqueueupdate.cpp"
+"D:\pokerspot6\svn\trunk\server\load_balancer\pdu\pduredirectlogin.cpp"
+"D:\pokerspot6\svn\trunk\server\load_balancer\pdu\pdurouteloungepdu.cpp"
+"D:\pokerspot6\svn\trunk\server\load_balancer\pdu\pdurouteplayerpdu.cpp"
+"D:\pokerspot6\svn\trunk\server\load_balancer\pdu\pduunknown.cpp"
+"D:\pokerspot6\svn\trunk\server\load_balancer\pdu\pduwaitinglistconfig.cpp"
+"D:\pokerspot6\svn\trunk\server\load_balancer\pdu\pduwaitinglistevent.cpp"
+"D:\pokerspot6\svn\trunk\server\load_balancer\accepter.cpp"
+"D:\pokerspot6\svn\trunk\server\load_balancer\main.cpp"
+"D:\pokerspot6\svn\trunk\server\load_balancer\poller.cpp"
+"D:\pokerspot6\svn\trunk\server\load_balancer\server.cpp"
 ]
-Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP117.tmp" 
-Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP118.tmp" with contents
+Creating command line "cl.exe @C:\Users\Max\AppData\Local\Temp\RSP90C4.tmp" 
+Creating temporary file "C:\Users\Max\AppData\Local\Temp\RSP90D5.tmp" with contents
 [
 kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib wsock32.lib /nologo /subsystem:console /incremental:yes /pdb:"Debug/loadbalancer.pdb" /debug /machine:I386 /out:"loadbalancer.exe" /pdbtype:sept 
-".\Debug\errorlog.obj"
-".\Debug\filelogger.obj"
-".\Debug\log.obj"
-".\Debug\ssl_funcs.obj"
-".\Debug\stringoutput.obj"
-".\Debug\sync.obj"
-".\Debug\sys.obj"
-".\Debug\loadbalancer.obj"
-".\Debug\lounge.obj"
-".\Debug\pdu.obj"
-".\Debug\pduallocator.obj"
-".\Debug\pduloungeinfo.obj"
-".\Debug\pduloungelogin.obj"
-".\Debug\pduloungestats.obj"
-".\Debug\pdunotify.obj"
-".\Debug\pduplayerhandshake.obj"
-".\Debug\pduplayerloggedin.obj"
-".\Debug\pduplayerloggedout.obj"
-".\Debug\pduqueueupdate.obj"
-".\Debug\pduredirectlogin.obj"
-".\Debug\pdurouteloungepdu.obj"
-".\Debug\pdurouteplayerpdu.obj"
-".\Debug\pduunknown.obj"
-".\Debug\pduwaitinglistconfig.obj"
-".\Debug\pduwaitinglistevent.obj"
-".\Debug\accepter.obj"
-".\Debug\main.obj"
-".\Debug\poller.obj"
-".\Debug\server.obj"
+.\Debug\errorlog.obj
+.\Debug\filelogger.obj
+.\Debug\log.obj
+.\Debug\ssl_funcs.obj
+.\Debug\stringoutput.obj
+.\Debug\sync.obj
+.\Debug\sys.obj
+.\Debug\loadbalancer.obj
+.\Debug\lounge.obj
+.\Debug\pdu.obj
+.\Debug\pduallocator.obj
+.\Debug\pduloungeinfo.obj
+.\Debug\pduloungelogin.obj
+.\Debug\pduloungestats.obj
+.\Debug\pdunotify.obj
+.\Debug\pduplayerhandshake.obj
+.\Debug\pduplayerloggedin.obj
+.\Debug\pduplayerloggedout.obj
+.\Debug\pduqueueupdate.obj
+.\Debug\pduredirectlogin.obj
+.\Debug\pdurouteloungepdu.obj
+.\Debug\pdurouteplayerpdu.obj
+.\Debug\pduunknown.obj
+.\Debug\pduwaitinglistconfig.obj
+.\Debug\pduwaitinglistevent.obj
+.\Debug\accepter.obj
+.\Debug\main.obj
+.\Debug\poller.obj
+.\Debug\server.obj
 ]
-Creating command line "link.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP118.tmp"
+Creating command line "link.exe @C:\Users\Max\AppData\Local\Temp\RSP90D5.tmp"
 <h3>Output Window</h3>
 Compiling...
-pduloungeinfo.cpp
-pduredirectlogin.cpp
-pduwaitinglistconfig.cpp
-main.cpp
+errorlog.cpp
+filelogger.cpp
+log.cpp
+ssl_funcs.cpp
+stringoutput.cpp
+sync.cpp
+sys.cpp
 loadbalancer.cpp
-pduloungelogin.cpp
+lounge.cpp
 pdu.cpp
+pduallocator.cpp
+pduloungeinfo.cpp
+pduloungelogin.cpp
+pduloungestats.cpp
+pdunotify.cpp
+pduplayerhandshake.cpp
+pduplayerloggedin.cpp
+pduplayerloggedout.cpp
+pduqueueupdate.cpp
+pduredirectlogin.cpp
+pdurouteloungepdu.cpp
+pdurouteplayerpdu.cpp
 pduunknown.cpp
+pduwaitinglistconfig.cpp
+pduwaitinglistevent.cpp
+accepter.cpp
+main.cpp
+poller.cpp
+server.cpp
 Linking...
 
 

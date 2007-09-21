@@ -1,9 +1,17 @@
 SCC = This is a Source Code Control file
 
 [Poker.dsp]
-SCC_Aux_Path = "\\Primer\austinss\"
-SCC_Project_Name = "$/Poker/Win32 Client/Client", IWKAAAAA
+SCC_Aux_Path = "C:\Program Files\Microsoft Visual Studio\Common\VSS"
+SCC_Project_Name = "$/pokerspot/client", FAAAAAAA
 
 [shell.dsp]
-SCC_Aux_Path = "\\Primer\austinss\"
-SCC_Project_Name = "$/Poker/Win32 Client/Client", IWKAAAAA
+SCC_Aux_Path = "C:\Program Files\Microsoft Visual Studio\Common\VSS"
+SCC_Project_Name = "$/pokerspot/client", FAAAAAAA
+
+[Poker.dsw]
+SCC_Aux_Path = "C:\Program Files\Microsoft Visual Studio\Common\VSS"
+SCC_Project_Name = "$/pokerspot/client", FAAAAAAA
+
+[shell.dsw]
+SCC_Aux_Path = "C:\Program Files\Microsoft Visual Studio\Common\VSS"
+SCC_Project_Name = "$/pokerspot/client", FAAAAAAA

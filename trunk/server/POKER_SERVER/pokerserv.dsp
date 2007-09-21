@@ -772,6 +772,10 @@ SOURCE=.\sys.cpp
 # PROP Default_Filter "h;hpp;hxx;hm;inl"
 # Begin Source File
 
+SOURCE=.\compat.h
+# End Source File
+# Begin Source File
+
 SOURCE=.\database.h
 # End Source File
 # Begin Source File
