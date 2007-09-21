@@ -141,7 +141,9 @@ bool CdbInterface::authenticate(const char* username, const char* password)
         Sys_LogError(s);
         return false;
     }
-    else if (strcmp(dbPassword, context.hex_digest()))
+	//MP
+    //else if (strcmp(dbPassword, context.hex_digest()))
+	else if (strcmp(dbPassword, password))
     {
         char s[200];
         sprintf(s, "CTable::tableLogin: wrong password %s for user %s.", password, username);
@@ -477,8 +479,14 @@ u_int32_t CdbInterface::getGameNum(void)
             printf("gamenumber or possible house table, nonexistant in database!");
         }
 
-        return (u_int32_t)0;
+        //return (u_int32_t)0;
+		sprintf(query1,"INSERT into house (total_games) VALUES(%d)", gameNumber);
+		if (!dbase_->dbQuery(query1)) {
+			printf("failure inserting gamenumber");
+			return (u_int32_t)0;
+		}
     }
+
 
     gameNumber = (u_int32_t)atoi(dbFetched);
 

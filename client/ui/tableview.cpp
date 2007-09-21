@@ -731,6 +731,7 @@ int CTableView::numPlayers(DWORD flags) const
 // Draw special indicators for showing the
 // dealer, the small and the big blind.
 //
+//MP BLINDS BUTTON
 void CTableView::drawIndicators(CDC* pDC)
 {
   if (Global::GetGameType() == GT_SevenStud)

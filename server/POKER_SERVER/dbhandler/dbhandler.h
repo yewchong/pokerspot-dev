@@ -28,7 +28,7 @@
 
 // Individual RDBMS Includes
 #ifdef MYSQL_DB					// MySQL Include File
-#include <mysql.h>
+#include "../mysql/include/mysql.h"
 #endif
 
 #ifdef ORACLE_DB				// Fictituous Oracle Include File

@@ -28,3 +28,171 @@ bot1 buyin   5016.00 total      0.00
 Mon Dec 03 03:01:57 2001
 bot1 save   5016.00 total   5016.00
 
+Wed Sep 19 02:49:48 2007
+b buyin    100.00 total      0.00
+
+Wed Sep 19 02:50:31 2007
+abc buyin    100.00 total      0.00
+
+Wed Sep 19 02:53:11 2007
+b save    139.00 total    139.00
+
+Wed Sep 19 02:53:22 2007
+abc save     58.00 total     58.00
+
+Thu Sep 20 14:26:08 2007
+b save      0.00 total      0.00
+
+Thu Sep 20 14:26:31 2007
+b buyin   1000.00 total      0.00
+
+Thu Sep 20 14:26:54 2007
+abc buyin   1000.00 total      0.00
+
+Thu Sep 20 14:32:57 2007
+abc save      0.00 total      0.00
+
+Thu Sep 20 14:34:09 2007
+b buyin   1000.00 total      0.00
+
+Thu Sep 20 14:34:43 2007
+abc buyin   1000.00 total      0.00
+
+Thu Sep 20 14:38:20 2007
+abc save      0.00 total      0.00
+
+Thu Sep 20 14:39:02 2007
+abc buyin   1000.00 total      0.00
+
+Thu Sep 20 14:39:24 2007
+b buyin   1000.00 total      0.00
+
+Thu Sep 20 14:43:32 2007
+abc buyin   1000.00 total      0.00
+
+Thu Sep 20 14:43:56 2007
+b buyin   1000.00 total      0.00
+
+Thu Sep 20 14:48:01 2007
+abc buyin   1000.00 total      0.00
+
+Thu Sep 20 14:48:03 2007
+b buyin   1000.00 total      0.00
+
+Thu Sep 20 14:54:17 2007
+abc buyin   1000.00 total      0.00
+
+Thu Sep 20 14:54:20 2007
+b buyin   1000.00 total      0.00
+
+Thu Sep 20 15:02:55 2007
+b buyin   1000.00 total      0.00
+
+Thu Sep 20 15:02:58 2007
+abc buyin   1000.00 total      0.00
+
+Thu Sep 20 15:03:50 2007
+abc save    995.00 total    995.00
+
+Thu Sep 20 15:03:54 2007
+b save   1005.00 total   1005.00
+
+Thu Sep 20 15:21:59 2007
+b buyin   1005.00 total      0.00
+
+Thu Sep 20 15:22:23 2007
+abc buyin    995.00 total      0.00
+
+Thu Sep 20 15:40:09 2007
+abc buyin   1000.00 total      0.00
+
+Thu Sep 20 15:40:13 2007
+b buyin   1000.00 total      0.00
+
+Thu Sep 20 15:51:59 2007
+b buyin   1000.00 total      0.00
+
+Thu Sep 20 15:52:35 2007
+abc buyin   1000.00 total      0.00
+
+Thu Sep 20 15:55:03 2007
+b save    998.00 total    998.00
+
+Thu Sep 20 15:55:04 2007
+abc save   1000.00 total   1000.00
+
+Thu Sep 20 16:10:09 2007
+b buyin    998.00 total      0.00
+
+Thu Sep 20 16:10:23 2007
+abc buyin   1000.00 total      0.00
+
+Thu Sep 20 16:11:24 2007
+abc save   1026.00 total   1026.00
+
+Thu Sep 20 16:11:26 2007
+b save    971.00 total    971.00
+
+Thu Sep 20 16:12:14 2007
+b buyin    971.00 total      0.00
+
+Thu Sep 20 16:12:32 2007
+abc buyin   1026.00 total      0.00
+
+Thu Sep 20 16:19:22 2007
+b buyin   1000.00 total      0.00
+
+Thu Sep 20 16:19:26 2007
+abc buyin   1000.00 total      0.00
+
+Thu Sep 20 16:20:49 2007
+abc save   1999.00 total   1999.00
+
+Thu Sep 20 18:16:09 2007
+b buyin   1000.00 total      0.00
+
+Thu Sep 20 18:16:24 2007
+abc buyin   1999.00 total      0.00
+
+Thu Sep 20 18:18:02 2007
+abc save    999.00 total    999.00
+
+Thu Sep 20 18:18:04 2007
+b save   1999.00 total   1999.00
+
+Thu Sep 20 21:27:17 2007
+abc buyin    999.00 total      0.00
+
+Thu Sep 20 21:27:32 2007
+b buyin   1999.00 total      0.00
+
+Thu Sep 20 21:31:31 2007
+b buyin   1000.00 total      0.00
+
+Thu Sep 20 21:31:34 2007
+abc buyin   1000.00 total      0.00
+
+Thu Sep 20 22:04:46 2007
+b buyin   1000.00 total      0.00
+
+Thu Sep 20 22:04:49 2007
+abc buyin   1000.00 total      0.00
+
+Thu Sep 20 22:05:23 2007
+abc save   1000.00 total   1000.00
+
+Thu Sep 20 22:06:02 2007
+b save    997.00 total    997.00
+
+Thu Sep 20 22:06:52 2007
+abc buyin   1000.00 total      0.00
+
+Thu Sep 20 22:07:09 2007
+b buyin   1000.00 total      0.00
+
+Thu Sep 20 22:08:26 2007
+abc save    985.00 total    985.00
+
+Thu Sep 20 22:08:26 2007
+b save   1014.00 total   1014.00
+

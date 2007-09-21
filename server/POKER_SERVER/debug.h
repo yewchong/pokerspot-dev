@@ -29,7 +29,7 @@
 #define DEBUG_ALL           0xFFFF
 
 //#define DEBUG               (DEBUG_PLM | DEBUG_DATABASE)
-#define DEBUG               (DEBUG_PLM)
+#define DEBUG               (DEBUG_ALL)
 //#define DEBUG               (0)
 
 #endif

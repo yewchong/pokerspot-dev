@@ -826,9 +826,9 @@ void CLounge::spawnTable(u_int16_t gameType,
       << "-ssl";
   
   int c = (int)ShellExecute(NULL, "open",
-                            "c:\\work\\src\\server\\poker_server\\pokerserv.exe",
+                            "..\\poker_server\\pokerserv.exe",
                             arg.str(),
-                            "c:\\work\\src\\server\\poker_server",
+                            "..\\poker_server",
                             SW_SHOWNORMAL);
   if (c <= 32)
   {

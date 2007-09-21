@@ -194,7 +194,8 @@ bool CdbInterface::authenticate(const char* username, const char* password)
     return false;
     
   }
-  else if (strcmp(dbPassword, context.hex_digest()))
+  //MP
+  else if (strcmp(dbPassword, password))
   {
     if (DEBUG & DEBUG_DATABASE)
     {

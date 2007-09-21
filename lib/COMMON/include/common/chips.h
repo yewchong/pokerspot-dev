@@ -28,7 +28,7 @@ extern "C"
   #include <limits.h>
 }
 
-
+#include <stdio.h>
 class CChips_n;
 
 
@@ -161,6 +161,17 @@ inline CChips::chip_amount_t CChips::getRep() const
 
 inline void CChips::setDollars(CChips::chip_amount_t dollars)
 {
+
+
+	if (dollars > Max_Dollars){
+	  printf("Dollars: %i\n",dollars);
+	
+		printf("Maxdolars: %i", Max_Dollars);
+
+		
+	
+}
+
   assert(dollars <= Max_Dollars);
   dollars <<= Fraction_Bits;
   chip_amount_t cents = getCents();

@@ -410,6 +410,7 @@ BOOL StateBet::onActionRequest(Player* pPot, LPARAM lParam)
     CMainWnd::SetStatusText("");
   }
   
+  
   endPrompt();
   startPrompt(pPDU->msecs_,
               pPDU->player_,
@@ -590,6 +591,7 @@ BOOL StateBet::onActionRequestSpreadLimit(Player* pPot, LPARAM lParam)
         pActionBar->setButtonText(1, s.str());
         pActionBar->setButtonText(2, g_szFold);
         pActionBar->enableButtons(1 | 2 | 4);
+		//MP RAISE AMOUNT
         pActionBar->setSpread(pPDU->raiseLo_, pPDU->raiseHi_);
       }
       else

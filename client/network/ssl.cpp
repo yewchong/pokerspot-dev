@@ -98,7 +98,8 @@ BEGIN_NAMESPACE0()
   }
 
   SSL_METHOD* g_pMeth = 0;
-  BOOL        g_bEnableSSL = TRUE;
+  //MPSSL = false
+  BOOL        g_bEnableSSL = FALSE;
 END_NAMESPACE0()
 
 

@@ -74,7 +74,8 @@ int CServer::initialize(int argc, char** argv)
   }
   else
   {
-    Sys_SetSSLEnabled(TRUE);
+	  //MPSSL
+    Sys_SetSSLEnabled(FALSE);
   }
 
   if (readConfig() == -1)

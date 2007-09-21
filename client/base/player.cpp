@@ -184,6 +184,78 @@ void Player::setName(const CString& s)
 }
 
 
+//MPNEW
+/*BOOL Player::drawBox(CDC* pDC, int xpos, int ypos, DWORD dwFlags)
+{
+ 
+
+	   CBitmap& cardImage = getImage(card);
+    if (cardImage.GetSafeHandle())
+    {
+      rc = bltCard(pDC, xpos, ypos, OpenCardWidth_, OpenCardHeight_,
+                  cardx, cardy, &cardImage, &bmpCardsMask_);
+    }
+
+
+  return rc;
+}
+
+
+BOOL Player::bltBox(CDC* pDC,
+                    int xpos, int ypos,
+                    int width, int height,
+                    int cardx, int cardy,
+                    CBitmap* pBmpImage,
+                    CBitmap* pBmpMask)
+{
+  CDC bufDC, memDC, transDC;
+
+  BOOL rc = bufDC.CreateCompatibleDC(pDC) &&
+            memDC.CreateCompatibleDC(pDC) &&
+            transDC.CreateCompatibleDC(pDC);
+
+  if (rc)
+  {
+    BITMAP bm;
+    rc = bmpCardsMask_.GetBitmap(&bm);
+    if (rc)
+      rc = bmpBuf_.CreateBitmapIndirect(&bm);
+  }
+
+  if (rc)
+  {
+    // Copy current background to buf
+    CBitmap* pOldBmpBuf = bufDC.SelectObject(&bmpBuf_);
+    bufDC.BitBlt(0, 0, width, height,
+                 pDC, xpos, ypos, SRCCOPY);
+
+    // Transparent blit in to buf
+
+    CBitmap* pOldBmpMem = memDC.SelectObject(pBmpImage);
+    CBitmap* pOldBmpTrans = transDC.SelectObject(pBmpMask);
+
+    bufDC.BitBlt(0, 0, width, height,
+                 &transDC, 0, 0, SRCAND);
+    bufDC.BitBlt(0, 0, width, height,
+                 &memDC, cardx, cardy, SRCINVERT);
+
+    // Now blt the buffer to target dc
+    pDC->BitBlt(xpos, ypos, width, height,
+                &bufDC, 0, 0, SRCCOPY);
+
+    // Clean up
+    bufDC.SelectObject(pOldBmpBuf);
+    memDC.SelectObject(pOldBmpMem);
+    transDC.SelectObject(pOldBmpTrans);
+
+    bmpBuf_.DeleteObject();
+  }
+
+  return rc;
+}*/
+//MPNEW
+
+
 BOOL Player::drawLabels(CDC* pDC, const CPoint& origo, DWORD dwFlags) const
 {
   const COLORREF bumpRectLight = RGB(edge_lightr_, edge_lightg_, edge_lightb_);
@@ -296,10 +368,14 @@ BOOL Player::drawCards(CDC* pDC, const CPoint& origo, DWORD dwFlags) const
     if (Global::GetGameType() != GT_SevenStud)
     { // in holdem, omaha cards drawn sometimes small,
       // sometimes large
+		//MP BACKSIDE
       const_cast<Player*>(this)->drawBackside_ = 
-        dwFlags & Cards::C_BackSide;
+       dwFlags & Cards::C_BackSide;
+	
+
     }
 
+  //const_cast<Player*>(this)->drawBackside_ = true;
     int c = 0;
     for (Hand::const_iterator i = cards_.begin(),
                               e = cards_.end();

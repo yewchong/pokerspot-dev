@@ -1,0 +1,15 @@
+Server shutdown at Thu Sep 20 12:39:28 2007
+Players:
+   b chips: 127872
+   abc chips: 127744
+
+Last hand log:
+"Game #0 - $2/$4 Texas Hold'em  - Thu Sep 20 12:39:08 2007
+
+Seat 0: b ($1000 in chips)
+Seat 8: abc ($1000 in chips)
+b (Dealer) : Sit In
+b : Ante ($1)
+abc : Ante ($2)
+abc was dealt  [2D] [7S]
+b was dealt  [6D] [9D]

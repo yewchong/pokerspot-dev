@@ -24,10 +24,14 @@ RemotePlayer::RemotePlayer(PlayerSlot& slot, LPCTSTR name, const CChips& credit)
   Base::Player(slot, name, credit),
   showAll_    (FALSE)
 {
+
+  
   if (Global::GetGameType() == GT_SevenStud)
   { // Cards are drawn as large
     showAll_ = TRUE;
   }
+	//MP AHA
+  showAll_ = TRUE;
 }
 
 
@@ -53,6 +57,7 @@ void RemotePlayer::mouseClick(const CPoint&)
 
 void RemotePlayer::setShowAll(BOOL b)
 {
+  //MP BACKSDE
   if (Global::GetGameType() != GT_SevenStud) 
   { // 7-stud draws cards always as large
     showAll_ = b;

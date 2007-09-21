@@ -28,6 +28,7 @@ void SafeRemove(const char* fname)
 {
   TRY
   {
+	//MP DEL TEMP FILE
     CFile::Remove(fname);
   }
   CATCH (CFileException, e)
