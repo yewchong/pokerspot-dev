@@ -1,0 +1,163 @@
+# MySQL dump 6.4
+#
+# Host: localhost    Database: pokerspot
+#--------------------------------------------------------
+# Server version	3.22.27
+
+#
+# Table structure for table 'chat_ban'
+#
+CREATE TABLE chat_ban (
+  username varchar(16) DEFAULT '' NOT NULL,
+  time int(10) unsigned
+);
+
+#
+# Table structure for table 'customers'
+#
+CREATE TABLE customers (
+  firstname varchar(20),
+  lastname varchar(20),
+  email varchar(40),
+  address1 varchar(40),
+  address2 varchar(40),
+  address3 varchar(40),
+  city varchar(20),
+  state varchar(20),
+  zip varchar(20),
+  country int(5),
+  phone varchar(30),
+  ipaddress varchar(20),
+  username varchar(16) DEFAULT '' NOT NULL,
+  password varchar(32),
+  pwhint varchar(80),
+  pwresponse varchar(80),
+  cc1_type varchar(20),
+  cc2_type varchar(20),
+  cc3_type varchar(20),
+  cc4_type varchar(20),
+  cc1_number varchar(30),
+  cc2_number varchar(30),
+  cc3_number varchar(30),
+  cc4_number varchar(30),
+  cc1_expmo int(2),
+  cc2_expmo int(2),
+  cc3_expmo int(2),
+  cc4_expmo int(2),
+  cc1_expyr int(4),
+  cc2_expyr int(4),
+  cc3_expyr int(4),
+  cc4_expyr int(4),
+  referrer varchar(40),
+  spam tinyint(1),
+  gender char(1),
+  creation_date varchar(40),
+  user_referrer varchar(16),
+  VIP tinyint(4),
+  deposit_limit int(11) DEFAULT '1000',
+  KEY customers_username (username)
+);
+
+#
+# Table structure for table 'gamelog'
+#
+CREATE TABLE gamelog (
+  gamenumber int(10),
+  text text
+);
+
+#
+# Table structure for table 'house'
+#
+CREATE TABLE house (
+  cash int(10) unsigned,
+  total_games int(10) unsigned,
+  total_players int(10) unsigned,
+  credit int(14) unsigned
+);
+
+#
+# Table structure for table 'logrequests'
+#
+CREATE TABLE logrequests (
+  username varchar(16),
+  email varchar(255),
+  game1 bigint(20),
+  game2 bigint(20),
+  game3 bigint(20),
+  game4 bigint(20),
+  game5 bigint(20)
+);
+
+#
+# Table structure for table 'pokeruser'
+#
+CREATE TABLE pokeruser (
+  username varchar(16) DEFAULT '' NOT NULL,
+  password varchar(32),
+  chips int(16) unsigned DEFAULT '0' NOT NULL,
+  game1 int(10),
+  game2 int(10),
+  game3 int(10),
+  game4 int(10),
+  game5 int(10),
+  KEY pokeruser_username (username)
+);
+
+#
+# Table structure for table 'standings'
+#
+CREATE TABLE standings (
+  standings text
+);
+
+#
+# Table structure for table 'status'
+#
+CREATE TABLE status (
+  motd varchar(255),
+  shutdown tinyint(1),
+  shutdownmsg varchar(255)
+);
+
+#
+# Table structure for table 'tournament'
+#
+CREATE TABLE tournament (
+  number int(11),
+  buyin int(11),
+  start_time int(10) unsigned,
+  description text,
+  script text,
+  start_chips int(11),
+  start_lo int(11)
+);
+
+#
+# Table structure for table 'tournamentlog'
+#
+CREATE TABLE tournamentlog (
+  number int(11),
+  event int(11),
+  time int(10),
+  player varchar(16),
+  extra text
+);
+
+#
+# Table structure for table 'transactions'
+#
+CREATE TABLE transactions (
+  refnum int(11) DEFAULT '0' NOT NULL auto_increment,
+  username varchar(16),
+  creditcard varchar(30),
+  type varchar(10),
+  amount float(5,2),
+  chips int(11),
+  complete tinyint(1),
+  date varchar(40),
+  result varchar(8),
+  reason varchar(40),
+  PRIMARY KEY (refnum)
+);
+

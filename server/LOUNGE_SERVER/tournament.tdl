@@ -1,0 +1,23 @@
+/*
+  This is a Tournament Definition Language file
+  describing the structure of a tournament
+*/
+
+game Holdem
+freeze 2 mins
+at 1 mins nolimit
+at 2 mins limits 10
+at 2 mins limits 20
+at 2 mins limits 30
+at 2 mins pause 4
+at 1 mins limits 50
+at 2 mins limits 100
+at 2 mins limits 200
+at 2 mins limits 300
+at 2 mins pause 4
+at 1 mins limits 500
+at 5 mins limits 1000
+at 5 mins limits 2000
+at 5 mins limits 3000
+at 5 mins limits 5000
+at 5 mins limits 6000

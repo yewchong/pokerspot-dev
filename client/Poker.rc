@@ -1,0 +1,687 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "ui/resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+#include "ui/cmdid.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// English (U.S.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "ui/resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "#include ""ui/cmdid.h""\r\n"
+    "\0"
+END
+
+4 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)\r\n"
+    "#ifdef _WIN32\r\n"
+    "LANGUAGE 9, 1\r\n"
+    "#pragma code_page(1252)\r\n"
+    "#endif //_WIN32\r\n"
+    "#include ""res\\Poker.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "#include ""afxres.rc""         // Standard components\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+AFX_IDI_STD_FRAME       ICON    DISCARDABLE     "res\\Poker.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_ACTIONBAR DIALOGEX 0, 0, 148, 92
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION
+EXSTYLE WS_EX_TOOLWINDOW
+CAPTION "Actions"
+FONT 8, "MS Sans Serif", 0, 0, 0x1
+BEGIN
+    CONTROL         "Auto-post blind",IDC_CHECKPOSTBLIND,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,6,7,71,10
+    CONTROL         "Sit out",IDC_CHECKSITOUT,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,6,18,71,10
+    CONTROL         "Check/Fold in turn",IDC_CHECKFOLD,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,6,62,76,10
+    CONTROL         "Muck Losing Hands",IDC_MUCKHAND,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,6,29,77,10
+    CONTROL         "Check/Call in turn",IDC_CHECKCALL,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,6,51,72,10
+    CONTROL         "Bet/Raise in turn",IDC_CHECKRAISE,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,6,40,72,10
+    GROUPBOX        "",IDC_STATIC,2,0,83,75
+    EDITTEXT        IDC_RAISEAMOUNT,4,78,36,12,ES_AUTOHSCROLL | ES_NUMBER | 
+                    WS_DISABLED
+    PUSHBUTTON      "Button1",IDC_BTN_PLACEHOLDER1,87,25,57,14,NOT 
+                    WS_VISIBLE | NOT WS_TABSTOP
+    PUSHBUTTON      "Button2",IDC_BTN_PLACEHOLDER2,87,4,57,14,NOT WS_VISIBLE | 
+                    NOT WS_TABSTOP
+    PUSHBUTTON      "Button3",IDC_BTN_PLACEHOLDER3,87,60,57,14,NOT 
+                    WS_VISIBLE | NOT WS_TABSTOP
+    CONTROL         "Slider1",IDC_SLIDER1,"msctls_trackbar32",TBS_BOTH | 
+                    TBS_NOTICKS | WS_DISABLED | WS_TABSTOP,45,76,102,16
+END
+
+IDD_ACTIONBAR2 DIALOGEX 0, 0, 387, 33
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION
+EXSTYLE WS_EX_TOOLWINDOW
+CAPTION "Actions"
+FONT 8, "MS Sans Serif", 0, 0, 0x1
+BEGIN
+    CONTROL         "Auto-post blind",IDC_CHECKPOSTBLIND,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,5,4,59,10
+    CONTROL         "Sit out",IDC_CHECKSITOUT,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,5,17,52,10
+    CONTROL         "Check/Fold in turn",IDC_CHECKFOLD,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,144,17,71,10
+    CONTROL         "Muck Losing Hands",IDC_MUCKHAND,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,66,4,75,10
+    CONTROL         "Check/Call in turn",IDC_CHECKCALL,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,144,4,72,10
+    CONTROL         "Bet/Raise in turn",IDC_CHECKRAISE,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,66,17,65,10
+    GROUPBOX        "",IDC_GROUP1,2,-2,217,31
+    EDITTEXT        IDC_RAISEAMOUNT,222,17,32,13,ES_AUTOHSCROLL | ES_NUMBER | 
+                    WS_DISABLED
+    PUSHBUTTON      "Button1",IDC_BTN_PLACEHOLDER1,277,1,54,14,NOT 
+                    WS_VISIBLE | NOT WS_TABSTOP
+    PUSHBUTTON      "Button2",IDC_BTN_PLACEHOLDER2,221,1,54,14,NOT 
+                    WS_VISIBLE | NOT WS_TABSTOP
+    PUSHBUTTON      "Button3",IDC_BTN_PLACEHOLDER3,340,1,46,14,NOT 
+                    WS_VISIBLE | NOT WS_TABSTOP
+    CONTROL         "Slider1",IDC_SLIDER1,"msctls_trackbar32",TBS_BOTH | 
+                    TBS_NOTICKS | WS_DISABLED | WS_TABSTOP,259,16,126,16
+END
+
+
+#ifndef _MAC
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 0,5,0,0
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040904b0"
+        BEGIN
+            VALUE "Comments", "\0"
+            VALUE "CompanyName", "PokerSpot International\0"
+            VALUE "FileDescription", "Poker Application\0"
+            VALUE "FileVersion", "0, 5, 0, 0\0"
+            VALUE "InternalName", "Poker\0"
+            VALUE "LegalCopyright", "Copyright (C) 1999 PokerSpot International\0"
+            VALUE "LegalTrademarks", "\0"
+            VALUE "OriginalFilename", "Poker.EXE\0"
+            VALUE "PrivateBuild", "\0"
+            VALUE "ProductName", "Poker Application\0"
+            VALUE "ProductVersion", "1, 0, 0, 1\0"
+            VALUE "SpecialBuild", "\0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x409, 1200
+    END
+END
+
+#endif    // !_MAC
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    IDD_ACTIONBAR, DIALOG
+    BEGIN
+        RIGHTMARGIN, 147
+        BOTTOMMARGIN, 91
+    END
+
+    IDD_ACTIONBAR2, DIALOG
+    BEGIN
+        RIGHTMARGIN, 386
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDR_MAINFRAME MENU DISCARDABLE 
+BEGIN
+    POPUP "&Game"
+    BEGIN
+        MENUITEM "&About",                      ID_APP_ABOUT
+        MENUITEM "&Login",                      ID_LOGIN
+        MENUITEM "&Motd",                       ID_MOTD
+        MENUITEM SEPARATOR
+        MENUITEM "E&xit",                       ID_APP_EXIT
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_APP_ABOUT            "Display information about the program"
+    ID_APP_EXIT             "Quit the application"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDC_MOTD                "Display the message of the Day"
+    ID_LOGIN                "Log in to PokerSpot server"
+    ID_FLOORMAP             "Show the floor map view"
+    ID_TABLE                "Show the table view"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDC_CHECKPOSTBLIND      "Automatically post the blind when asked"
+    IDC_CHECKSITOUT         "Sit out in next hand"
+    IDC_CHECKFOLD           "Check/Fold always in your turn"
+    IDC_CHECKCALL           "Check/Call always in your turn"
+    IDC_CHECKRAISE          "Bet/Raise always in your turn"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDC_MUCKHAND            "Hide hand at showdown if not winner"
+    IDC_TAKEFOCUS           "Bring the action bar automatically on top when it is your turn to act"
+    IDC_RAISEAMOUNT         "In Spread- and No-limit Hold'em, you can type the amount to bet into this text box"
+    IDC_SETTINGS_SOUNDS     "Toggle sounds on/off"
+    IDC_SETTINGS_TTIPS      "Toggle tooltip texts in action bar on/off"
+    IDC_SETTINGS_HORZACTIONBAR 
+                            "Toggle between horizontal and square action bar layout"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_LOGOUT               "Log out from the table when the hand is over"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDC_SETTINGS_EMAILADDRESS "The hand logs will be sent to this address"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDC_SLIDER1             "In Spread- and No-limit Hold'em, you can move this slider to define the amount to bet"
+END
+
+#endif    // English (U.S.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// Finnish resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_FIN)
+#ifdef _WIN32
+LANGUAGE LANG_FINNISH, SUBLANG_DEFAULT
+#pragma code_page(1252)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_ABOUTBOX DIALOG DISCARDABLE  0, 0, 174, 122
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "About"
+FONT 8, "MS Sans Serif"
+BEGIN
+    ICON            AFX_IDI_STD_FRAME,IDC_STATIC,10,5,20,20
+    CTEXT           "PokerSpot Texas Hold'em Client",IDC_STATIC,0,26,171,8,
+                    SS_NOPREFIX
+    CTEXT           "Copyright (c) 2001 PokerSpot.com",IDC_STATIC,6,35,163,8
+    DEFPUSHBUTTON   "OK",IDOK,122,7,35,14,WS_GROUP
+    GROUPBOX        "",IDC_GROUPBOX_VERSION,6,48,160,26
+    LTEXT           "This product includes software developed by the OpenSSL Project for use in the OpenSSL Toolkit (http://www.openssl.org/). Copyright (c) 1998-2000 The OpenSSL Project.  All rights reserved.",
+                    IDC_STATIC,5,85,163,35
+END
+
+IDD_LOGIN DIALOG DISCARDABLE  0, 0, 196, 102
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Log In"
+FONT 8, "MS Sans Serif"
+BEGIN
+    EDITTEXT        IDC_USERNAME,45,7,113,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_PASSWORD,45,25,113,14,ES_PASSWORD | ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDITHOST,45,43,113,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDITPORT,45,61,113,14,ES_AUTOHSCROLL | ES_NUMBER
+    DEFPUSHBUTTON   "OK",IDOK,40,82,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,106,82,50,14
+    LTEXT           "Username",IDC_STATIC,7,10,33,8
+    LTEXT           "Password",IDC_STATIC,7,27,33,8
+    LTEXT           "Host",IDC_STATIC,7,44,16,8
+    LTEXT           "Port",IDC_STATIC,7,62,14,8
+END
+
+IDD_MOTD DIALOGEX 0, 0, 286, 250
+STYLE WS_POPUP | WS_CAPTION | WS_THICKFRAME
+CAPTION "PokerSpot Message of the Day"
+FONT 8, "MS Sans Serif", 0, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,117,229,50,14
+    GROUPBOX        "",IDC_MESSAGEPANE,7,7,272,218,NOT WS_VISIBLE,
+                    WS_EX_TRANSPARENT
+END
+
+IDD_WAITING DIALOGEX 0, 0, 243, 35
+STYLE DS_CENTER | WS_POPUP | WS_BORDER
+FONT 8, "Arial", 0, 0, 0x1
+BEGIN
+    CTEXT           "Waiting for a new hand to start...",IDC_PROMPT,7,6,229,
+                    22,SS_CENTERIMAGE,WS_EX_STATICEDGE
+END
+
+IDD_CHAT DIALOGEX 0, 0, 233, 143
+STYLE WS_POPUP | WS_CAPTION | WS_THICKFRAME
+EXSTYLE WS_EX_TOOLWINDOW
+CAPTION "Chat"
+FONT 8, "MS Sans Serif", 0, 0, 0x1
+BEGIN
+    EDITTEXT        IDC_EDITCHAT,0,15,175,14,ES_AUTOHSCROLL
+    CONTROL         "Tab1",IDC_TAB1,"SysTabControl32",0x0,0,161,233,21
+    CONTROL         "All",IDC_RADIO_ALL,"Button",BS_AUTORADIOBUTTON,4,3,23,
+                    10
+    CONTROL         "Dealer",IDC_RADIO_DEALER,"Button",BS_AUTORADIOBUTTON,27,
+                    3,37,10
+    CONTROL         "User",IDC_RADIO_USER,"Button",BS_AUTORADIOBUTTON,63,3,
+                    31,10
+END
+
+IDD_BUYINQUERY DIALOG DISCARDABLE  0, 0, 186, 70
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Buy In Query"
+FONT 8, "MS Sans Serif"
+BEGIN
+    EDITTEXT        IDC_CHIPS,7,49,115,14,ES_AUTOHSCROLL | ES_NUMBER
+    DEFPUSHBUTTON   "OK",IDOK,129,7,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,129,24,50,14,NOT WS_VISIBLE
+    LTEXT           "Please enter the amount of chips you wish to bring to the table.",
+                    IDC_STATIC,7,22,111,18
+    LTEXT           "Static",IDC_PROMPT,7,7,113,9
+END
+
+IDD_OPTIONS DIALOG DISCARDABLE  0, 0, 179, 148
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Options"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,124,6,50,14
+    CONTROL         "Sounds on",IDC_SETTINGS_SOUNDS,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,11,17,51,10
+    GROUPBOX        "User Interface",IDC_STATIC,7,7,113,90
+    CONTROL         "Action bar tooltips",IDC_SETTINGS_TTIPS,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,11,28,72,10
+    CONTROL         "Horizontal action bar",IDC_SETTINGS_HORZACTIONBAR,
+                    "Button",BS_AUTOCHECKBOX | WS_TABSTOP,11,39,82,10
+    LTEXT           "Your email address:",IDC_STATIC,10,113,93,8
+    EDITTEXT        IDC_SETTINGS_EMAILADDRESS,10,123,107,14,ES_AUTOHSCROLL
+    GROUPBOX        "Hand Logs",IDC_STATIC,7,100,113,41
+    CONTROL         "Take focus in turn",IDC_TAKEFOCUS,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,11,83,76,10
+    CONTROL         "Dock action bar",IDC_SETTINGS_DOCKACTIONBAR,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,11,50,77,10
+    CONTROL         "Dock chat window right",IDC_SETTINGS_DOCKCHATWND,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,11,61,91,10
+    CONTROL         "Dock chat window left",IDC_SETTINGS_DOCKCHATLEFT,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,11,72,87,10
+END
+
+IDD_PROMPTINPUT DIALOG DISCARDABLE  0, 0, 186, 46
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Email Address for Hand Logs"
+FONT 8, "MS Sans Serif"
+BEGIN
+    EDITTEXT        IDC_EDIT1,7,25,112,14,ES_AUTOHSCROLL
+    DEFPUSHBUTTON   "OK",IDOK,129,7,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,129,24,50,14
+    EDITTEXT        IDC_EDIT2,7,7,112,16,ES_MULTILINE | ES_READONLY | NOT 
+                    WS_BORDER | NOT WS_TABSTOP
+END
+
+IDD_FLOORMANMSG DIALOG DISCARDABLE  0, 0, 191, 111
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Ask for Floorman"
+FONT 8, "MS Sans Serif"
+BEGIN
+    EDITTEXT        IDC_EDIT_NOTE,5,26,182,61,ES_MULTILINE | ES_AUTOVSCROLL | 
+                    ES_WANTRETURN
+    PUSHBUTTON      "OK",IDOK,37,93,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,103,93,50,14
+    LTEXT           "Please type in a note to be sent to the floorman:",
+                    IDC_STATIC,5,7,111,18
+END
+
+IDD_EDITCOMMENT DIALOG DISCARDABLE  0, 0, 153, 90
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Player Notes"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,18,73,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,84,73,50,14
+    EDITTEXT        IDC_EDIT1,2,7,149,64,ES_MULTILINE | ES_AUTOHSCROLL | 
+                    ES_WANTRETURN
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    IDD_LOGIN, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 189
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 98
+    END
+
+    IDD_MOTD, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 279
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 243
+    END
+
+    IDD_WAITING, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 236
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 29
+    END
+
+    IDD_BUYINQUERY, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 179
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 63
+    END
+
+    IDD_OPTIONS, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 172
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 141
+    END
+
+    IDD_PROMPTINPUT, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 179
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 39
+    END
+
+    IDD_FLOORMANMSG, DIALOG
+    BEGIN
+        LEFTMARGIN, 5
+        RIGHTMARGIN, 187
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 107
+    END
+
+    IDD_EDITCOMMENT, DIALOG
+    BEGIN
+        LEFTMARGIN, 2
+        RIGHTMARGIN, 151
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 88
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDM_TABLEVIEW MENU DISCARDABLE 
+BEGIN
+    POPUP "&Game"
+    BEGIN
+        MENUITEM "Log&in...",                   ID_LOGIN
+        MENUITEM "Log&out...",                  ID_LOGOUT
+        MENUITEM SEPARATOR
+        MENUITEM "Buy Chips...",                ID_BUYIN
+        MENUITEM "Request &Previous Hand Log",  ID_REQUESTPREVHAND
+        MENUITEM "Request Previous &5 Hands Log", ID_REQUEST5HANDLOG
+        MENUITEM SEPARATOR
+        MENUITEM "&Options...",                 ID_OPTIONS
+        MENUITEM "&About...",                   ID_APP_ABOUT
+        MENUITEM "E&xit",                       ID_APP_EXIT
+    END
+END
+
+IDM_TABLEVIEW_DEBUG MENU DISCARDABLE 
+BEGIN
+    POPUP "&Game"
+    BEGIN
+        MENUITEM "Log&in...",                   ID_LOGIN
+        MENUITEM "Log&out...",                  ID_LOGOUT
+        MENUITEM "Request &Previous Hand Log",  ID_REQUESTPREVHAND
+        MENUITEM "Request Previous &5 Hands Log", ID_REQUEST5HANDLOG
+        MENUITEM SEPARATOR
+        MENUITEM "&Options...",                 ID_OPTIONS
+        MENUITEM "&About...",                   ID_APP_ABOUT
+        MENUITEM "E&xit",                       ID_APP_EXIT
+    END
+    POPUP "&View"
+    BEGIN
+        MENUITEM "&Configuration...",           ID_VIEW_BACKGROUND
+        MENUITEM "&Reload\tF5",                 ID_RELOAD_CONFIGURATION
+        MENUITEM SEPARATOR
+        MENUITEM "&1 Buy-In Query PDU",         ID_FAKE_PDUBUYINQUERY
+        MENUITEM "&2 Player PDU",               ID_FAKE_PDUPLAYER
+        MENUITEM "&3 Button PDU",               ID_FAKE_PDUBUTTON
+        MENUITEM "&4 Blind Request PDU",        ID_FAKE_PDUBLINDPOST
+        MENUITEM "&5 Deal Cards PDU",           ID_FAKE_PDUDEALCARDS
+        MENUITEM "&6 Action Request PDU",       ID_FAKE_PDUACTIONREQUEST
+        MENUITEM "&7 Community Card PDU",       ID_FAKE_PDUCOMMUNITYCARD
+        MENUITEM "&8 Showdown PDU",             ID_FAKE_PDUSHOWDOWN
+        MENUITEM "&9 Announce PDU",             ID_FAKE_PDUANNOUNCE
+        MENUITEM "10 Logout Confirm PDU",       ID_FAKE_PDULOGOUTCONFIRM
+        MENUITEM "11 Client Error PDU",         ID_FAKE_PDUERROR
+        MENUITEM "13 All In PDU",               ID_SPLITPOT
+        MENUITEM "Action Echo PDU (fold)",      ID_FAKEFOLD
+    END
+END
+
+IDM_POPUP MENU DISCARDABLE 
+BEGIN
+    POPUP "Popup"
+    BEGIN
+        MENUITEM "Edit Notes...",               ID_EDITCOMMENT
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDB_ARROWLEFT           BITMAP  DISCARDABLE     "res\\arrowleft.bmp"
+IDB_ARROWRIGHT          BITMAP  DISCARDABLE     "res\\arrowright.bmp"
+IDB_ARROWDOWN           BITMAP  DISCARDABLE     "res\\arrowdown.bmp"
+IDB_ARROWDOWNMASK       BITMAP  DISCARDABLE     "res\\arrowdow.bmp"
+IDB_ARROWLEFTMASK       BITMAP  DISCARDABLE     "res\\arrowlef.bmp"
+IDB_ARROWRIGHTMASK      BITMAP  DISCARDABLE     "res\\arrowrig.bmp"
+IDB_ARROWUP             BITMAP  DISCARDABLE     "res\\arrowup.bmp"
+IDB_ARROWUPMASK         BITMAP  DISCARDABLE     "res\\arrowup1.bmp"
+IDB_CHECK               BITMAP  DISCARDABLE     "res\\check.bmp"
+IDB_CHECKMASK           BITMAP  DISCARDABLE     "res\\checkmask.bmp"
+IDB_DEALERIMAGE         BITMAP  DISCARDABLE     "res\\dlr.bmp"
+IDB_DEALERMASK          BITMAP  DISCARDABLE     "res\\dlrmask.bmp"
+IDB_INVALIDCARD         BITMAP  DISCARDABLE     "res\\invalidcard.bmp"
+IDB_DOLLARIMAGE         BITMAP  DISCARDABLE     "res\\dollarimage.bmp"
+IDB_DOLLARMASK          BITMAP  DISCARDABLE     "res\\dollarmask.bmp"
+IDB_CHECKBTN            BITMAP  DISCARDABLE     "res\\checkbtn.bmp"
+IDB_CHECKBTNMASK        BITMAP  DISCARDABLE     "res\\checkbtnmask.bmp"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Accelerator
+//
+
+IDR_ACCELERATOR1 ACCELERATORS DISCARDABLE 
+BEGIN
+    VK_F5,          ID_RELOAD_CONFIGURATION, VIRTKEY, NOINVERT
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_APP_ABOUT            "Display information about the program"
+    ID_APP_EXIT             "Quit the application"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_LOGIN                "Log in to PokerSpot server"
+    ID_FLOORMAP             "Show the floor map view"
+    ID_VIEW_BACKGROUND      "Load configuration file"
+    ID_RELOAD_CONFIGURATION "Reload current configuration"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_INVALIDNAMEORPASSWORD "Invalid username or password. Retry?"
+    IDS_LOGINFAILED         "Login failed. <Tell the user what to do now.>"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_INDICATOR_ONLINE     "ONLINE"
+    ID_INDICATOR_OFFLINE    "OFFLINE"
+    ID_OPTIONS              "Set user interface options"
+    ID_REQUESTPREVHAND      "Ask for a log of the previous hand"
+    ID_REQUEST5HANDLOG      "Ask for a log of the previous 5 hands"
+    ID_BUYIN                "Buy more chips"
+    ID_ROOT                 "Execute a superuser command"
+    ID_SUPPORTEMAIL         "Send email to PokerSpot support"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_PAGEFLOORMAN         "Send email asking for the floorman"
+    ID_EDITCOMMENT          "Comment Player"
+END
+
+#endif    // Finnish resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

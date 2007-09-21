@@ -1,0 +1,17 @@
+//SUPPRESSIONPROJ:table
+//VERSION:5.00
+//ENABLE:Yes
+!include Mfc.sup
+ignore bad_address(12,0) in function MSVCP60D.dll:"std::_Locinfo::_Getmonths"
+ignore bad_address(20,21) in function EXE:"std::vector<std::basic_string<char,std::char_traits<char>,std::allocator<char> >,std::allocator<std::basic_string<char,std::char_traits<char>,std::allocator<char> > > >::size"
+ignore param 1 GDI32.DLL:CreateDIBSection in function EXE:"CDib::Create"
+ignore param 1 GDI32.DLL:CreateDIBSection in function EXE:"CDib::Create"
+ignore param 1 GDI32.DLL:CreateDIBSection in file EXE:"D:\psi\pclient\dib\CDib.cpp"
+ignore bad_address(20,18) in function EXE:"CDib::FillGlass"
+ignore bad_address(12,0) in function MSVCP60D.dll:"std::_Locinfo::_Getdays"
+ignore bad_address(12,0) in function MSVCP60D.dll:"std::_Timevec::~_Timevec"
+ignore bad_address(12,0) in function MSVCP60D.dll:"_CRT_INIT"
+ignore bad_address(12,0) in function MSVCP60.dll:"std::time_put<unsigned short,std::ostreambuf_iterator<unsigned short,std::char_traits<unsigned short> > >::~time_put<unsigned short,std::ostreambuf_iterator<unsigned short,std::char_traits<unsigned short> > >"
+ignore bad_address(12,0) in function MSVCP60.dll:"std::time_put<char,std::ostreambuf_iterator<char,std::char_traits<char> > >::~time_put<char,std::ostreambuf_iterator<char,std::char_traits<char> > >"
+ignore bad_address(20,21) in function EXE:"std::vector<CRect,std::allocator<CRect> >::size"
+

@@ -1,0 +1,17 @@
+# SEVENSTUD.PGL - Seven Stud In Poker Gaming Language
+# (c) 2000 Robert Boyd and PSI Corporation
+ANTE LO_LIMIT                   # collect $4 ante
+DEAL DOWN 2                     # deal 2 cards face down
+DEAL UP 1                       # deal 1 card face up
+BET LIMIT=LO_LIMIT CAP=4        # do first betting round
+DEAL UP 1                       # deal 1 card face up
+BET LIMIT=LO_LIMIT CAP=4        # do second betting round
+DEAL UP 1                       # deal 1 card face up
+BET LIMIT=HI_LIMIT CAP=4        # do third betting round
+DEAL UP 1                       # deal 1 card face up
+BET LIMIT=HI_LIMIT CAP=4        # do fourth betting round
+DEAL DOWN 1                     # do secret card
+BET LIMIT=HI_LIMIT CAP=4        # do final betting round
+SHOWDOWN HI/LO GUTS=NO           # do showdown
+# -- end of game
+

@@ -1,0 +1,30 @@
+Mon Dec 03 01:34:41 2001
+rboyd buyin   5000.00 total      0.00
+
+Mon Dec 03 01:34:44 2001
+bot1 buyin   5000.00 total      0.00
+
+Mon Dec 03 01:35:52 2001
+rboyd save   4986.00 total   4986.00
+
+Mon Dec 03 01:36:19 2001
+bot1 save   5013.00 total   5013.00
+
+Mon Dec 03 02:59:02 2001
+rboyd buyin   4986.00 total      0.00
+
+Mon Dec 03 02:59:06 2001
+bot1 buyin   5013.00 total      0.00
+
+Mon Dec 03 03:01:21 2001
+rboyd save   4983.00 total   4983.00
+
+Mon Dec 03 03:01:26 2001
+bot1 save   5016.00 total   5016.00
+
+Mon Dec 03 03:01:47 2001
+bot1 buyin   5016.00 total      0.00
+
+Mon Dec 03 03:01:57 2001
+bot1 save   5016.00 total   5016.00
+
