@@ -1,0 +1,40 @@
+In order to generate the view, the lounge server
+needs to send the following data to the client:
+
+- Enumerate supported games. The client builds the
+tabs listing the games based on this data.
+
+- For each game, enumerate queues (ie limit categories).
+The client generates the columns in the list based on
+this data.
+
+- For each queue, enumerate the players in the queue.
+The client shows the player names in each list control
+column based on this data.
+
+The above is a one-time operation, ie, the server
+sends it once when the client logs in. To conserve
+bandwidth, the rest of the updates sent by the server
+are just deltas, ie, add or remove a player to/from a
+queue.
+
+When the player clicks "Add Name", the client sends
+an Queue PDU to the server identifying the game and
+the queue into which he should be placed.
+
+When the player clicks "Remove Name", the client
+sends an Queue PDU to the server identifying the
+game and the queue from which he should be removed.
+
+When the server adds or removes a player to/from
+a queue, the server must send a notification of
+the event to the client. Client uses these events
+to update the display by adding and removing player
+names from the list control columns.
+
+Btw, when I think of the server implementation
+the data structure needed for maintaining this
+information could be a list of lists of lists. In
+other words, a list (the games) that contains lists
+(the queues or limit categories) that contain lists
+(the players in the queue).

@@ -1,0 +1,75 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: Lounge - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\WINDOWS\TEMP\RSP9364.TMP" with contents
+[
+/nologo /MDd /W3 /Gm /GX /Zi /Od /I "." /I ".." /I "d:\openssl-0.9.4\inc32" /D "_DEBUG" /D "WIN32" /D "_WINDOWS" /D "_MBCS" /D "_AFXDLL" /D "PCLIENT_MODULE_" /D "HTML_VIEW_" /Fp"Debug/Lounge.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"D:\psi\pclient\lounge\floormapview.cpp"
+]
+Creating command line "cl.exe @C:\WINDOWS\TEMP\RSP9364.TMP" 
+Creating temporary file "C:\WINDOWS\TEMP\RSP9365.TMP" with contents
+[
+/nologo /subsystem:windows /incremental:yes /pdb:"Debug/lounge.pdb" /map:"Debug/lounge.map" /debug /machine:I386 /out:"lounge.exe" /pdbtype:sept 
+.\Debug\base_registry.obj
+.\Debug\dib.obj
+.\Debug\draw.obj
+.\Debug\gamelogic.obj
+.\Debug\listctrl.obj
+.\Debug\loungedlg.obj
+.\Debug\md5.obj
+.\Debug\misc.obj
+.\Debug\sync.obj
+.\Debug\table.obj
+.\Debug\transparentbitmap.obj
+.\Debug\winsys.obj
+.\Debug\network.obj
+.\Debug\networkbuffer.obj
+.\Debug\pdu.obj
+.\Debug\pduchat.obj
+.\Debug\pdudownloadrequest.obj
+.\Debug\pduerror.obj
+.\Debug\pdulounge.obj
+.\Debug\pdunetworkerror.obj
+.\Debug\pduping.obj
+.\Debug\server.obj
+.\Debug\ssl.obj
+.\Debug\CDib.obj
+".\Debug\Dib File Handler Targa.obj"
+".\Debug\Dib File Handler.obj"
+.\Debug\aboutdlg.obj
+.\Debug\chatdlg.obj
+.\Debug\chatframe.obj
+.\Debug\ChatView.obj
+.\Debug\floormapview.obj
+.\Debug\global.obj
+.\Debug\logindlg.obj
+.\Debug\mainwnd.obj
+.\Debug\motddlg.obj
+.\Debug\motdframe.obj
+.\Debug\motdview.obj
+.\Debug\ownerdrawbutton.obj
+.\Debug\poker.obj
+.\Debug\registry.obj
+.\Debug\soundmanager.obj
+.\Debug\md5c.obj
+.\Debug\StdAfx.obj
+.\Debug\lounge.res
+]
+Creating command line "link.exe @C:\WINDOWS\TEMP\RSP9365.TMP"
+<h3>Output Window</h3>
+Compiling...
+floormapview.cpp
+Linking...
+
+
+
+<h3>Results</h3>
+lounge.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

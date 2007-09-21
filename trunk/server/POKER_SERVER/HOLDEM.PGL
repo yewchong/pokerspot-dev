@@ -1,0 +1,14 @@
+# HOLDEM.PGL - Texas Hold'em In Poker Gaming Language
+# (c) 2000 Robert Boyd and PSI Corporation
+ANTE BLINDS                     # ask blinds for ante, everyone else sitin/out
+DEAL DOWN 2                     # deal hole cards
+BET LIMIT=LO_LIMIT CAP=4        # second betting round
+DEAL COMMUNITY 3                # deal flop
+BET LIMIT=LO_LIMIT CAP=4        # second betting round
+DEAL COMMUNITY 1                # deal turn card
+BET LIMIT=HI_LIMIT CAP=4        # third betting round
+DEAL COMMUNITY 1                # deal river card
+BET LIMIT=HI_LIMIT CAP=4        # final betting round
+SHOWDOWN HI GUTS=NO             # do showdown
+# -- end of game
+

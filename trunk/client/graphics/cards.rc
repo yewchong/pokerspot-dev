@@ -1,0 +1,97 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Finnish resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_FIN)
+#ifdef _WIN32
+LANGUAGE LANG_FINNISH, SUBLANG_DEFAULT
+#pragma code_page(1252)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDB_BITMAP1             BITMAP  DISCARDABLE     "ts.bmp"
+IDB_BITMAP2             BITMAP  DISCARDABLE     "2d.bmp"
+IDB_BITMAP3             BITMAP  DISCARDABLE     "2h.bmp"
+IDB_BITMAP4             BITMAP  DISCARDABLE     "2s.bmp"
+IDB_BITMAP5             BITMAP  DISCARDABLE     "3c.bmp"
+IDB_BITMAP6             BITMAP  DISCARDABLE     "3d.bmp"
+IDB_BITMAP7             BITMAP  DISCARDABLE     "3h.bmp"
+IDB_BITMAP8             BITMAP  DISCARDABLE     "3s.bmp"
+IDB_BITMAP9             BITMAP  DISCARDABLE     "4c.bmp"
+IDB_BITMAP10            BITMAP  DISCARDABLE     "4d.bmp"
+IDB_BITMAP11            BITMAP  DISCARDABLE     "4h.bmp"
+IDB_BITMAP12            BITMAP  DISCARDABLE     "4s.bmp"
+IDB_BITMAP13            BITMAP  DISCARDABLE     "5c.bmp"
+IDB_BITMAP14            BITMAP  DISCARDABLE     "5d.bmp"
+IDB_BITMAP15            BITMAP  DISCARDABLE     "5h.bmp"
+IDB_BITMAP16            BITMAP  DISCARDABLE     "5s.bmp"
+IDB_BITMAP17            BITMAP  DISCARDABLE     "6c.bmp"
+IDB_BITMAP18            BITMAP  DISCARDABLE     "6d.bmp"
+IDB_BITMAP19            BITMAP  DISCARDABLE     "6h.bmp"
+IDB_BITMAP20            BITMAP  DISCARDABLE     "6s.bmp"
+IDB_BITMAP21            BITMAP  DISCARDABLE     "7c.bmp"
+IDB_BITMAP22            BITMAP  DISCARDABLE     "7d.bmp"
+IDB_BITMAP23            BITMAP  DISCARDABLE     "7h.bmp"
+IDB_BITMAP24            BITMAP  DISCARDABLE     "7s.bmp"
+IDB_BITMAP25            BITMAP  DISCARDABLE     "8c.bmp"
+IDB_BITMAP26            BITMAP  DISCARDABLE     "8d.bmp"
+IDB_BITMAP27            BITMAP  DISCARDABLE     "8h.bmp"
+IDB_BITMAP28            BITMAP  DISCARDABLE     "8s.bmp"
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+#endif    // Finnish resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

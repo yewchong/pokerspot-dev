@@ -1,0 +1,293 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: Lounge - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x40b /fo"Debug/Lounge.res" /d "_DEBUG" /d "_AFXDLL" "D:\Documents and Settings\Rob\Desktop\poker\src\client\LoungeDlg\Lounge.rc"" 
+Creating temporary file "D:\DOCUME~1\Rob\LOCALS~1\Temp\RSP59.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /I ".." /I "." /I "..\..\lib\openssl\inc32" /I "..\..\lib\common\include" /D "_DEBUG" /D "WIN32" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /D "PCLIENT_MODULE_" /D "HTML_VIEW_" /D "LOUNGE_DLG_" /Fp"Debug/Lounge.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"D:\Documents and Settings\Rob\Desktop\poker\src\client\ui\aboutdlg.cpp"
+"D:\Documents and Settings\Rob\Desktop\poker\src\client\LoungeDlg\cashierdlg.cpp"
+"D:\Documents and Settings\Rob\Desktop\poker\src\client\ui\chatdlg.cpp"
+"D:\Documents and Settings\Rob\Desktop\poker\src\client\ui\ChatEdit.cpp"
+"D:\Documents and Settings\Rob\Desktop\poker\src\client\ui\chatframe.cpp"
+"D:\Documents and Settings\Rob\Desktop\poker\src\client\ui\ChatView.cpp"
+"D:\Documents and Settings\Rob\Desktop\poker\src\client\LoungeDlg\creditdarddlg.cpp"
+"D:\Documents and Settings\Rob\Desktop\poker\src\client\LoungeDlg\editordlg.cpp"
+"D:\Documents and Settings\Rob\Desktop\poker\src\client\LoungeDlg\Filler.cpp"
+"D:\Documents and Settings\Rob\Desktop\poker\src\client\lounge\floormapview.cpp"
+"D:\Documents and Settings\Rob\Desktop\poker\src\client\ui\global.cpp"
+"D:\Documents and Settings\Rob\Desktop\poker\src\client\ui\logindlg.cpp"
+"D:\Documents and Settings\Rob\Desktop\poker\src\client\ui\motddlg.cpp"
+"D:\Documents and Settings\Rob\Desktop\poker\src\client\ui\motdframe.cpp"
+"D:\Documents and Settings\Rob\Desktop\poker\src\client\ui\motdview.cpp"
+"D:\Documents and Settings\Rob\Desktop\poker\src\client\LoungeDlg\ProgInd.cpp"
+"D:\Documents and Settings\Rob\Desktop\poker\src\client\ui\soundmanager.cpp"
+"D:\Documents and Settings\Rob\Desktop\poker\src\client\ui\splashwnd.cpp"
+"D:\Documents and Settings\Rob\Desktop\poker\src\client\LoungeDlg\tabledetailsdlg.cpp"
+"D:\Documents and Settings\Rob\Desktop\poker\src\client\LoungeDlg\transactiondlg.cpp"
+"D:\Documents and Settings\Rob\Desktop\poker\src\client\network\errorlog.cpp"
+"D:\Documents and Settings\Rob\Desktop\poker\src\client\network\network.cpp"
+"D:\Documents and Settings\Rob\Desktop\poker\src\client\network\pduaccountbalance.cpp"
+"D:\Documents and Settings\Rob\Desktop\poker\src\client\network\pduactionrequestspreadlimit.cpp"
+"D:\Documents and Settings\Rob\Desktop\poker\src\client\network\pduanteallin.cpp"
+"D:\Documents and Settings\Rob\Desktop\poker\src\client\network\pduchat.cpp"
+"D:\Documents and Settings\Rob\Desktop\poker\src\client\network\pduchatenable.cpp"
+"D:\Documents and Settings\Rob\Desktop\poker\src\client\network\pducreditcardedit.cpp"
+"D:\Documents and Settings\Rob\Desktop\poker\src\client\network\pducreditcardreply2.cpp"
+"D:\Documents and Settings\Rob\Desktop\poker\src\client\network\pducreditcardresponse.cpp"
+"D:\Documents and Settings\Rob\Desktop\poker\src\client\network\pducreditcardtypes.cpp"
+"D:\Documents and Settings\Rob\Desktop\poker\src\client\network\pduerror.cpp"
+"D:\Documents and Settings\Rob\Desktop\poker\src\client\network\pduloginstats.cpp"
+"D:\Documents and Settings\Rob\Desktop\poker\src\client\network\pdulounge.cpp"
+"D:\Documents and Settings\Rob\Desktop\poker\src\client\network\pduloungebuyinresponse.cpp"
+"D:\Documents and Settings\Rob\Desktop\poker\src\client\network\pduloungecashoutresponse.cpp"
+"D:\Documents and Settings\Rob\Desktop\poker\src\client\network\pduloungegamenames.cpp"
+"D:\Documents and Settings\Rob\Desktop\poker\src\client\network\pduloungehandshake.cpp"
+"D:\Documents and Settings\Rob\Desktop\poker\src\client\network\pduloungetransactionreply.cpp"
+"D:\Documents and Settings\Rob\Desktop\poker\src\client\network\pdunetworkerror.cpp"
+"D:\Documents and Settings\Rob\Desktop\poker\src\client\network\pdunotify.cpp"
+"D:\Documents and Settings\Rob\Desktop\poker\src\client\network\pduping.cpp"
+"D:\Documents and Settings\Rob\Desktop\poker\src\client\network\pduplayerfinished.cpp"
+"D:\Documents and Settings\Rob\Desktop\poker\src\client\network\pduqueuefull.cpp"
+"D:\Documents and Settings\Rob\Desktop\poker\src\client\network\pduqueueupdate.cpp"
+"D:\Documents and Settings\Rob\Desktop\poker\src\client\network\pduredirectlogin.cpp"
+"D:\Documents and Settings\Rob\Desktop\poker\src\client\network\pdureseat.cpp"
+"D:\Documents and Settings\Rob\Desktop\poker\src\client\network\pdutournamentdetailsreply.cpp"
+"D:\Documents and Settings\Rob\Desktop\poker\src\client\network\pdutournamentparams.cpp"
+"D:\Documents and Settings\Rob\Desktop\poker\src\client\network\pduupgraderequest.cpp"
+"D:\Documents and Settings\Rob\Desktop\poker\src\client\network\pduverbosetablereply.cpp"
+"D:\Documents and Settings\Rob\Desktop\poker\src\client\network\server.cpp"
+"D:\Documents and Settings\Rob\Desktop\poker\src\client\network\ssl.cpp"
+"D:\Documents and Settings\Rob\Desktop\poker\src\client\base\autoupgrade.cpp"
+"D:\Documents and Settings\Rob\Desktop\poker\src\client\base\base_registry.cpp"
+"D:\Documents and Settings\Rob\Desktop\poker\src\client\dib\CDib.cpp"
+"D:\Documents and Settings\Rob\Desktop\poker\src\client\base\cipher.cpp"
+"D:\Documents and Settings\Rob\Desktop\poker\src\client\dib\Dib File Handler Targa.cpp"
+"D:\Documents and Settings\Rob\Desktop\poker\src\client\dib\Dib File Handler.cpp"
+"D:\Documents and Settings\Rob\Desktop\poker\src\client\base\draw.cpp"
+"D:\Documents and Settings\Rob\Desktop\poker\src\client\base\gamelogic.cpp"
+"D:\Documents and Settings\Rob\Desktop\poker\src\client\base\jpgimage.cpp"
+"D:\Documents and Settings\Rob\Desktop\poker\src\client\base\md5.cpp"
+"D:\Documents and Settings\Rob\Desktop\poker\src\client\base\misc.cpp"
+"D:\Documents and Settings\Rob\Desktop\poker\src\client\base\transparentbitmap.cpp"
+"D:\Documents and Settings\Rob\Desktop\poker\src\client\LoungeDlg\banner.cpp"
+"D:\Documents and Settings\Rob\Desktop\poker\src\client\LoungeDlg\floormap.cpp"
+"D:\Documents and Settings\Rob\Desktop\poker\src\client\LoungeDlg\listctrl.cpp"
+"D:\Documents and Settings\Rob\Desktop\poker\src\client\LoungeDlg\Lounge.cpp"
+"D:\Documents and Settings\Rob\Desktop\poker\src\client\LoungeDlg\loungedata.cpp"
+"D:\Documents and Settings\Rob\Desktop\poker\src\client\LoungeDlg\LoungeDlg.cpp"
+"D:\Documents and Settings\Rob\Desktop\poker\src\client\LoungeDlg\pdu.cpp"
+"D:\Documents and Settings\Rob\Desktop\poker\src\client\LoungeDlg\registry.cpp"
+"D:\Documents and Settings\Rob\Desktop\poker\src\client\LoungeDlg\tabctrl.cpp"
+"D:\Documents and Settings\Rob\Desktop\poker\src\client\LoungeDlg\tournamentdetailsdlg.cpp"
+]
+Creating command line "cl.exe @D:\DOCUME~1\Rob\LOCALS~1\Temp\RSP59.tmp" 
+Creating temporary file "D:\DOCUME~1\Rob\LOCALS~1\Temp\RSP5A.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /I ".." /I "." /I "..\..\lib\openssl\inc32" /I "..\..\lib\common\include" /D "_DEBUG" /D "WIN32" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /D "PCLIENT_MODULE_" /D "HTML_VIEW_" /D "LOUNGE_DLG_" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"D:\Documents and Settings\Rob\Desktop\poker\src\client\md5\md5c.c"
+"D:\Documents and Settings\Rob\Desktop\poker\src\lib\COMMON\src\chips.cpp"
+"D:\Documents and Settings\Rob\Desktop\poker\src\lib\COMMON\src\stringoutput.cpp"
+]
+Creating command line "cl.exe @D:\DOCUME~1\Rob\LOCALS~1\Temp\RSP5A.tmp" 
+Creating temporary file "D:\DOCUME~1\Rob\LOCALS~1\Temp\RSP5B.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /I ".." /I "." /I "..\..\lib\openssl\inc32" /I "..\..\lib\common\include" /D "_DEBUG" /D "WIN32" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /D "PCLIENT_MODULE_" /D "HTML_VIEW_" /D "LOUNGE_DLG_" /Fp"Debug/Lounge.pch" /Yc"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"D:\Documents and Settings\Rob\Desktop\poker\src\client\LoungeDlg\StdAfx.cpp"
+]
+Creating command line "cl.exe @D:\DOCUME~1\Rob\LOCALS~1\Temp\RSP5B.tmp" 
+Creating temporary file "D:\DOCUME~1\Rob\LOCALS~1\Temp\RSP5C.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:yes /pdb:"Debug/lounge.pdb" /debug /machine:I386 /out:"../lounge.exe" /pdbtype:sept 
+".\Debug\aboutdlg.obj"
+".\Debug\cashierdlg.obj"
+".\Debug\chatdlg.obj"
+".\Debug\ChatEdit.obj"
+".\Debug\chatframe.obj"
+".\Debug\ChatView.obj"
+".\Debug\creditdarddlg.obj"
+".\Debug\editordlg.obj"
+".\Debug\Filler.obj"
+".\Debug\floormapview.obj"
+".\Debug\global.obj"
+".\Debug\logindlg.obj"
+".\Debug\motddlg.obj"
+".\Debug\motdframe.obj"
+".\Debug\motdview.obj"
+".\Debug\ProgInd.obj"
+".\Debug\soundmanager.obj"
+".\Debug\splashwnd.obj"
+".\Debug\tabledetailsdlg.obj"
+".\Debug\transactiondlg.obj"
+".\Debug\errorlog.obj"
+".\Debug\network.obj"
+".\Debug\pduaccountbalance.obj"
+".\Debug\pduactionrequestspreadlimit.obj"
+".\Debug\pduanteallin.obj"
+".\Debug\pduchat.obj"
+".\Debug\pduchatenable.obj"
+".\Debug\pducreditcardedit.obj"
+".\Debug\pducreditcardreply2.obj"
+".\Debug\pducreditcardresponse.obj"
+".\Debug\pducreditcardtypes.obj"
+".\Debug\pduerror.obj"
+".\Debug\pduloginstats.obj"
+".\Debug\pdulounge.obj"
+".\Debug\pduloungebuyinresponse.obj"
+".\Debug\pduloungecashoutresponse.obj"
+".\Debug\pduloungegamenames.obj"
+".\Debug\pduloungehandshake.obj"
+".\Debug\pduloungetransactionreply.obj"
+".\Debug\pdunetworkerror.obj"
+".\Debug\pdunotify.obj"
+".\Debug\pduping.obj"
+".\Debug\pduplayerfinished.obj"
+".\Debug\pduqueuefull.obj"
+".\Debug\pduqueueupdate.obj"
+".\Debug\pduredirectlogin.obj"
+".\Debug\pdureseat.obj"
+".\Debug\pdutournamentdetailsreply.obj"
+".\Debug\pdutournamentparams.obj"
+".\Debug\pduupgraderequest.obj"
+".\Debug\pduverbosetablereply.obj"
+".\Debug\server.obj"
+".\Debug\ssl.obj"
+".\Debug\autoupgrade.obj"
+".\Debug\base_registry.obj"
+".\Debug\CDib.obj"
+".\Debug\cipher.obj"
+".\Debug\Dib File Handler Targa.obj"
+".\Debug\Dib File Handler.obj"
+".\Debug\draw.obj"
+".\Debug\gamelogic.obj"
+".\Debug\jpgimage.obj"
+".\Debug\md5.obj"
+".\Debug\misc.obj"
+".\Debug\transparentbitmap.obj"
+".\Debug\md5c.obj"
+".\Debug\chips.obj"
+".\Debug\stringoutput.obj"
+".\Debug\banner.obj"
+".\Debug\floormap.obj"
+".\Debug\listctrl.obj"
+".\Debug\Lounge.obj"
+".\Debug\loungedata.obj"
+".\Debug\LoungeDlg.obj"
+".\Debug\pdu.obj"
+".\Debug\registry.obj"
+".\Debug\StdAfx.obj"
+".\Debug\tabctrl.obj"
+".\Debug\tournamentdetailsdlg.obj"
+".\Debug\Lounge.res"
+]
+Creating command line "link.exe @D:\DOCUME~1\Rob\LOCALS~1\Temp\RSP5C.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+aboutdlg.cpp
+cashierdlg.cpp
+chatdlg.cpp
+ChatEdit.cpp
+chatframe.cpp
+ChatView.cpp
+creditdarddlg.cpp
+editordlg.cpp
+Filler.cpp
+floormapview.cpp
+global.cpp
+logindlg.cpp
+motddlg.cpp
+motdframe.cpp
+motdview.cpp
+ProgInd.cpp
+soundmanager.cpp
+splashwnd.cpp
+tabledetailsdlg.cpp
+transactiondlg.cpp
+Generating Code...
+d:\program files\microsoft visual studio\vc98\include\iterator(31) : warning C4786: 'std::reverse_bidirectional_iterator<std::list<CChatView::ChatEntry,std::allocator<CChatView::ChatEntry> >::iterator,CChatView::ChatEntry,CChatView::ChatEntry &,CChatView::ChatEntry *,int>::reverse_bidirectional_iterator<std::list<CChatView::ChatEntry,std::allocator<CChatView::ChatEntry> >::iterator,CChatView::ChatEntry,CChatView::ChatEntry &,CChatView::ChatEntry *,int>' : identifier was truncated to '255' characters in the debug information
+Compiling...
+errorlog.cpp
+network.cpp
+pduaccountbalance.cpp
+pduactionrequestspreadlimit.cpp
+pduanteallin.cpp
+pduchat.cpp
+pduchatenable.cpp
+pducreditcardedit.cpp
+pducreditcardreply2.cpp
+pducreditcardresponse.cpp
+pducreditcardtypes.cpp
+pduerror.cpp
+pduloginstats.cpp
+pdulounge.cpp
+pduloungebuyinresponse.cpp
+pduloungecashoutresponse.cpp
+pduloungegamenames.cpp
+pduloungehandshake.cpp
+pduloungetransactionreply.cpp
+pdunetworkerror.cpp
+Generating Code...
+Compiling...
+pdunotify.cpp
+pduping.cpp
+pduplayerfinished.cpp
+pduqueuefull.cpp
+pduqueueupdate.cpp
+pduredirectlogin.cpp
+pdureseat.cpp
+pdutournamentdetailsreply.cpp
+pdutournamentparams.cpp
+pduupgraderequest.cpp
+pduverbosetablereply.cpp
+server.cpp
+ssl.cpp
+autoupgrade.cpp
+base_registry.cpp
+CDib.cpp
+cipher.cpp
+Dib File Handler Targa.cpp
+Dib File Handler.cpp
+draw.cpp
+Generating Code...
+Compiling...
+gamelogic.cpp
+jpgimage.cpp
+md5.cpp
+JPG lib for DLL import
+misc.cpp
+transparentbitmap.cpp
+banner.cpp
+floormap.cpp
+listctrl.cpp
+Lounge.cpp
+loungedata.cpp
+LoungeDlg.cpp
+pdu.cpp
+registry.cpp
+tabctrl.cpp
+tournamentdetailsdlg.cpp
+Generating Code...
+Compiling...
+md5c.c
+Generating Code...
+Compiling...
+chips.cpp
+stringoutput.cpp
+Generating Code...
+Linking...
+
+
+
+<h3>Results</h3>
+lounge.exe - 0 error(s), 1 warning(s)
+</pre>
+</body>
+</html>

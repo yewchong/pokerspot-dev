@@ -1,0 +1,71 @@
+/*
+  This file defines graphics, the layout of the play
+  surface and other parameters such as text colors 
+*/
+
+/* Text color red, green and blue in player box: */
+text 255 255 255
+
+/* use bump text */
+bumptext on
+
+/* Player label background red, green, blue & alpha: */
+/* alpha 0 => transparent, alpha 255 => opaque */
+label 0 0 0 100
+
+/* This is the playing surface: */
+background table.jpg
+
+/* Open card image & mask */
+/* First parameter is the PATH to individual images, */
+/* second is name of the mask bitmap */
+cardimage graphics mask.bmp
+
+/* Card backside image & mask */
+cardbackside back1_image.bmp back1_mask.bmp
+
+/* Announcement rect */
+announcement 250 30 390 150
+
+/* Chat window text colors */
+/* messages typed by the users: */
+/* chatcolor user  0 0 0 */
+/* normal game events 'x' joins, leaves etc: */
+/* chatcolor normal   0 80 0 */
+/* critical game events 'x' calls, raises, folds etc: */
+/* chatcolor critical 255 60 0 */
+
+
+/* Player positions */
+/* Deck is the position from where the cards */
+/* dealing animation deals cards */
+/* Specify -1,-1 to hide the deck image - (applies to deck only) */
+playerpos deck		312,150	0,0	-1,-1
+/* Community is the position of the pot & community cards */
+playerpos community 290,105	160,170	0,0
+
+/* Player positions for 10 player slots */
+/*        slot  labelpos    opencard	closedcard */
+playerpos 0		390,30		390,65		413,110
+playerpos 1		550,86		475,80		495,140
+playerpos 2		560,210		487,165		510,210
+playerpos 3		520,340		460,260		470,250
+playerpos 4		350,370		350,280		360,255
+playerpos 5		195,370		195,280		220,255
+playerpos 6		30,340		80,260		125,245
+playerpos 7		1,210		80,165		90,210
+playerpos 8		10,86		90,80		105,140
+playerpos 9		150,30		170,65		175,112
+
+/* Turn indicator positions relative to label */
+/*			slot	pos: top, bottom, left, right */
+turnpointer 0		left
+turnpointer 1		top
+turnpointer 2		left
+turnpointer 3		left
+turnpointer 4		top
+turnpointer 5		top
+turnpointer 6		right
+turnpointer 7		right
+turnpointer 8		top
+turnpointer 9		right

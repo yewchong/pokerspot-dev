@@ -1,0 +1,18 @@
+
+1/16/03
+
+Here is a brief overview of what you'll find here (alphabetic order):
+
+mpp-design.doc		 	- Beginnings of a monolithic design document covering the multi-player poker
+	                           project for CWG/Golden Palace after acquisition.
+pokerspot_schema.txt	 	- The current (bad) database schema (MySQL)
+project1.doc		 	- Project notes for poker project delivery for CWG/GP (I'm assuming most of
+				   this is still valid for our integration efforts)
+ps1.pdf			 	- Entity-Relationship Diagram 1 for new (good/better) database schema
+ps2.pdf			 	- Entity-Relationship Diagram 2
+PSDesignNote.{doc | pdf} 	- Basic data dictionary for above ERDs
+scale1.doc		 	- Design notes on proposed scalability enhancements
+SystemArchitecture.{doc | pdf}  - Some system architecture notes drafted after our database redesign.
+WHATS_HERE.txt                  - Duh.
+
+

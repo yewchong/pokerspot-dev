@@ -1,0 +1,18 @@
+//SUPPRESSIONPROJ:holdem
+//VERSION:5.00
+//ENABLE:Yes
+!include Mfc.sup
+ignore bad_address(12,0) in module MSVCP60D.dll
+ignore bad_address(12,0) in module MSVCP60.dll
+ignore bad_address(20,21) in file EXE:"C:\apps\msvc\VC98\INCLUDE\vector"
+ignore bad_address(20,21) in file EXE:"C:\apps\msvc\VC98\INCLUDE\vector"
+ignore bad_address(20,21) in function EXE:"std::vector<std::basic_string<char,std::char_traits<char>,std::allocator<char> >,std::allocator<std::basic_string<char,std::char_traits<char>,std::allocator<char> > > >::size"
+ignore bad_address(20,18) in function EXE:"CDib::FillGlass"
+ignore bad_address(20,21) in file EXE:"C:\apps\msvc\VC98\INCLUDE\vector"
+ignore bad_address(20,21) in function EXE:"std::vector<CRect,std::allocator<CRect> >::size"
+ignore param 2 MSVCRT.DLL:memcpy in function MFC42.DLL:"CString::AssignCopy"
+ignore param 1 GDI32.DLL:CreateDIBSection in function EXE:"CDib::Create"
+ignore param 1 GDI32.DLL:CreateDIBSection in function EXE:"CDib::Create"
+ignore param 1 GDI32.DLL:CreateDIBSection in function EXE:"CDib::Create"
+ignore param 1 GDI32.DLL:CreateDIBSection in function EXE:"CDib::Create"
+

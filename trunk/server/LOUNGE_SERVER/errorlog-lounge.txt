@@ -1,0 +1,1290 @@
+Fri Nov 30 22:06:39 2001
+Can't connect to database.   Last socket error: 0
+Sat Dec 01 14:41:19 2001
+Can't connect to database.   Last socket error: 0
+Sat Dec 01 14:42:00 2001
+Can't connect to database.   Last socket error: 0
+Sat Dec 01 14:43:50 2001
+Can't connect to database.   Last socket error: 0
+Sat Dec 01 14:44:31 2001
+Can't connect to database.   Last socket error: 0
+Sat Dec 01 14:48:39 2001
+Can't connect to Load Balancer: 192.168.100.171,8300
+   Last socket error: 0
+Sat Dec 01 14:48:40 2001
+getSatellite: Query failed(0)!
+   Last socket error: 0
+Sat Dec 01 14:48:40 2001
+getSatellite: Query failed(0)!
+   Last socket error: 0
+Sat Dec 01 14:48:40 2001
+getSatellite: Query failed(0)!
+   Last socket error: 0
+Sat Dec 01 14:48:40 2001
+getTournament: Query failed(1)!
+   Last socket error: 0
+Sat Dec 01 14:48:40 2001
+getTournament: Query failed(1)!
+   Last socket error: 0
+Sat Dec 01 14:48:41 2001
+getSatellite: Query failed(0)!
+   Last socket error: 0
+Sat Dec 01 14:48:41 2001
+getSatellite: Query failed(0)!
+   Last socket error: 0
+Sat Dec 01 14:48:41 2001
+getSatellite: Query failed(0)!
+   Last socket error: 0
+Sat Dec 01 14:48:42 2001
+getSatellite: Query failed(0)!
+   Last socket error: 0
+Sat Dec 01 14:48:42 2001
+getSatellite: Query failed(0)!
+   Last socket error: 0
+Sat Dec 01 14:48:42 2001
+getSatellite: Query failed(0)!
+   Last socket error: 0
+Sat Dec 01 14:48:43 2001
+getSatellite: Query failed(0)!
+   Last socket error: 0
+Sat Dec 01 14:48:43 2001
+getSatellite: Query failed(0)!
+   Last socket error: 0
+Sat Dec 01 14:48:43 2001
+getSatellite: Query failed(0)!
+   Last socket error: 0
+Sat Dec 01 14:48:44 2001
+getSatellite: Query failed(0)!
+   Last socket error: 0
+Sat Dec 01 14:48:44 2001
+getSatellite: Query failed(0)!
+   Last socket error: 0
+Sat Dec 01 14:48:44 2001
+getSatellite: Query failed(0)!
+   Last socket error: 0
+Sat Dec 01 14:48:45 2001
+getSatellite: Query failed(0)!
+   Last socket error: 0
+Sat Dec 01 14:48:45 2001
+getSatellite: Query failed(0)!
+   Last socket error: 0
+Sat Dec 01 14:48:46 2001
+getSatellite: Query failed(0)!
+   Last socket error: 0
+Sat Dec 01 14:48:47 2001
+getSatellite: Query failed(0)!
+   Last socket error: 0
+Sat Dec 01 14:48:47 2001
+getSatellite: Query failed(0)!
+   Last socket error: 0
+Sat Dec 01 14:48:47 2001
+getSatellite: Query failed(0)!
+   Last socket error: 0
+Sat Dec 01 14:48:48 2001
+getSatellite: Query failed(0)!
+   Last socket error: 0
+Sat Dec 01 14:48:48 2001
+getSatellite: Query failed(0)!
+   Last socket error: 0
+Sat Dec 01 14:48:48 2001
+getSatellite: Query failed(0)!
+   Last socket error: 0
+Sat Dec 01 14:48:49 2001
+getSatellite: Query failed(0)!
+   Last socket error: 0
+Sat Dec 01 14:48:49 2001
+getSatellite: Query failed(0)!
+   Last socket error: 0
+Sat Dec 01 14:48:49 2001
+getSatellite: Query failed(0)!
+   Last socket error: 0
+Sat Dec 01 14:48:50 2001
+getSatellite: Query failed(0)!
+   Last socket error: 0
+Sat Dec 01 14:48:50 2001
+getSatellite: Query failed(0)!
+   Last socket error: 0
+Sat Dec 01 14:48:50 2001
+getSatellite: Query failed(0)!
+   Last socket error: 0
+Sat Dec 01 14:48:51 2001
+getSatellite: Query failed(0)!
+   Last socket error: 0
+Sat Dec 01 14:48:59 2001
+getSatellite: Query failed(0)!
+   Last socket error: 0
+Sat Dec 01 14:48:59 2001
+getSatellite: Query failed(0)!
+   Last socket error: 0
+Sat Dec 01 14:48:59 2001
+getTournament: Query failed(1)!
+   Last socket error: 0
+Sat Dec 01 14:48:59 2001
+getTournament: Query failed(1)!
+   Last socket error: 0
+Sat Dec 01 14:49:00 2001
+getSatellite: Query failed(0)!
+   Last socket error: 0
+Sat Dec 01 14:49:00 2001
+getSatellite: Query failed(0)!
+   Last socket error: 0
+Sat Dec 01 14:49:00 2001
+getSatellite: Query failed(0)!
+   Last socket error: 0
+Sat Dec 01 14:49:01 2001
+getSatellite: Query failed(0)!
+   Last socket error: 0
+Sat Dec 01 14:49:01 2001
+getSatellite: Query failed(0)!
+   Last socket error: 0
+Sat Dec 01 14:49:01 2001
+getSatellite: Query failed(0)!
+   Last socket error: 0
+Sat Dec 01 14:49:02 2001
+getSatellite: Query failed(0)!
+   Last socket error: 0
+Sat Dec 01 14:49:02 2001
+getSatellite: Query failed(0)!
+   Last socket error: 0
+Sat Dec 01 14:49:02 2001
+getSatellite: Query failed(0)!
+   Last socket error: 0
+Sat Dec 01 14:49:02 2001
+getTournament: Query failed(1)!
+   Last socket error: 0
+Sat Dec 01 14:49:02 2001
+getTournament: Query failed(1)!
+   Last socket error: 0
+Sat Dec 01 14:49:03 2001
+getSatellite: Query failed(0)!
+   Last socket error: 0
+Sat Dec 01 14:49:03 2001
+getSatellite: Query failed(0)!
+   Last socket error: 0
+Sat Dec 01 14:49:03 2001
+getSatellite: Query failed(0)!
+   Last socket error: 0
+Sat Dec 01 14:49:04 2001
+getSatellite: Query failed(0)!
+   Last socket error: 0
+Sat Dec 01 14:49:04 2001
+getSatellite: Query failed(0)!
+   Last socket error: 0
+Sat Dec 01 14:49:04 2001
+getSatellite: Query failed(0)!
+   Last socket error: 0
+Sat Dec 01 14:49:05 2001
+getSatellite: Query failed(0)!
+   Last socket error: 0
+Sat Dec 01 14:49:05 2001
+getSatellite: Query failed(0)!
+   Last socket error: 0
+Sat Dec 01 14:49:05 2001
+getSatellite: Query failed(0)!
+   Last socket error: 0
+Sat Dec 01 14:49:06 2001
+getSatellite: Query failed(0)!
+   Last socket error: 0
+Sat Dec 01 14:49:06 2001
+getSatellite: Query failed(0)!
+   Last socket error: 0
+Sat Dec 01 14:49:06 2001
+getSatellite: Query failed(0)!
+   Last socket error: 0
+Sat Dec 01 14:49:07 2001
+getSatellite: Query failed(0)!
+   Last socket error: 0
+Sat Dec 01 14:49:08 2001
+getSatellite: Query failed(0)!
+   Last socket error: 0
+Sat Dec 01 14:49:08 2001
+getSatellite: Query failed(0)!
+   Last socket error: 0
+Sat Dec 01 14:49:09 2001
+getSatellite: Query failed(0)!
+   Last socket error: 0
+Sat Dec 01 14:49:09 2001
+getSatellite: Query failed(0)!
+   Last socket error: 0
+Sat Dec 01 14:49:09 2001
+getSatellite: Query failed(0)!
+   Last socket error: 0
+Sat Dec 01 14:49:10 2001
+getSatellite: Query failed(0)!
+   Last socket error: 0
+Sat Dec 01 14:49:10 2001
+getSatellite: Query failed(0)!
+   Last socket error: 0
+Sat Dec 01 14:49:10 2001
+getSatellite: Query failed(0)!
+   Last socket error: 0
+Sat Dec 01 14:49:11 2001
+getSatellite: Query failed(0)!
+   Last socket error: 0
+Sat Dec 01 14:49:11 2001
+getSatellite: Query failed(0)!
+   Last socket error: 0
+Sat Dec 01 14:49:11 2001
+getSatellite: Query failed(0)!
+   Last socket error: 0
+Sat Dec 01 14:49:11 2001
+CTRL-C pressed, exiting...
+
+   Last socket error: 0
+Sat Dec 01 14:49:12 2001
+getSatellite: Query failed(0)!
+   Last socket error: 0
+Sat Dec 01 14:49:12 2001
+getSatellite: Query failed(0)!
+   Last socket error: 0
+Sat Dec 01 14:49:12 2001
+getSatellite: Query failed(0)!
+   Last socket error: 0
+Sat Dec 01 14:50:23 2001
+Can't connect to Load Balancer: 192.168.100.171,8300
+   Last socket error: 0
+Sat Dec 01 14:50:24 2001
+getSatellite: Query failed(0)!
+   Last socket error: 0
+Sat Dec 01 14:50:24 2001
+getSatellite: Query failed(0)!
+   Last socket error: 0
+Sat Dec 01 14:50:25 2001
+getSatellite: Query failed(0)!
+   Last socket error: 0
+Sat Dec 01 14:50:25 2001
+getTournament: Query failed(1)!
+   Last socket error: 0
+Sat Dec 01 14:50:25 2001
+getTournament: Query failed(1)!
+   Last socket error: 0
+Sat Dec 01 14:50:26 2001
+getSatellite: Query failed(0)!
+   Last socket error: 0
+Sat Dec 01 14:50:26 2001
+getSatellite: Query failed(0)!
+   Last socket error: 0
+Sat Dec 01 14:50:26 2001
+getSatellite: Query failed(0)!
+   Last socket error: 0
+Sat Dec 01 14:50:27 2001
+getSatellite: Query failed(0)!
+   Last socket error: 0
+Sat Dec 01 14:50:27 2001
+getSatellite: Query failed(0)!
+   Last socket error: 0
+Sat Dec 01 14:50:27 2001
+getSatellite: Query failed(0)!
+   Last socket error: 0
+Sat Dec 01 14:50:28 2001
+getSatellite: Query failed(0)!
+   Last socket error: 0
+Sat Dec 01 14:50:28 2001
+getSatellite: Query failed(0)!
+   Last socket error: 0
+Sat Dec 01 14:50:28 2001
+getSatellite: Query failed(0)!
+   Last socket error: 0
+Sat Dec 01 14:50:29 2001
+getSatellite: Query failed(0)!
+   Last socket error: 0
+Sat Dec 01 14:50:29 2001
+getSatellite: Query failed(0)!
+   Last socket error: 0
+Sat Dec 01 14:50:29 2001
+getSatellite: Query failed(0)!
+   Last socket error: 0
+Sat Dec 01 14:50:30 2001
+getSatellite: Query failed(0)!
+   Last socket error: 0
+Sat Dec 01 14:50:30 2001
+getSatellite: Query failed(0)!
+   Last socket error: 0
+Sat Dec 01 14:50:30 2001
+getSatellite: Query failed(0)!
+   Last socket error: 0
+Sat Dec 01 14:50:31 2001
+getSatellite: Query failed(0)!
+   Last socket error: 0
+Sat Dec 01 14:50:31 2001
+getSatellite: Query failed(0)!
+   Last socket error: 0
+Sat Dec 01 14:50:31 2001
+getSatellite: Query failed(0)!
+   Last socket error: 0
+Sat Dec 01 14:50:32 2001
+getSatellite: Query failed(0)!
+   Last socket error: 0
+Sat Dec 01 14:50:32 2001
+getSatellite: Query failed(0)!
+   Last socket error: 0
+Sat Dec 01 14:50:32 2001
+getSatellite: Query failed(0)!
+   Last socket error: 0
+Sat Dec 01 14:50:33 2001
+getSatellite: Query failed(0)!
+   Last socket error: 0
+Sat Dec 01 14:50:33 2001
+getSatellite: Query failed(0)!
+   Last socket error: 0
+Sat Dec 01 14:50:33 2001
+getSatellite: Query failed(0)!
+   Last socket error: 0
+Sat Dec 01 14:50:34 2001
+getSatellite: Query failed(0)!
+   Last socket error: 0
+Sat Dec 01 14:50:34 2001
+getSatellite: Query failed(0)!
+   Last socket error: 0
+Sat Dec 01 14:50:34 2001
+getSatellite: Query failed(0)!
+   Last socket error: 0
+Sat Dec 01 14:50:35 2001
+getSatellite: Query failed(0)!
+   Last socket error: 0
+Sat Dec 01 14:50:35 2001
+getSatellite: Query failed(0)!
+   Last socket error: 0
+Sat Dec 01 14:50:35 2001
+getSatellite: Query failed(0)!
+   Last socket error: 0
+Sat Dec 01 14:50:35 2001
+getTournament: Query failed(1)!
+   Last socket error: 0
+Sat Dec 01 14:50:35 2001
+getTournament: Query failed(1)!
+   Last socket error: 0
+Sat Dec 01 14:50:36 2001
+getSatellite: Query failed(0)!
+   Last socket error: 0
+Sat Dec 01 14:50:36 2001
+getSatellite: Query failed(0)!
+   Last socket error: 0
+Sat Dec 01 14:50:36 2001
+getSatellite: Query failed(0)!
+   Last socket error: 0
+Sat Dec 01 14:50:37 2001
+getSatellite: Query failed(0)!
+   Last socket error: 0
+Sat Dec 01 14:50:37 2001
+getSatellite: Query failed(0)!
+   Last socket error: 0
+Sat Dec 01 14:50:37 2001
+getSatellite: Query failed(0)!
+   Last socket error: 0
+Sat Dec 01 14:50:38 2001
+getSatellite: Query failed(0)!
+   Last socket error: 0
+Sat Dec 01 14:50:38 2001
+getSatellite: Query failed(0)!
+   Last socket error: 0
+Sat Dec 01 14:50:38 2001
+getSatellite: Query failed(0)!
+   Last socket error: 0
+Sat Dec 01 14:50:39 2001
+getSatellite: Query failed(0)!
+   Last socket error: 0
+Sat Dec 01 14:50:39 2001
+getSatellite: Query failed(0)!
+   Last socket error: 0
+Sat Dec 01 14:50:39 2001
+getSatellite: Query failed(0)!
+   Last socket error: 0
+Sat Dec 01 14:50:40 2001
+getSatellite: Query failed(0)!
+   Last socket error: 0
+Sat Dec 01 14:50:40 2001
+getSatellite: Query failed(0)!
+   Last socket error: 0
+Sat Dec 01 14:50:40 2001
+getSatellite: Query failed(0)!
+   Last socket error: 0
+Sat Dec 01 14:50:41 2001
+getSatellite: Query failed(0)!
+   Last socket error: 0
+Sat Dec 01 14:50:41 2001
+getSatellite: Query failed(0)!
+   Last socket error: 0
+Sat Dec 01 14:50:41 2001
+getSatellite: Query failed(0)!
+   Last socket error: 0
+Sat Dec 01 14:50:42 2001
+getSatellite: Query failed(0)!
+   Last socket error: 0
+Sat Dec 01 14:50:42 2001
+getSatellite: Query failed(0)!
+   Last socket error: 0
+Sat Dec 01 14:50:42 2001
+getSatellite: Query failed(0)!
+   Last socket error: 0
+Sat Dec 01 14:50:43 2001
+getSatellite: Query failed(0)!
+   Last socket error: 0
+Sat Dec 01 14:50:43 2001
+getSatellite: Query failed(0)!
+   Last socket error: 0
+Sat Dec 01 14:50:43 2001
+getSatellite: Query failed(0)!
+   Last socket error: 0
+Sat Dec 01 14:50:44 2001
+getSatellite: Query failed(0)!
+   Last socket error: 0
+Sat Dec 01 14:50:44 2001
+getSatellite: Query failed(0)!
+   Last socket error: 0
+Sat Dec 01 14:50:44 2001
+getSatellite: Query failed(0)!
+   Last socket error: 0
+Sat Dec 01 14:50:45 2001
+getSatellite: Query failed(0)!
+   Last socket error: 0
+Sat Dec 01 14:50:45 2001
+getSatellite: Query failed(0)!
+   Last socket error: 0
+Sat Dec 01 14:50:45 2001
+getSatellite: Query failed(0)!
+   Last socket error: 0
+Sat Dec 01 14:50:46 2001
+getSatellite: Query failed(0)!
+   Last socket error: 0
+Sat Dec 01 14:50:46 2001
+getSatellite: Query failed(0)!
+   Last socket error: 0
+Sat Dec 01 14:50:46 2001
+getSatellite: Query failed(0)!
+   Last socket error: 0
+Sat Dec 01 14:50:46 2001
+getTournament: Query failed(1)!
+   Last socket error: 0
+Sat Dec 01 14:50:46 2001
+getTournament: Query failed(1)!
+   Last socket error: 0
+Sat Dec 01 14:50:47 2001
+getSatellite: Query failed(0)!
+   Last socket error: 0
+Sat Dec 01 14:50:47 2001
+getSatellite: Query failed(0)!
+   Last socket error: 0
+Sat Dec 01 14:50:47 2001
+getSatellite: Query failed(0)!
+   Last socket error: 0
+Sat Dec 01 14:50:48 2001
+getSatellite: Query failed(0)!
+   Last socket error: 0
+Sat Dec 01 14:50:48 2001
+getSatellite: Query failed(0)!
+   Last socket error: 0
+Sat Dec 01 14:50:48 2001
+getSatellite: Query failed(0)!
+   Last socket error: 0
+Sat Dec 01 14:50:49 2001
+getSatellite: Query failed(0)!
+   Last socket error: 0
+Sat Dec 01 14:50:49 2001
+getSatellite: Query failed(0)!
+   Last socket error: 0
+Sat Dec 01 14:50:49 2001
+getSatellite: Query failed(0)!
+   Last socket error: 0
+Sat Dec 01 14:50:50 2001
+getSatellite: Query failed(0)!
+   Last socket error: 0
+Sat Dec 01 14:50:50 2001
+getSatellite: Query failed(0)!
+   Last socket error: 0
+Sat Dec 01 14:50:50 2001
+getSatellite: Query failed(0)!
+   Last socket error: 0
+Sat Dec 01 14:50:51 2001
+getSatellite: Query failed(0)!
+   Last socket error: 0
+Sat Dec 01 14:50:51 2001
+getSatellite: Query failed(0)!
+   Last socket error: 0
+Sat Dec 01 14:50:51 2001
+getSatellite: Query failed(0)!
+   Last socket error: 0
+Sat Dec 01 14:50:52 2001
+getSatellite: Query failed(0)!
+   Last socket error: 0
+Sat Dec 01 14:50:52 2001
+getSatellite: Query failed(0)!
+   Last socket error: 0
+Sat Dec 01 14:50:52 2001
+getSatellite: Query failed(0)!
+   Last socket error: 0
+Sat Dec 01 14:50:53 2001
+getSatellite: Query failed(0)!
+   Last socket error: 0
+Sat Dec 01 14:50:53 2001
+getSatellite: Query failed(0)!
+   Last socket error: 0
+Sat Dec 01 14:50:53 2001
+getSatellite: Query failed(0)!
+   Last socket error: 0
+Sat Dec 01 14:50:54 2001
+getSatellite: Query failed(0)!
+   Last socket error: 0
+Sat Dec 01 14:50:54 2001
+getSatellite: Query failed(0)!
+   Last socket error: 0
+Sat Dec 01 14:50:54 2001
+getSatellite: Query failed(0)!
+   Last socket error: 0
+Sat Dec 01 14:50:55 2001
+getSatellite: Query failed(0)!
+   Last socket error: 0
+Sat Dec 01 14:50:55 2001
+getSatellite: Query failed(0)!
+   Last socket error: 0
+Sat Dec 01 14:50:55 2001
+getSatellite: Query failed(0)!
+   Last socket error: 0
+Sat Dec 01 14:50:56 2001
+getSatellite: Query failed(0)!
+   Last socket error: 0
+Sat Dec 01 14:50:56 2001
+getSatellite: Query failed(0)!
+   Last socket error: 0
+Sat Dec 01 14:50:56 2001
+getSatellite: Query failed(0)!
+   Last socket error: 0
+Sat Dec 01 14:50:57 2001
+getSatellite: Query failed(0)!
+   Last socket error: 0
+Sat Dec 01 14:50:57 2001
+getSatellite: Query failed(0)!
+   Last socket error: 0
+Sat Dec 01 14:50:57 2001
+getSatellite: Query failed(0)!
+   Last socket error: 0
+Sat Dec 01 14:50:57 2001
+getTournament: Query failed(1)!
+   Last socket error: 0
+Sat Dec 01 14:50:57 2001
+getTournament: Query failed(1)!
+   Last socket error: 0
+Sat Dec 01 14:50:58 2001
+getSatellite: Query failed(0)!
+   Last socket error: 0
+Sat Dec 01 14:50:58 2001
+getSatellite: Query failed(0)!
+   Last socket error: 0
+Sat Dec 01 14:50:58 2001
+getSatellite: Query failed(0)!
+   Last socket error: 0
+Sat Dec 01 14:50:59 2001
+getSatellite: Query failed(0)!
+   Last socket error: 0
+Sat Dec 01 14:50:59 2001
+getSatellite: Query failed(0)!
+   Last socket error: 0
+Sat Dec 01 14:50:59 2001
+getSatellite: Query failed(0)!
+   Last socket error: 0
+Sat Dec 01 14:51:00 2001
+getSatellite: Query failed(0)!
+   Last socket error: 0
+Sat Dec 01 14:51:00 2001
+getSatellite: Query failed(0)!
+   Last socket error: 0
+Sat Dec 01 14:51:00 2001
+getSatellite: Query failed(0)!
+   Last socket error: 0
+Sat Dec 01 14:51:01 2001
+getSatellite: Query failed(0)!
+   Last socket error: 0
+Sat Dec 01 14:51:01 2001
+getSatellite: Query failed(0)!
+   Last socket error: 0
+Sat Dec 01 14:51:01 2001
+getSatellite: Query failed(0)!
+   Last socket error: 0
+Sat Dec 01 14:51:02 2001
+getSatellite: Query failed(0)!
+   Last socket error: 0
+Sat Dec 01 14:51:02 2001
+getSatellite: Query failed(0)!
+   Last socket error: 0
+Sat Dec 01 14:51:02 2001
+getSatellite: Query failed(0)!
+   Last socket error: 0
+Sat Dec 01 14:51:03 2001
+getSatellite: Query failed(0)!
+   Last socket error: 0
+Sat Dec 01 14:51:03 2001
+getSatellite: Query failed(0)!
+   Last socket error: 0
+Sat Dec 01 14:51:03 2001
+getSatellite: Query failed(0)!
+   Last socket error: 0
+Sat Dec 01 14:51:04 2001
+getSatellite: Query failed(0)!
+   Last socket error: 0
+Sat Dec 01 14:51:04 2001
+getSatellite: Query failed(0)!
+   Last socket error: 0
+Sat Dec 01 14:51:04 2001
+getSatellite: Query failed(0)!
+   Last socket error: 0
+Sat Dec 01 14:51:05 2001
+getSatellite: Query failed(0)!
+   Last socket error: 0
+Sat Dec 01 14:51:05 2001
+getSatellite: Query failed(0)!
+   Last socket error: 0
+Sat Dec 01 14:51:05 2001
+getSatellite: Query failed(0)!
+   Last socket error: 0
+Sat Dec 01 14:51:05 2001
+getShutdown: Query failed!
+   Last socket error: 0
+Sat Dec 01 14:51:05 2001
+getShutdown: Query failed!
+   Last socket error: 0
+Sat Dec 01 14:52:48 2001
+getSatellite: Query failed(0)!
+   Last socket error: 0
+Sat Dec 01 14:52:48 2001
+getSatellite: Query failed(0)!
+   Last socket error: 0
+Sat Dec 01 14:52:48 2001
+getSatellite: Query failed(0)!
+   Last socket error: 0
+Sat Dec 01 14:52:48 2001
+getTournament: Query failed(1)!
+   Last socket error: 0
+Sat Dec 01 14:52:48 2001
+getTournament: Query failed(1)!
+   Last socket error: 0
+Sat Dec 01 14:52:49 2001
+getSatellite: Query failed(0)!
+   Last socket error: 0
+Sat Dec 01 14:52:49 2001
+getSatellite: Query failed(0)!
+   Last socket error: 0
+Sat Dec 01 14:52:49 2001
+getSatellite: Query failed(0)!
+   Last socket error: 0
+Sat Dec 01 14:52:50 2001
+getSatellite: Query failed(0)!
+   Last socket error: 0
+Sat Dec 01 14:52:50 2001
+getSatellite: Query failed(0)!
+   Last socket error: 0
+Sat Dec 01 14:52:50 2001
+getSatellite: Query failed(0)!
+   Last socket error: 0
+Sat Dec 01 14:52:51 2001
+getSatellite: Query failed(0)!
+   Last socket error: 0
+Sat Dec 01 14:52:51 2001
+getSatellite: Query failed(0)!
+   Last socket error: 0
+Sat Dec 01 14:52:51 2001
+getSatellite: Query failed(0)!
+   Last socket error: 0
+Sat Dec 01 14:52:51 2001
+getSatellite: Query failed(0)!
+   Last socket error: 0
+Sat Dec 01 14:52:51 2001
+getSatellite: Query failed(0)!
+   Last socket error: 0
+Sat Dec 01 14:52:51 2001
+getSatellite: Query failed(0)!
+   Last socket error: 0
+Sat Dec 01 14:52:51 2001
+getSatellite: Query failed(0)!
+   Last socket error: 0
+Sat Dec 01 14:52:51 2001
+getSatellite: Query failed(0)!
+   Last socket error: 0
+Sat Dec 01 14:52:51 2001
+getSatellite: Query failed(0)!
+   Last socket error: 0
+Sat Dec 01 14:52:52 2001
+getSatellite: Query failed(0)!
+   Last socket error: 0
+Sat Dec 01 14:52:52 2001
+getSatellite: Query failed(0)!
+   Last socket error: 0
+Sat Dec 01 14:52:52 2001
+getSatellite: Query failed(0)!
+   Last socket error: 0
+Sat Dec 01 14:52:53 2001
+getSatellite: Query failed(0)!
+   Last socket error: 0
+Sat Dec 01 14:52:53 2001
+getSatellite: Query failed(0)!
+   Last socket error: 0
+Sat Dec 01 14:52:53 2001
+getSatellite: Query failed(0)!
+   Last socket error: 0
+Sat Dec 01 14:52:54 2001
+getSatellite: Query failed(0)!
+   Last socket error: 0
+Sat Dec 01 14:53:04 2001
+getSatellite: Query failed(0)!
+   Last socket error: 0
+Sat Dec 01 14:53:04 2001
+getSatellite: Query failed(0)!
+   Last socket error: 0
+Sat Dec 01 14:53:05 2001
+getSatellite: Query failed(0)!
+   Last socket error: 0
+Sat Dec 01 14:53:05 2001
+getSatellite: Query failed(0)!
+   Last socket error: 0
+Sat Dec 01 14:53:05 2001
+getSatellite: Query failed(0)!
+   Last socket error: 0
+Sat Dec 01 14:53:05 2001
+getTournament: Query failed(1)!
+   Last socket error: 0
+Sat Dec 01 14:53:05 2001
+getTournament: Query failed(1)!
+   Last socket error: 0
+Sat Dec 01 14:53:06 2001
+getSatellite: Query failed(0)!
+   Last socket error: 0
+Sat Dec 01 14:53:06 2001
+getSatellite: Query failed(0)!
+   Last socket error: 0
+Sat Dec 01 14:53:06 2001
+getSatellite: Query failed(0)!
+   Last socket error: 0
+Sat Dec 01 14:53:06 2001
+CTRL-C pressed, exiting...
+
+   Last socket error: 0
+Sat Dec 01 14:53:07 2001
+getSatellite: Query failed(0)!
+   Last socket error: 0
+Sat Dec 01 14:53:07 2001
+getSatellite: Query failed(0)!
+   Last socket error: 0
+Sat Dec 01 14:53:07 2001
+getSatellite: Query failed(0)!
+   Last socket error: 0
+Sun Dec 02 22:11:39 2001
+Can't connect to database.   Last socket error: 0
+Sun Dec 02 22:11:57 2001
+Can't connect to database.   Last socket error: 0
+Sun Dec 02 22:12:42 2001
+Can't connect to database.   Last socket error: 0
+Sun Dec 02 22:13:19 2001
+Can't connect to database.   Last socket error: 0
+Sun Dec 02 22:15:30 2001
+getSatellite: Query failed(0)!
+   Last socket error: 0
+Sun Dec 02 22:15:30 2001
+getSatellite: Query failed(0)!
+   Last socket error: 0
+Sun Dec 02 22:15:30 2001
+getSatellite: Query failed(0)!
+   Last socket error: 0
+Sun Dec 02 22:15:30 2001
+getTournament: Query failed(1)!
+   Last socket error: 0
+Sun Dec 02 22:15:30 2001
+getTournament: Query failed(1)!
+   Last socket error: 0
+Sun Dec 02 22:15:31 2001
+getSatellite: Query failed(0)!
+   Last socket error: 0
+Sun Dec 02 22:15:31 2001
+getSatellite: Query failed(0)!
+   Last socket error: 0
+Sun Dec 02 22:15:31 2001
+getSatellite: Query failed(0)!
+   Last socket error: 0
+Sun Dec 02 22:15:31 2001
+getSatellite: Query failed(0)!
+   Last socket error: 0
+Sun Dec 02 22:15:31 2001
+getSatellite: Query failed(0)!
+   Last socket error: 0
+Sun Dec 02 22:15:31 2001
+getSatellite: Query failed(0)!
+   Last socket error: 0
+Sun Dec 02 22:15:31 2001
+getSatellite: Query failed(0)!
+   Last socket error: 0
+Sun Dec 02 22:15:31 2001
+getSatellite: Query failed(0)!
+   Last socket error: 0
+Sun Dec 02 22:15:31 2001
+getSatellite: Query failed(0)!
+   Last socket error: 0
+Sun Dec 02 22:15:32 2001
+getSatellite: Query failed(0)!
+   Last socket error: 0
+Sun Dec 02 22:15:32 2001
+getSatellite: Query failed(0)!
+   Last socket error: 0
+Sun Dec 02 22:15:32 2001
+getSatellite: Query failed(0)!
+   Last socket error: 0
+Sun Dec 02 22:15:33 2001
+getSatellite: Query failed(0)!
+   Last socket error: 0
+Sun Dec 02 22:15:33 2001
+getSatellite: Query failed(0)!
+   Last socket error: 0
+Sun Dec 02 22:15:33 2001
+getSatellite: Query failed(0)!
+   Last socket error: 0
+Sun Dec 02 22:15:34 2001
+getSatellite: Query failed(0)!
+   Last socket error: 0
+Sun Dec 02 22:15:34 2001
+getSatellite: Query failed(0)!
+   Last socket error: 0
+Sun Dec 02 22:15:34 2001
+getSatellite: Query failed(0)!
+   Last socket error: 0
+Sun Dec 02 22:15:35 2001
+getSatellite: Query failed(0)!
+   Last socket error: 0
+Sun Dec 02 22:15:35 2001
+getSatellite: Query failed(0)!
+   Last socket error: 0
+Sun Dec 02 22:15:35 2001
+getSatellite: Query failed(0)!
+   Last socket error: 0
+Sun Dec 02 22:15:36 2001
+getSatellite: Query failed(0)!
+   Last socket error: 0
+Sun Dec 02 22:15:36 2001
+getSatellite: Query failed(0)!
+   Last socket error: 0
+Sun Dec 02 22:15:36 2001
+getSatellite: Query failed(0)!
+   Last socket error: 0
+Sun Dec 02 22:15:37 2001
+getSatellite: Query failed(0)!
+   Last socket error: 0
+Sun Dec 02 22:15:37 2001
+getSatellite: Query failed(0)!
+   Last socket error: 0
+Sun Dec 02 22:15:37 2001
+getSatellite: Query failed(0)!
+   Last socket error: 0
+Sun Dec 02 22:15:38 2001
+getSatellite: Query failed(0)!
+   Last socket error: 0
+Sun Dec 02 22:15:38 2001
+getSatellite: Query failed(0)!
+   Last socket error: 0
+Sun Dec 02 22:15:38 2001
+getSatellite: Query failed(0)!
+   Last socket error: 0
+Sun Dec 02 22:15:39 2001
+getSatellite: Query failed(0)!
+   Last socket error: 0
+Sun Dec 02 22:15:39 2001
+getSatellite: Query failed(0)!
+   Last socket error: 0
+Sun Dec 02 22:15:39 2001
+getSatellite: Query failed(0)!
+   Last socket error: 0
+Sun Dec 02 22:15:40 2001
+getSatellite: Query failed(0)!
+   Last socket error: 0
+Sun Dec 02 22:15:40 2001
+getSatellite: Query failed(0)!
+   Last socket error: 0
+Sun Dec 02 22:15:40 2001
+getSatellite: Query failed(0)!
+   Last socket error: 0
+Sun Dec 02 22:15:41 2001
+getSatellite: Query failed(0)!
+   Last socket error: 0
+Sun Dec 02 22:15:41 2001
+getSatellite: Query failed(0)!
+   Last socket error: 0
+Sun Dec 02 22:15:41 2001
+getSatellite: Query failed(0)!
+   Last socket error: 0
+Sun Dec 02 22:15:41 2001
+getTournament: Query failed(1)!
+   Last socket error: 0
+Sun Dec 02 22:15:41 2001
+getTournament: Query failed(1)!
+   Last socket error: 0
+Sun Dec 02 22:15:42 2001
+getSatellite: Query failed(0)!
+   Last socket error: 0
+Sun Dec 02 22:15:42 2001
+getSatellite: Query failed(0)!
+   Last socket error: 0
+Sun Dec 02 22:15:42 2001
+getSatellite: Query failed(0)!
+   Last socket error: 0
+Sun Dec 02 22:15:43 2001
+getSatellite: Query failed(0)!
+   Last socket error: 0
+Sun Dec 02 22:15:43 2001
+getSatellite: Query failed(0)!
+   Last socket error: 0
+Sun Dec 02 22:15:43 2001
+getSatellite: Query failed(0)!
+   Last socket error: 0
+Sun Dec 02 22:15:44 2001
+getSatellite: Query failed(0)!
+   Last socket error: 0
+Sun Dec 02 22:15:44 2001
+getSatellite: Query failed(0)!
+   Last socket error: 0
+Sun Dec 02 22:15:44 2001
+getSatellite: Query failed(0)!
+   Last socket error: 0
+Sun Dec 02 22:15:45 2001
+getSatellite: Query failed(0)!
+   Last socket error: 0
+Sun Dec 02 22:15:45 2001
+getSatellite: Query failed(0)!
+   Last socket error: 0
+Sun Dec 02 22:15:45 2001
+getSatellite: Query failed(0)!
+   Last socket error: 0
+Sun Dec 02 22:15:46 2001
+getSatellite: Query failed(0)!
+   Last socket error: 0
+Sun Dec 02 22:15:46 2001
+getSatellite: Query failed(0)!
+   Last socket error: 0
+Sun Dec 02 22:15:46 2001
+getSatellite: Query failed(0)!
+   Last socket error: 0
+Sun Dec 02 22:15:47 2001
+getSatellite: Query failed(0)!
+   Last socket error: 0
+Sun Dec 02 22:15:47 2001
+getSatellite: Query failed(0)!
+   Last socket error: 0
+Sun Dec 02 22:15:47 2001
+getSatellite: Query failed(0)!
+   Last socket error: 0
+Sun Dec 02 22:15:48 2001
+getSatellite: Query failed(0)!
+   Last socket error: 0
+Sun Dec 02 22:15:48 2001
+getSatellite: Query failed(0)!
+   Last socket error: 0
+Sun Dec 02 22:15:48 2001
+getSatellite: Query failed(0)!
+   Last socket error: 0
+Sun Dec 02 22:15:49 2001
+getSatellite: Query failed(0)!
+   Last socket error: 0
+Sun Dec 02 22:15:49 2001
+getSatellite: Query failed(0)!
+   Last socket error: 0
+Sun Dec 02 22:15:49 2001
+getSatellite: Query failed(0)!
+   Last socket error: 0
+Sun Dec 02 22:15:51 2001
+getSatellite: Query failed(0)!
+   Last socket error: 0
+Sun Dec 02 22:15:51 2001
+getSatellite: Query failed(0)!
+   Last socket error: 0
+Sun Dec 02 22:15:51 2001
+getSatellite: Query failed(0)!
+   Last socket error: 0
+Sun Dec 02 22:15:52 2001
+getSatellite: Query failed(0)!
+   Last socket error: 0
+Sun Dec 02 22:15:52 2001
+getSatellite: Query failed(0)!
+   Last socket error: 0
+Sun Dec 02 22:15:52 2001
+getSatellite: Query failed(0)!
+   Last socket error: 0
+Sun Dec 02 22:15:52 2001
+getTournament: Query failed(1)!
+   Last socket error: 0
+Sun Dec 02 22:15:52 2001
+getTournament: Query failed(1)!
+   Last socket error: 0
+Sun Dec 02 22:15:53 2001
+getSatellite: Query failed(0)!
+   Last socket error: 0
+Sun Dec 02 22:15:53 2001
+getSatellite: Query failed(0)!
+   Last socket error: 0
+Sun Dec 02 22:15:53 2001
+getSatellite: Query failed(0)!
+   Last socket error: 0
+Sun Dec 02 22:15:54 2001
+getSatellite: Query failed(0)!
+   Last socket error: 0
+Sun Dec 02 22:15:54 2001
+getSatellite: Query failed(0)!
+   Last socket error: 0
+Sun Dec 02 22:15:54 2001
+getSatellite: Query failed(0)!
+   Last socket error: 0
+Sun Dec 02 22:15:55 2001
+getSatellite: Query failed(0)!
+   Last socket error: 0
+Sun Dec 02 22:15:55 2001
+getSatellite: Query failed(0)!
+   Last socket error: 0
+Sun Dec 02 22:15:55 2001
+getSatellite: Query failed(0)!
+   Last socket error: 0
+Sun Dec 02 22:15:56 2001
+getSatellite: Query failed(0)!
+   Last socket error: 0
+Sun Dec 02 22:15:56 2001
+getSatellite: Query failed(0)!
+   Last socket error: 0
+Sun Dec 02 22:15:56 2001
+getSatellite: Query failed(0)!
+   Last socket error: 0
+Sun Dec 02 22:15:57 2001
+getSatellite: Query failed(0)!
+   Last socket error: 0
+Sun Dec 02 22:15:57 2001
+getSatellite: Query failed(0)!
+   Last socket error: 0
+Sun Dec 02 22:15:57 2001
+getSatellite: Query failed(0)!
+   Last socket error: 0
+Sun Dec 02 22:15:58 2001
+getSatellite: Query failed(0)!
+   Last socket error: 0
+Sun Dec 02 22:15:58 2001
+getSatellite: Query failed(0)!
+   Last socket error: 0
+Sun Dec 02 22:15:58 2001
+getSatellite: Query failed(0)!
+   Last socket error: 0
+Sun Dec 02 22:15:59 2001
+getSatellite: Query failed(0)!
+   Last socket error: 0
+Sun Dec 02 22:15:59 2001
+getSatellite: Query failed(0)!
+   Last socket error: 0
+Sun Dec 02 22:15:59 2001
+getSatellite: Query failed(0)!
+   Last socket error: 0
+Sun Dec 02 22:16:00 2001
+getSatellite: Query failed(0)!
+   Last socket error: 0
+Sun Dec 02 22:16:00 2001
+getSatellite: Query failed(0)!
+   Last socket error: 0
+Sun Dec 02 22:16:00 2001
+getSatellite: Query failed(0)!
+   Last socket error: 0
+Sun Dec 02 22:16:01 2001
+getSatellite: Query failed(0)!
+   Last socket error: 0
+Sun Dec 02 22:16:01 2001
+getSatellite: Query failed(0)!
+   Last socket error: 0
+Sun Dec 02 22:16:01 2001
+getSatellite: Query failed(0)!
+   Last socket error: 0
+Sun Dec 02 22:16:02 2001
+getSatellite: Query failed(0)!
+   Last socket error: 0
+Sun Dec 02 22:16:02 2001
+getSatellite: Query failed(0)!
+   Last socket error: 0
+Sun Dec 02 22:16:02 2001
+getSatellite: Query failed(0)!
+   Last socket error: 0
+Sun Dec 02 22:16:03 2001
+getSatellite: Query failed(0)!
+   Last socket error: 0
+Sun Dec 02 22:16:03 2001
+getSatellite: Query failed(0)!
+   Last socket error: 0
+Sun Dec 02 22:16:03 2001
+getSatellite: Query failed(0)!
+   Last socket error: 0
+Sun Dec 02 22:16:03 2001
+getTournament: Query failed(1)!
+   Last socket error: 0
+Sun Dec 02 22:16:03 2001
+getTournament: Query failed(1)!
+   Last socket error: 0
+Sun Dec 02 22:16:04 2001
+getSatellite: Query failed(0)!
+   Last socket error: 0
+Sun Dec 02 22:16:04 2001
+getSatellite: Query failed(0)!
+   Last socket error: 0
+Sun Dec 02 22:16:04 2001
+getSatellite: Query failed(0)!
+   Last socket error: 0
+Sun Dec 02 22:16:05 2001
+getSatellite: Query failed(0)!
+   Last socket error: 0
+Sun Dec 02 22:16:05 2001
+getSatellite: Query failed(0)!
+   Last socket error: 0
+Sun Dec 02 22:16:05 2001
+getSatellite: Query failed(0)!
+   Last socket error: 0
+Sun Dec 02 22:16:06 2001
+getSatellite: Query failed(0)!
+   Last socket error: 0
+Sun Dec 02 22:16:06 2001
+getSatellite: Query failed(0)!
+   Last socket error: 0
+Sun Dec 02 22:16:06 2001
+getSatellite: Query failed(0)!
+   Last socket error: 0
+Sun Dec 02 22:16:07 2001
+getSatellite: Query failed(0)!
+   Last socket error: 0
+Sun Dec 02 22:16:07 2001
+getSatellite: Query failed(0)!
+   Last socket error: 0
+Sun Dec 02 22:16:07 2001
+getSatellite: Query failed(0)!
+   Last socket error: 0
+Sun Dec 02 22:16:08 2001
+getSatellite: Query failed(0)!
+   Last socket error: 0
+Sun Dec 02 22:16:08 2001
+getSatellite: Query failed(0)!
+   Last socket error: 0
+Sun Dec 02 22:16:08 2001
+getSatellite: Query failed(0)!
+   Last socket error: 0
+Sun Dec 02 22:16:09 2001
+getSatellite: Query failed(0)!
+   Last socket error: 0
+Sun Dec 02 22:16:09 2001
+getSatellite: Query failed(0)!
+   Last socket error: 0
+Sun Dec 02 22:16:09 2001
+getSatellite: Query failed(0)!
+   Last socket error: 0
+Sun Dec 02 22:16:09 2001
+getShutdown: Query failed!
+   Last socket error: 0
+Sun Dec 02 22:16:09 2001
+getShutdown: Query failed!
+   Last socket error: 0
+Sun Dec 02 22:35:00 2001
+getTournament: Query failed(1)!
+   Last socket error: 0
+Sun Dec 02 22:35:00 2001
+getTournament: Query failed(1)!
+   Last socket error: 0
+Sun Dec 02 22:35:11 2001
+getTournament: Query failed(1)!
+   Last socket error: 0
+Sun Dec 02 22:35:11 2001
+getTournament: Query failed(1)!
+   Last socket error: 0
+Sun Dec 02 22:35:22 2001
+getTournament: Query failed(1)!
+   Last socket error: 0
+Sun Dec 02 22:35:22 2001
+getTournament: Query failed(1)!
+   Last socket error: 0
+Sun Dec 02 22:35:33 2001
+getTournament: Query failed(1)!
+   Last socket error: 0
+Sun Dec 02 22:35:33 2001
+getTournament: Query failed(1)!
+   Last socket error: 0
+Sun Dec 02 22:35:37 2001
+getShutdown: Query failed!
+   Last socket error: 0
+Sun Dec 02 22:35:37 2001
+getShutdown: Query failed!
+   Last socket error: 0
+Sun Dec 02 22:39:58 2001
+getTournament: Query failed(1)!
+   Last socket error: 0
+Sun Dec 02 22:39:58 2001
+getTournament: Query failed(1)!
+   Last socket error: 0
+Sun Dec 02 22:40:09 2001
+getTournament: Query failed(1)!
+   Last socket error: 0
+Sun Dec 02 22:40:09 2001
+getTournament: Query failed(1)!
+   Last socket error: 0
+Sun Dec 02 22:40:20 2001
+getTournament: Query failed(1)!
+   Last socket error: 0
+Sun Dec 02 22:40:20 2001
+getTournament: Query failed(1)!
+   Last socket error: 0
+Sun Dec 02 22:40:31 2001
+getTournament: Query failed(1)!
+   Last socket error: 0
+Sun Dec 02 22:40:31 2001
+getTournament: Query failed(1)!
+   Last socket error: 0
+Sun Dec 02 22:40:36 2001
+getShutdown: Query failed!
+   Last socket error: 0
+Sun Dec 02 22:40:36 2001
+getShutdown: Query failed!
+   Last socket error: 0
+Sun Dec 02 22:41:31 2001
+getShutdown: Query failed!
+   Last socket error: 0
+Sun Dec 02 22:41:31 2001
+getShutdown: Query failed!
+   Last socket error: 0
+Sun Dec 02 23:28:45 2001
+CTRL-C pressed, exiting...
+
+   Last socket error: 0
+Sun Dec 02 23:34:41 2001
+CTRL-C pressed, exiting...
+
+   Last socket error: 0
+Sun Dec 02 23:37:04 2001
+Error reading socket 296 () - will terminate connection.
+   Last socket error: 10054
+Sun Dec 02 23:40:46 2001
+*** Cannot spawn table! ***
+   Last socket error: 2
+Sun Dec 02 23:41:51 2001
+*** Cannot spawn table! ***
+   Last socket error: 2
+Sun Dec 02 23:47:00 2001
+*** Cannot spawn table! ***
+   Last socket error: 2
+Sun Dec 02 23:48:02 2001
+*** Cannot spawn table! ***
+   Last socket error: 2
+Sun Dec 02 23:48:11 2001
+CTRL-C pressed, exiting...
+
+   Last socket error: 0
+Sun Dec 02 23:50:04 2001
+CTRL-C pressed, exiting...
+
+   Last socket error: 0
+Sun Dec 02 23:53:10 2001
+CTRL-C pressed, exiting...
+
+   Last socket error: 0
+Mon Dec 03 01:43:47 2001
+CTRL-C pressed, exiting...
+
+   Last socket error: 0
+Mon Dec 03 03:08:20 2001
+CTRL-C pressed, exiting...
+
+   Last socket error: 0
+Tue Jan 21 13:34:52 2003
+Can't connect to database.   Last socket error: 0
+Tue Jan 21 13:35:42 2003
+Can't connect to database.   Last socket error: 0
+Tue Jan 21 13:39:34 2003
+Can't connect to database.   Last socket error: 0

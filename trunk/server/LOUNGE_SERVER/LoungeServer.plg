@@ -1,0 +1,389 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: LoungeServer - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "D:\DOCUME~1\Rob\LOCALS~1\Temp\RSP19.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /Zi /Od /I "..\..\lib\common\include" /I "." /I "..\..\lib\sgi_stl" /I "C:\mysql\include" /I "..\..\lib\openssl\inc32" /D "_DEBUG" /D "WIN32" /D "_CONSOLE" /D "_MBCS" /Fp"Debug/LoungeServer.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"D:\Documents and Settings\Rob\Desktop\poker\src\server\LOUNGE_SERVER\pdu\pdu.cpp"
+"D:\Documents and Settings\Rob\Desktop\poker\src\server\LOUNGE_SERVER\pdu\pduaccountbalance.cpp"
+"D:\Documents and Settings\Rob\Desktop\poker\src\server\LOUNGE_SERVER\pdu\pduallocator.cpp"
+"D:\Documents and Settings\Rob\Desktop\poker\src\server\LOUNGE_SERVER\pdu\pdubalancequery.cpp"
+"D:\Documents and Settings\Rob\Desktop\poker\src\server\LOUNGE_SERVER\pdu\pdubroadtablequery.cpp"
+"D:\Documents and Settings\Rob\Desktop\poker\src\server\LOUNGE_SERVER\pdu\pdubroadtablereply.cpp"
+"D:\Documents and Settings\Rob\Desktop\poker\src\server\LOUNGE_SERVER\pdu\pdubuyinreply.cpp"
+"D:\Documents and Settings\Rob\Desktop\poker\src\server\LOUNGE_SERVER\pdu\pdubuyinrequest.cpp"
+"D:\Documents and Settings\Rob\Desktop\poker\src\server\LOUNGE_SERVER\pdu\pducancelsitdown.cpp"
+"D:\Documents and Settings\Rob\Desktop\poker\src\server\LOUNGE_SERVER\pdu\pducashoutreply.cpp"
+"D:\Documents and Settings\Rob\Desktop\poker\src\server\LOUNGE_SERVER\pdu\pducashoutrequest.cpp"
+"D:\Documents and Settings\Rob\Desktop\poker\src\server\LOUNGE_SERVER\pdu\pduchat.cpp"
+"D:\Documents and Settings\Rob\Desktop\poker\src\server\LOUNGE_SERVER\pdu\pduchatenable.cpp"
+"D:\Documents and Settings\Rob\Desktop\poker\src\server\LOUNGE_SERVER\pdu\pducreditcardedit.cpp"
+"D:\Documents and Settings\Rob\Desktop\poker\src\server\LOUNGE_SERVER\pdu\pducreditcardquery.cpp"
+"D:\Documents and Settings\Rob\Desktop\poker\src\server\LOUNGE_SERVER\pdu\pducreditcardquery2.cpp"
+"D:\Documents and Settings\Rob\Desktop\poker\src\server\LOUNGE_SERVER\pdu\pducreditcardreply.cpp"
+"D:\Documents and Settings\Rob\Desktop\poker\src\server\LOUNGE_SERVER\pdu\pducreditcardreply2.cpp"
+"D:\Documents and Settings\Rob\Desktop\poker\src\server\LOUNGE_SERVER\pdu\pducreditcardtypes.cpp"
+"D:\Documents and Settings\Rob\Desktop\poker\src\server\LOUNGE_SERVER\pdu\pdulogin.cpp"
+"D:\Documents and Settings\Rob\Desktop\poker\src\server\LOUNGE_SERVER\pdu\pduloginaccept.cpp"
+"D:\Documents and Settings\Rob\Desktop\poker\src\server\LOUNGE_SERVER\pdu\pduloginreject.cpp"
+"D:\Documents and Settings\Rob\Desktop\poker\src\server\LOUNGE_SERVER\pdu\pdulogout.cpp"
+"D:\Documents and Settings\Rob\Desktop\poker\src\server\LOUNGE_SERVER\pdu\pdulogoutconfirmed.cpp"
+"D:\Documents and Settings\Rob\Desktop\poker\src\server\LOUNGE_SERVER\pdu\pduloungestats.cpp"
+"D:\Documents and Settings\Rob\Desktop\poker\src\server\LOUNGE_SERVER\pdu\pdunotify.cpp"
+"D:\Documents and Settings\Rob\Desktop\poker\src\server\LOUNGE_SERVER\pdu\pduobserve.cpp"
+"D:\Documents and Settings\Rob\Desktop\poker\src\server\LOUNGE_SERVER\pdu\pduobserving.cpp"
+"D:\Documents and Settings\Rob\Desktop\poker\src\server\LOUNGE_SERVER\pdu\pduping.cpp"
+"D:\Documents and Settings\Rob\Desktop\poker\src\server\LOUNGE_SERVER\pdu\pduplayerloginquery.cpp"
+"D:\Documents and Settings\Rob\Desktop\poker\src\server\LOUNGE_SERVER\pdu\pduplayerloginreply.cpp"
+"D:\Documents and Settings\Rob\Desktop\poker\src\server\LOUNGE_SERVER\pdu\pduplayerobservequery.cpp"
+"D:\Documents and Settings\Rob\Desktop\poker\src\server\LOUNGE_SERVER\pdu\pduplayerobservereply.cpp"
+"D:\Documents and Settings\Rob\Desktop\poker\src\server\LOUNGE_SERVER\pdu\pdupong.cpp"
+"D:\Documents and Settings\Rob\Desktop\poker\src\server\LOUNGE_SERVER\pdu\pduqueuefull.cpp"
+"D:\Documents and Settings\Rob\Desktop\poker\src\server\LOUNGE_SERVER\pdu\pduqueueupdate.cpp"
+"D:\Documents and Settings\Rob\Desktop\poker\src\server\LOUNGE_SERVER\pdu\pdusitdown.cpp"
+"D:\Documents and Settings\Rob\Desktop\poker\src\server\LOUNGE_SERVER\pdu\pdusitting.cpp"
+"D:\Documents and Settings\Rob\Desktop\poker\src\server\LOUNGE_SERVER\pdu\pduspawntable.cpp"
+"D:\Documents and Settings\Rob\Desktop\poker\src\server\LOUNGE_SERVER\pdu\pdustatus.cpp"
+"D:\Documents and Settings\Rob\Desktop\poker\src\server\LOUNGE_SERVER\pdu\pdusurvey.cpp"
+"D:\Documents and Settings\Rob\Desktop\poker\src\server\LOUNGE_SERVER\pdu\pdutablelogin.cpp"
+"D:\Documents and Settings\Rob\Desktop\poker\src\server\LOUNGE_SERVER\pdu\pdutablelogout.cpp"
+"D:\Documents and Settings\Rob\Desktop\poker\src\server\LOUNGE_SERVER\pdu\pdutableupdate.cpp"
+"D:\Documents and Settings\Rob\Desktop\poker\src\server\LOUNGE_SERVER\pdu\pdutransactionquery.cpp"
+"D:\Documents and Settings\Rob\Desktop\poker\src\server\LOUNGE_SERVER\pdu\pdutransactionresponse.cpp"
+"D:\Documents and Settings\Rob\Desktop\poker\src\server\LOUNGE_SERVER\pdu\pduunknown.cpp"
+"D:\Documents and Settings\Rob\Desktop\poker\src\server\LOUNGE_SERVER\pdu\pduupgraderequest.cpp"
+"D:\Documents and Settings\Rob\Desktop\poker\src\server\LOUNGE_SERVER\lounge\game.cpp"
+"D:\Documents and Settings\Rob\Desktop\poker\src\server\LOUNGE_SERVER\lounge\lounge.cpp"
+"D:\Documents and Settings\Rob\Desktop\poker\src\server\LOUNGE_SERVER\lounge\player.cpp"
+"D:\Documents and Settings\Rob\Desktop\poker\src\server\LOUNGE_SERVER\lounge\queueservice.cpp"
+"D:\Documents and Settings\Rob\Desktop\poker\src\server\LOUNGE_SERVER\lounge\table.cpp"
+"D:\Documents and Settings\Rob\Desktop\poker\src\server\LOUNGE_SERVER\lounge\tablemaster.cpp"
+"D:\Documents and Settings\Rob\Desktop\poker\src\server\LOUNGE_SERVER\lounge\waitinglist.cpp"
+"D:\Documents and Settings\Rob\Desktop\poker\src\server\LOUNGE_SERVER\dbhandler\dbhandler.cpp"
+"D:\Documents and Settings\Rob\Desktop\poker\src\server\LOUNGE_SERVER\dbhandler\dbinterface.cpp"
+"D:\Documents and Settings\Rob\Desktop\poker\src\server\LOUNGE_SERVER\dbhandler\md5.cpp"
+"D:\Documents and Settings\Rob\Desktop\poker\src\server\LOUNGE_SERVER\upgrade\autoupgrade.cpp"
+"D:\Documents and Settings\Rob\Desktop\poker\src\server\LOUNGE_SERVER\upgrade\compute_md5_checksum.cpp"
+"D:\Documents and Settings\Rob\Desktop\poker\src\server\LOUNGE_SERVER\upgrade\md5c.c"
+"D:\Documents and Settings\Rob\Desktop\poker\src\server\LOUNGE_SERVER\tournament\action.cpp"
+"D:\Documents and Settings\Rob\Desktop\poker\src\server\LOUNGE_SERVER\tournament\basetournamentqueue.cpp"
+"D:\Documents and Settings\Rob\Desktop\poker\src\server\LOUNGE_SERVER\tournament\endstate.cpp"
+"D:\Documents and Settings\Rob\Desktop\poker\src\server\LOUNGE_SERVER\tournament\event.cpp"
+"D:\Documents and Settings\Rob\Desktop\poker\src\server\LOUNGE_SERVER\tournament\parser.cpp"
+"D:\Documents and Settings\Rob\Desktop\poker\src\server\LOUNGE_SERVER\tournament\pdudissolveinfo.cpp"
+"D:\Documents and Settings\Rob\Desktop\poker\src\server\LOUNGE_SERVER\tournament\pdudissolvetable.cpp"
+"D:\Documents and Settings\Rob\Desktop\poker\src\server\LOUNGE_SERVER\tournament\pduplayerseated.cpp"
+"D:\Documents and Settings\Rob\Desktop\poker\src\server\LOUNGE_SERVER\tournament\pduplayerunseated.cpp"
+"D:\Documents and Settings\Rob\Desktop\poker\src\server\LOUNGE_SERVER\tournament\pdureseatack.cpp"
+"D:\Documents and Settings\Rob\Desktop\poker\src\server\LOUNGE_SERVER\tournament\pdureseatnack.cpp"
+"D:\Documents and Settings\Rob\Desktop\poker\src\server\LOUNGE_SERVER\tournament\pdureseatplayer.cpp"
+"D:\Documents and Settings\Rob\Desktop\poker\src\server\LOUNGE_SERVER\tournament\pdusaveformat.cpp"
+"D:\Documents and Settings\Rob\Desktop\poker\src\server\LOUNGE_SERVER\tournament\pdusaverules.cpp"
+"D:\Documents and Settings\Rob\Desktop\poker\src\server\LOUNGE_SERVER\tournament\pduseatplayer.cpp"
+"D:\Documents and Settings\Rob\Desktop\poker\src\server\LOUNGE_SERVER\tournament\pdusynchronize.cpp"
+"D:\Documents and Settings\Rob\Desktop\poker\src\server\LOUNGE_SERVER\tournament\pdutournamentdetailsquery.cpp"
+"D:\Documents and Settings\Rob\Desktop\poker\src\server\LOUNGE_SERVER\tournament\pdutournamentdetailsreply.cpp"
+"D:\Documents and Settings\Rob\Desktop\poker\src\server\LOUNGE_SERVER\tournament\pdutournamentparams.cpp"
+"D:\Documents and Settings\Rob\Desktop\poker\src\server\LOUNGE_SERVER\tournament\runstate.cpp"
+"D:\Documents and Settings\Rob\Desktop\poker\src\server\LOUNGE_SERVER\tournament\runstateunfrozen.cpp"
+"D:\Documents and Settings\Rob\Desktop\poker\src\server\LOUNGE_SERVER\tournament\satellitequeue.cpp"
+"D:\Documents and Settings\Rob\Desktop\poker\src\server\LOUNGE_SERVER\tournament\seater.cpp"
+"D:\Documents and Settings\Rob\Desktop\poker\src\server\LOUNGE_SERVER\tournament\startstate.cpp"
+"D:\Documents and Settings\Rob\Desktop\poker\src\server\LOUNGE_SERVER\tournament\tournament.cpp"
+"D:\Documents and Settings\Rob\Desktop\poker\src\server\LOUNGE_SERVER\tournament\tournamentqueue.cpp"
+"D:\Documents and Settings\Rob\Desktop\poker\src\server\LOUNGE_SERVER\tournament\tournamentstate.cpp"
+"D:\Documents and Settings\Rob\Desktop\poker\src\server\LOUNGE_SERVER\tournament\waitnplayersstate.cpp"
+"D:\Documents and Settings\Rob\Desktop\poker\src\server\LOUNGE_SERVER\tournament\waitpause.cpp"
+"D:\Documents and Settings\Rob\Desktop\poker\src\server\LOUNGE_SERVER\tournament\waitpredicate.cpp"
+"D:\Documents and Settings\Rob\Desktop\poker\src\server\LOUNGE_SERVER\tournament\waitseated.cpp"
+"D:\Documents and Settings\Rob\Desktop\poker\src\server\LOUNGE_SERVER\tournament\waitstartstate.cpp"
+"D:\Documents and Settings\Rob\Desktop\poker\src\server\LOUNGE_SERVER\tournament\waitstate.cpp"
+"D:\Documents and Settings\Rob\Desktop\poker\src\server\LOUNGE_SERVER\sync\sync.cpp"
+"D:\Documents and Settings\Rob\Desktop\poker\src\lib\common\src\chips.cpp"
+"D:\Documents and Settings\Rob\Desktop\poker\src\lib\COMMON\src\mssqlimp.cpp"
+"D:\Documents and Settings\Rob\Desktop\poker\src\lib\common\src\stringoutput.cpp"
+"D:\Documents and Settings\Rob\Desktop\poker\src\server\LOUNGE_SERVER\loadbalancer\loadbalancer.cpp"
+"D:\Documents and Settings\Rob\Desktop\poker\src\server\LOUNGE_SERVER\loadbalancer\loungeproxy.cpp"
+"D:\Documents and Settings\Rob\Desktop\poker\src\server\LOUNGE_SERVER\loadbalancer\pduloungeinfo.cpp"
+"D:\Documents and Settings\Rob\Desktop\poker\src\server\LOUNGE_SERVER\loadbalancer\pduloungelogin.cpp"
+"D:\Documents and Settings\Rob\Desktop\poker\src\server\LOUNGE_SERVER\loadbalancer\pduloungelogout.cpp"
+"D:\Documents and Settings\Rob\Desktop\poker\src\server\LOUNGE_SERVER\loadbalancer\pduplayerloggedin.cpp"
+"D:\Documents and Settings\Rob\Desktop\poker\src\server\LOUNGE_SERVER\loadbalancer\pduplayerloggedout.cpp"
+"D:\Documents and Settings\Rob\Desktop\poker\src\server\LOUNGE_SERVER\loadbalancer\pdurouteloungepdu.cpp"
+"D:\Documents and Settings\Rob\Desktop\poker\src\server\LOUNGE_SERVER\loadbalancer\pdurouteplayerpdu.cpp"
+"D:\Documents and Settings\Rob\Desktop\poker\src\server\LOUNGE_SERVER\loadbalancer\pduwaitinglistconfig.cpp"
+"D:\Documents and Settings\Rob\Desktop\poker\src\server\LOUNGE_SERVER\loadbalancer\pduwaitinglistevent.cpp"
+"D:\Documents and Settings\Rob\Desktop\poker\src\server\LOUNGE_SERVER\loadbalancer\playerproxy.cpp"
+"D:\Documents and Settings\Rob\Desktop\poker\src\server\LOUNGE_SERVER\loadbalancer\tableproxy.cpp"
+"D:\Documents and Settings\Rob\Desktop\poker\src\server\LOUNGE_SERVER\accepter.cpp"
+"D:\Documents and Settings\Rob\Desktop\poker\src\server\LOUNGE_SERVER\main.cpp"
+"D:\Documents and Settings\Rob\Desktop\poker\src\server\LOUNGE_SERVER\pingcounter.cpp"
+"D:\Documents and Settings\Rob\Desktop\poker\src\server\LOUNGE_SERVER\pinger.cpp"
+"D:\Documents and Settings\Rob\Desktop\poker\src\server\LOUNGE_SERVER\poller.cpp"
+"D:\Documents and Settings\Rob\Desktop\poker\src\server\LOUNGE_SERVER\server.cpp"
+"D:\Documents and Settings\Rob\Desktop\poker\src\server\LOUNGE_SERVER\ssl_funcs.cpp"
+"D:\Documents and Settings\Rob\Desktop\poker\src\server\LOUNGE_SERVER\sys.cpp"
+"D:\Documents and Settings\Rob\Desktop\poker\src\server\LOUNGE_SERVER\lounge\tester.cpp"
+]
+Creating command line "cl.exe @D:\DOCUME~1\Rob\LOCALS~1\Temp\RSP19.tmp" 
+Creating temporary file "D:\DOCUME~1\Rob\LOCALS~1\Temp\RSP1A.tmp" with contents
+[
+libmysql.lib wsock32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:console /incremental:yes /pdb:"Debug/LoungeServer.pdb" /debug /machine:I386 /out:"LoungeServer.exe" /pdbtype:sept /libpath:"..\..\lib\pthread\lib" /libpath:"..\..\lib\openssl\out32" /libpath:"\mysql\lib\opt" 
+".\Debug\pdu.obj"
+".\Debug\pduaccountbalance.obj"
+".\Debug\pduallocator.obj"
+".\Debug\pdubalancequery.obj"
+".\Debug\pdubroadtablequery.obj"
+".\Debug\pdubroadtablereply.obj"
+".\Debug\pdubuyinreply.obj"
+".\Debug\pdubuyinrequest.obj"
+".\Debug\pducancelsitdown.obj"
+".\Debug\pducashoutreply.obj"
+".\Debug\pducashoutrequest.obj"
+".\Debug\pduchat.obj"
+".\Debug\pduchatenable.obj"
+".\Debug\pducreditcardedit.obj"
+".\Debug\pducreditcardquery.obj"
+".\Debug\pducreditcardquery2.obj"
+".\Debug\pducreditcardreply.obj"
+".\Debug\pducreditcardreply2.obj"
+".\Debug\pducreditcardtypes.obj"
+".\Debug\pdulogin.obj"
+".\Debug\pduloginaccept.obj"
+".\Debug\pduloginreject.obj"
+".\Debug\pdulogout.obj"
+".\Debug\pdulogoutconfirmed.obj"
+".\Debug\pduloungestats.obj"
+".\Debug\pdunotify.obj"
+".\Debug\pduobserve.obj"
+".\Debug\pduobserving.obj"
+".\Debug\pduping.obj"
+".\Debug\pduplayerloginquery.obj"
+".\Debug\pduplayerloginreply.obj"
+".\Debug\pduplayerobservequery.obj"
+".\Debug\pduplayerobservereply.obj"
+".\Debug\pdupong.obj"
+".\Debug\pduqueuefull.obj"
+".\Debug\pduqueueupdate.obj"
+".\Debug\pdusitdown.obj"
+".\Debug\pdusitting.obj"
+".\Debug\pduspawntable.obj"
+".\Debug\pdustatus.obj"
+".\Debug\pdusurvey.obj"
+".\Debug\pdutablelogin.obj"
+".\Debug\pdutablelogout.obj"
+".\Debug\pdutableupdate.obj"
+".\Debug\pdutransactionquery.obj"
+".\Debug\pdutransactionresponse.obj"
+".\Debug\pduunknown.obj"
+".\Debug\pduupgraderequest.obj"
+".\Debug\game.obj"
+".\Debug\lounge.obj"
+".\Debug\player.obj"
+".\Debug\queueservice.obj"
+".\Debug\table.obj"
+".\Debug\tablemaster.obj"
+".\Debug\waitinglist.obj"
+".\Debug\dbhandler.obj"
+".\Debug\dbinterface.obj"
+".\Debug\md5.obj"
+".\Debug\autoupgrade.obj"
+".\Debug\compute_md5_checksum.obj"
+".\Debug\md5c.obj"
+".\Debug\action.obj"
+".\Debug\basetournamentqueue.obj"
+".\Debug\endstate.obj"
+".\Debug\event.obj"
+".\Debug\parser.obj"
+".\Debug\pdudissolveinfo.obj"
+".\Debug\pdudissolvetable.obj"
+".\Debug\pduplayerseated.obj"
+".\Debug\pduplayerunseated.obj"
+".\Debug\pdureseatack.obj"
+".\Debug\pdureseatnack.obj"
+".\Debug\pdureseatplayer.obj"
+".\Debug\pdusaveformat.obj"
+".\Debug\pdusaverules.obj"
+".\Debug\pduseatplayer.obj"
+".\Debug\pdusynchronize.obj"
+".\Debug\pdutournamentdetailsquery.obj"
+".\Debug\pdutournamentdetailsreply.obj"
+".\Debug\pdutournamentparams.obj"
+".\Debug\runstate.obj"
+".\Debug\runstateunfrozen.obj"
+".\Debug\satellitequeue.obj"
+".\Debug\seater.obj"
+".\Debug\startstate.obj"
+".\Debug\tournament.obj"
+".\Debug\tournamentqueue.obj"
+".\Debug\tournamentstate.obj"
+".\Debug\waitnplayersstate.obj"
+".\Debug\waitpause.obj"
+".\Debug\waitpredicate.obj"
+".\Debug\waitseated.obj"
+".\Debug\waitstartstate.obj"
+".\Debug\waitstate.obj"
+".\Debug\sync.obj"
+".\Debug\chips.obj"
+".\Debug\mssqlimp.obj"
+".\Debug\stringoutput.obj"
+".\Debug\loadbalancer.obj"
+".\Debug\loungeproxy.obj"
+".\Debug\pduloungeinfo.obj"
+".\Debug\pduloungelogin.obj"
+".\Debug\pduloungelogout.obj"
+".\Debug\pduplayerloggedin.obj"
+".\Debug\pduplayerloggedout.obj"
+".\Debug\pdurouteloungepdu.obj"
+".\Debug\pdurouteplayerpdu.obj"
+".\Debug\pduwaitinglistconfig.obj"
+".\Debug\pduwaitinglistevent.obj"
+".\Debug\playerproxy.obj"
+".\Debug\tableproxy.obj"
+".\Debug\accepter.obj"
+".\Debug\main.obj"
+".\Debug\pingcounter.obj"
+".\Debug\pinger.obj"
+".\Debug\poller.obj"
+".\Debug\server.obj"
+".\Debug\ssl_funcs.obj"
+".\Debug\sys.obj"
+".\Debug\tester.obj"
+]
+Creating command line "link.exe @D:\DOCUME~1\Rob\LOCALS~1\Temp\RSP1A.tmp"
+<h3>Output Window</h3>
+Compiling...
+pdu.cpp
+pduaccountbalance.cpp
+pduallocator.cpp
+pdubalancequery.cpp
+pdubroadtablequery.cpp
+pdubroadtablereply.cpp
+pdubuyinreply.cpp
+pdubuyinrequest.cpp
+pducancelsitdown.cpp
+pducashoutreply.cpp
+pducashoutrequest.cpp
+pduchat.cpp
+pduchatenable.cpp
+pducreditcardedit.cpp
+pducreditcardquery.cpp
+pducreditcardquery2.cpp
+pducreditcardreply.cpp
+pducreditcardreply2.cpp
+pducreditcardtypes.cpp
+pdulogin.cpp
+pduloginaccept.cpp
+pduloginreject.cpp
+pdulogout.cpp
+pdulogoutconfirmed.cpp
+pduloungestats.cpp
+pdunotify.cpp
+pduobserve.cpp
+pduobserving.cpp
+pduping.cpp
+pduplayerloginquery.cpp
+pduplayerloginreply.cpp
+pduplayerobservequery.cpp
+pduplayerobservereply.cpp
+pdupong.cpp
+pduqueuefull.cpp
+pduqueueupdate.cpp
+pdusitdown.cpp
+pdusitting.cpp
+pduspawntable.cpp
+pdustatus.cpp
+pdusurvey.cpp
+pdutablelogin.cpp
+pdutablelogout.cpp
+pdutableupdate.cpp
+pdutransactionquery.cpp
+pdutransactionresponse.cpp
+pduunknown.cpp
+pduupgraderequest.cpp
+game.cpp
+lounge.cpp
+player.cpp
+queueservice.cpp
+table.cpp
+tablemaster.cpp
+waitinglist.cpp
+dbhandler.cpp
+dbinterface.cpp
+md5.cpp
+autoupgrade.cpp
+compute_md5_checksum.cpp
+md5c.c
+action.cpp
+basetournamentqueue.cpp
+endstate.cpp
+event.cpp
+parser.cpp
+pdudissolveinfo.cpp
+pdudissolvetable.cpp
+pduplayerseated.cpp
+pduplayerunseated.cpp
+pdureseatack.cpp
+pdureseatnack.cpp
+pdureseatplayer.cpp
+pdusaveformat.cpp
+pdusaverules.cpp
+pduseatplayer.cpp
+pdusynchronize.cpp
+pdutournamentdetailsquery.cpp
+pdutournamentdetailsreply.cpp
+pdutournamentparams.cpp
+runstate.cpp
+runstateunfrozen.cpp
+satellitequeue.cpp
+seater.cpp
+startstate.cpp
+tournament.cpp
+tournamentqueue.cpp
+tournamentstate.cpp
+waitnplayersstate.cpp
+waitpause.cpp
+waitpredicate.cpp
+waitseated.cpp
+waitstartstate.cpp
+waitstate.cpp
+sync.cpp
+chips.cpp
+mssqlimp.cpp
+stringoutput.cpp
+loadbalancer.cpp
+loungeproxy.cpp
+pduloungeinfo.cpp
+pduloungelogin.cpp
+pduloungelogout.cpp
+pduplayerloggedin.cpp
+pduplayerloggedout.cpp
+pdurouteloungepdu.cpp
+pdurouteplayerpdu.cpp
+pduwaitinglistconfig.cpp
+pduwaitinglistevent.cpp
+playerproxy.cpp
+tableproxy.cpp
+accepter.cpp
+main.cpp
+pingcounter.cpp
+pinger.cpp
+poller.cpp
+server.cpp
+ssl_funcs.cpp
+sys.cpp
+tester.cpp
+Linking...
+
+
+
+<h3>Results</h3>
+LoungeServer.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

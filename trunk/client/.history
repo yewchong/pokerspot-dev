@@ -1,0 +1,11 @@
+use
+update pokeruser set chips=100;
+select * from status;
+update status set motd='Welcome to PokerSpot!';
+update pokeruser set chips=100;
+select * from house<
+;
+select * from house;
+select * from pokeruser<
+;
+select * from pokeruser;

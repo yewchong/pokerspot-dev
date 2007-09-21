@@ -1,0 +1,119 @@
+//{{NO_DEPENDENCIES}}
+// Microsoft Developer Studio generated include file.
+// Used by Lounge.rc
+//
+#define ID_TIMER_BANNER                 5
+#define IDM_ABOUTBOX                    0x0010
+#define IDS_ABOUTBOX                    101
+#define IDD_LOUNGE_DIALOG               102
+#define IDD_ABOUTBOX                    103
+#define IDP_SOCKETS_INIT_FAILED         104
+#define IDD_LOGIN                       106
+#define IDD_MOTD                        107
+#define IDR_MAINFRAME                   128
+#define IDD_TABLEDETAILS                129
+#define IDD_CASHIER                     130
+#define IDB_LOGO                        132
+#define IDB_RADIO_ON                    132
+#define IDB_RADIOMASK                   133
+#define IDD_TRANSACTION                 133
+#define IDB_RADIO_OFF                   134
+#define IDD_EDITOR                      135
+#define IDD_CREDITCARDS                 136
+#define IDD_CHAT                        140
+#define IDD_LOGIN1                      141
+#define IDD_TOURNAMENTDETAILS           142
+#define IDC_TITLE                       1002
+#define IDC_COPYRIGHT                   1003
+#define IDC_PASSWORD                    1006
+#define IDC_USERNAME                    1007
+#define IDC_MESSAGEPANE                 1008
+#define IDC_EDITCHAT                    1016
+#define IDC_TAB1                        1021
+#define IDC_EDITPORT                    1022
+#define IDC_EDITHOST                    1024
+#define IDC_LD_RADIO1                   1031
+#define IDC_LD_RADIO2                   1032
+#define IDC_LD_NAME                     1033
+#define IDC_LD_STATUS                   1034
+#define IDC_LD_TAB1                     1035
+#define IDC_LD_LIST1                    1036
+#define IDC_LD_NUMTABLES                1037
+#define IDC_LD_NUMPLAYERS               1038
+#define IDC_TD_LIST1                    1040
+#define IDC_TD_AVGPOT                   1041
+#define IDC_TD_FLORPRCT                 1042
+#define IDC_TD_FLOPPRCT                 1042
+#define IDC_TD_WAITLIST                 1043
+#define IDC_TD_NUMPLAYERS               1044
+#define IDC_CASHIER                     1045
+#define IDC_GROUPBOX_VERSION            1046
+#define IDC_BUYIN                       1047
+#define IDC_CASHOUT                     1048
+#define IDC_CREDITCARD                  1049
+#define IDC_BUYINAMOUNT                 1050
+#define IDC_COMMIT                      1051
+#define IDC_CASHOUTAMOUNT               1052
+#define IDC_EDIT_COMMIT                 1054
+#define IDC_CASHIER_GROUP1              1055
+#define IDC_CASHIER_GROUP2              1056
+#define IDC_CASHIER_GROUP3              1057
+#define IDC_PROMPT_CREDITCARD           1058
+#define IDC_PROMPT_BUYINAMOUNT          1059
+#define IDC_PROMPT_CASHOUTAMOUNT        1060
+#define IDC_LOGIN                       1061
+#define IDC_CASHIER_GROUP4              1062
+#define IDC_PROMPT_ACTION               1063
+#define IDC_LOUNGE_GROUP1               1068
+#define IDC_PROMPT_USERNAME             1069
+#define IDC_PROMPT_STATUS               1070
+#define IDC_PROMPT_NUMTABLES            1071
+#define IDC_PROMPT_NUMPLAYERS           1072
+#define IDC_PROGRESS1                   1078
+#define IDC_REMEMBER_NAMEPW             1079
+#define IDC_OBSERVE                     1081
+#define IDC_FLOPPRCNT_PROMPT            1082
+#define IDC_TD_BUYIN                    1083
+#define IDC_TD_STARTTIME                1084
+#define IDC_TD_PLAYERS                  1085
+#define IDC_TD_DESCRIPTION              1086
+#define IDC_EDIT                        1087
+#define IDC_BUTTON1                     1094
+#define IDC_BUTTON_TESTLOGIN            1094
+#define IDC_CREDITCARDS                 1094
+#define IDC_EDITRULES                   1095
+#define IDC_EDITFORMAT                  1096
+#define IDC_RADIO_REALMONEY             1096
+#define IDC_BUTTON_TOURNAMENT           1097
+#define IDC_RADIO_PLAYMONEY             1097
+#define IDC_EDIT_BANNER                 1098
+#define IDC_RADIO_PLAYMONEY2            1100
+#define IDC_CC1_TYPE                    1102
+#define IDC_CC1_NUMBER                  1103
+#define IDC_CC2_TYPE                    1104
+#define IDC_CC1_EXPRMONTH               1105
+#define IDC_CC1_EXPRYEAR                1106
+#define IDC_CC2_NUMBER                  1107
+#define IDC_CC2_EXPRMONTH               1108
+#define IDC_CC2_EXPRYEAR                1109
+#define IDC_CC3_TYPE                    1110
+#define IDC_CC3_NUMBER                  1111
+#define IDC_CC3_EXPRMONTH               1112
+#define IDC_CC3_EXPRYEAR                1113
+#define IDC_CC4_TYPE                    1114
+#define IDC_CC4_NUMBER                  1115
+#define IDC_CC4_EXPRMONTH               1116
+#define IDC_CC4_EXPRYEAR                1117
+#define IDC_CHECK_SYSTEMONLY            1118
+#define IDC_LD_BUTTONIDBASE             1500
+
+// Next default values for new objects
+// 
+#ifdef APSTUDIO_INVOKED
+#ifndef APSTUDIO_READONLY_SYMBOLS
+#define _APS_NEXT_RESOURCE_VALUE        137
+#define _APS_NEXT_COMMAND_VALUE         32771
+#define _APS_NEXT_CONTROL_VALUE         1109
+#define _APS_NEXT_SYMED_VALUE           101
+#endif
+#endif

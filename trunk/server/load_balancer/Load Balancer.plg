@@ -1,0 +1,74 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: Load Balancer - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP117.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /Zi /Od /I "." /I "..\..\lib\common\include" /I "..\..\lib\openssl\inc32" /I "../../lib/sgi_stl" /D "_DEBUG" /D "WIN32" /D "_CONSOLE" /D "_MBCS" /Fp"Debug/Load Balancer.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"C:\Documents and Settings\administrator\Desktop\poker_source\server\load_balancer\loadbalancer\loadbalancer.cpp"
+"C:\Documents and Settings\administrator\Desktop\poker_source\server\load_balancer\pdu\pdu.cpp"
+"C:\Documents and Settings\administrator\Desktop\poker_source\server\load_balancer\pdu\pduloungeinfo.cpp"
+"C:\Documents and Settings\administrator\Desktop\poker_source\server\load_balancer\pdu\pduloungelogin.cpp"
+"C:\Documents and Settings\administrator\Desktop\poker_source\server\load_balancer\pdu\pduredirectlogin.cpp"
+"C:\Documents and Settings\administrator\Desktop\poker_source\server\load_balancer\pdu\pduunknown.cpp"
+"C:\Documents and Settings\administrator\Desktop\poker_source\server\load_balancer\pdu\pduwaitinglistconfig.cpp"
+"C:\Documents and Settings\administrator\Desktop\poker_source\server\load_balancer\main.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP117.tmp" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP118.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib wsock32.lib /nologo /subsystem:console /incremental:yes /pdb:"Debug/loadbalancer.pdb" /debug /machine:I386 /out:"loadbalancer.exe" /pdbtype:sept 
+".\Debug\errorlog.obj"
+".\Debug\filelogger.obj"
+".\Debug\log.obj"
+".\Debug\ssl_funcs.obj"
+".\Debug\stringoutput.obj"
+".\Debug\sync.obj"
+".\Debug\sys.obj"
+".\Debug\loadbalancer.obj"
+".\Debug\lounge.obj"
+".\Debug\pdu.obj"
+".\Debug\pduallocator.obj"
+".\Debug\pduloungeinfo.obj"
+".\Debug\pduloungelogin.obj"
+".\Debug\pduloungestats.obj"
+".\Debug\pdunotify.obj"
+".\Debug\pduplayerhandshake.obj"
+".\Debug\pduplayerloggedin.obj"
+".\Debug\pduplayerloggedout.obj"
+".\Debug\pduqueueupdate.obj"
+".\Debug\pduredirectlogin.obj"
+".\Debug\pdurouteloungepdu.obj"
+".\Debug\pdurouteplayerpdu.obj"
+".\Debug\pduunknown.obj"
+".\Debug\pduwaitinglistconfig.obj"
+".\Debug\pduwaitinglistevent.obj"
+".\Debug\accepter.obj"
+".\Debug\main.obj"
+".\Debug\poller.obj"
+".\Debug\server.obj"
+]
+Creating command line "link.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP118.tmp"
+<h3>Output Window</h3>
+Compiling...
+pduloungeinfo.cpp
+pduredirectlogin.cpp
+pduwaitinglistconfig.cpp
+main.cpp
+loadbalancer.cpp
+pduloungelogin.cpp
+pdu.cpp
+pduunknown.cpp
+Linking...
+
+
+
+<h3>Results</h3>
+loadbalancer.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

@@ -1,0 +1,39 @@
+LIBPOKER = ../lib/libpoker@A@
+
+CC = @CC@ 
+CFLAGS = @CFLAGS@ 
+RANLIB = @RANLIB@ 
+AR = ar
+RM = @RM@
+CC_OBJ = $(CC) $(CFLAGS) -I../include @CC_OBJ@
+CC_EXE = $(CC) $(CFLAGS) -I../include @CC_EXE@
+RUN_IT = @RUN_IT@
+LIB_CMD = @LIB_CMD@
+
+all: tests
+
+tests: digtest5@E@ digtest7@E@
+
+digtest5@E@ : digtest5@O@ $(LIBPOKER)
+	$(CC_EXE)
+
+digtest7@E@ : digtest7@O@ $(LIBPOKER)
+	$(CC_EXE)
+
+clean:
+	$(RM) *@O@ core digtest5@E@ digtest7@E@
+
+.c@O@:
+	$(CC_OBJ)
+
+test : tests
+	@echo -n "digtest5: 5-card hands..."
+	@if [ `./digtest5` = "1f066feff1a8b3406fe069c05c4ba17d" ]; \
+		then echo "		Passed"; \
+		else echo "		Failed"; \
+	fi
+	@echo -n "digtest7: 7-card hands..."
+	@if [ `./digtest7` = "03a86bd2deac3052bbe93256e0d7b156" ]; \
+		then echo "		Passed"; \
+		else echo "		Failed"; \
+	fi

@@ -1,0 +1,383 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: Poker - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x409 /fo"shell\Debug/Poker.res" /d "_DEBUG" /d "_AFXDLL" "C:\Documents and Settings\administrator\Desktop\poker_source\client\Poker.rc"" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP46.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /Zi /Od /I "." /I "..\lib\openssl\inc32" /I "..\lib\common\include" /D "_DEBUG" /D "WIN32" /D "_WINDOWS" /D "_MBCS" /D "_AFXDLL" /D "PCLIENT_MODULE_" /D "HTML_VIEW_" /D "PSPOT_TABLE_MODULE_" /D "NO_TABLEIMPL_DLL_" /Fp"shell\Debug/Poker.pch" /Yu"stdafx.h" /Fo"shell\Debug/" /Fd"shell\Debug/" /FD /GZ /c 
+"C:\Documents and Settings\administrator\Desktop\poker_source\client\tem\community.cpp"
+"C:\Documents and Settings\administrator\Desktop\poker_source\client\tem\house.cpp"
+"C:\Documents and Settings\administrator\Desktop\poker_source\client\tem\remoteplayer.cpp"
+"C:\Documents and Settings\administrator\Desktop\poker_source\client\tem\statebet.cpp"
+"C:\Documents and Settings\administrator\Desktop\poker_source\client\tem\statedealpocket.cpp"
+"C:\Documents and Settings\administrator\Desktop\poker_source\client\tem\statepromptpostblind.cpp"
+"C:\Documents and Settings\administrator\Desktop\poker_source\client\network\errorlog.cpp"
+"C:\Documents and Settings\administrator\Desktop\poker_source\client\network\network.cpp"
+"C:\Documents and Settings\administrator\Desktop\poker_source\client\network\networkbuffer.cpp"
+"C:\Documents and Settings\administrator\Desktop\poker_source\client\network\pduaccountbalance.cpp"
+"C:\Documents and Settings\administrator\Desktop\poker_source\client\network\pduaction.cpp"
+"C:\Documents and Settings\administrator\Desktop\poker_source\client\network\pduactionecho.cpp"
+"C:\Documents and Settings\administrator\Desktop\poker_source\client\network\pduactionrequest.cpp"
+"C:\Documents and Settings\administrator\Desktop\poker_source\client\network\pduactionrequestspreadlimit.cpp"
+"C:\Documents and Settings\administrator\Desktop\poker_source\client\network\pduallin.cpp"
+"C:\Documents and Settings\administrator\Desktop\poker_source\client\network\pduannounce.cpp"
+"C:\Documents and Settings\administrator\Desktop\poker_source\client\network\pduanteallin.cpp"
+"C:\Documents and Settings\administrator\Desktop\poker_source\client\network\pdublindcard.cpp"
+"C:\Documents and Settings\administrator\Desktop\poker_source\client\network\pdublindrequest.cpp"
+"C:\Documents and Settings\administrator\Desktop\poker_source\client\network\pdubutton.cpp"
+"C:\Documents and Settings\administrator\Desktop\poker_source\client\network\pduchat.cpp"
+"C:\Documents and Settings\administrator\Desktop\poker_source\client\network\pducommunitycard.cpp"
+"C:\Documents and Settings\administrator\Desktop\poker_source\client\network\pducreditcardedit.cpp"
+"C:\Documents and Settings\administrator\Desktop\poker_source\client\network\pducreditcardresponse.cpp"
+"C:\Documents and Settings\administrator\Desktop\poker_source\client\network\pdudealcards.cpp"
+"C:\Documents and Settings\administrator\Desktop\poker_source\client\network\pdudealcardsflex.cpp"
+"C:\Documents and Settings\administrator\Desktop\poker_source\client\network\pdueditrules.cpp"
+"C:\Documents and Settings\administrator\Desktop\poker_source\client\network\pduerror.cpp"
+"C:\Documents and Settings\administrator\Desktop\poker_source\client\network\pdugamenumber.cpp"
+"C:\Documents and Settings\administrator\Desktop\poker_source\client\network\pduhandlogrequest.cpp"
+"C:\Documents and Settings\administrator\Desktop\poker_source\client\network\pduloginstats.cpp"
+"C:\Documents and Settings\administrator\Desktop\poker_source\client\network\pdulounge.cpp"
+"C:\Documents and Settings\administrator\Desktop\poker_source\client\network\pdunetworkerror.cpp"
+"C:\Documents and Settings\administrator\Desktop\poker_source\client\network\pdunotify.cpp"
+"C:\Documents and Settings\administrator\Desktop\poker_source\client\network\pduping.cpp"
+"C:\Documents and Settings\administrator\Desktop\poker_source\client\network\pduplayer.cpp"
+"C:\Documents and Settings\administrator\Desktop\poker_source\client\network\pduplayerfinished.cpp"
+"C:\Documents and Settings\administrator\Desktop\poker_source\client\network\pduplayerinfo.cpp"
+"C:\Documents and Settings\administrator\Desktop\poker_source\client\network\pdupocketcard.cpp"
+"C:\Documents and Settings\administrator\Desktop\poker_source\client\network\pduqueuefull.cpp"
+"C:\Documents and Settings\administrator\Desktop\poker_source\client\network\pduqueueupdate.cpp"
+"C:\Documents and Settings\administrator\Desktop\poker_source\client\network\pdureseat.cpp"
+"C:\Documents and Settings\administrator\Desktop\poker_source\client\network\pdusetup.cpp"
+"C:\Documents and Settings\administrator\Desktop\poker_source\client\network\pdushowcardsquery.cpp"
+"C:\Documents and Settings\administrator\Desktop\poker_source\client\network\pdushowdown.cpp"
+"C:\Documents and Settings\administrator\Desktop\poker_source\client\network\pdusitinquery.cpp"
+"C:\Documents and Settings\administrator\Desktop\poker_source\client\network\pdutournamentparams.cpp"
+"C:\Documents and Settings\administrator\Desktop\poker_source\client\network\pduupgraderequest.cpp"
+"C:\Documents and Settings\administrator\Desktop\poker_source\client\network\pduverbosetablereply.cpp"
+"C:\Documents and Settings\administrator\Desktop\poker_source\client\network\server.cpp"
+"C:\Documents and Settings\administrator\Desktop\poker_source\client\network\ssl.cpp"
+"C:\Documents and Settings\administrator\Desktop\poker_source\client\base\actionimpl.cpp"
+"C:\Documents and Settings\administrator\Desktop\poker_source\client\base\base_registry.cpp"
+"C:\Documents and Settings\administrator\Desktop\poker_source\client\base\cards.cpp"
+"C:\Documents and Settings\administrator\Desktop\poker_source\client\base\cardsanimate.cpp"
+"C:\Documents and Settings\administrator\Desktop\poker_source\client\base\chipsanimate.cpp"
+"C:\Documents and Settings\administrator\Desktop\poker_source\client\base\cipher.cpp"
+"C:\Documents and Settings\administrator\Desktop\poker_source\client\base\draw.cpp"
+"C:\Documents and Settings\administrator\Desktop\poker_source\client\base\gamelogic.cpp"
+"C:\Documents and Settings\administrator\Desktop\poker_source\client\base\gamestate.cpp"
+"C:\Documents and Settings\administrator\Desktop\poker_source\client\base\graphic_chips.cpp"
+"C:\Documents and Settings\administrator\Desktop\poker_source\client\base\jpgimage.cpp"
+"C:\Documents and Settings\administrator\Desktop\poker_source\client\base\layout.cpp"
+"C:\Documents and Settings\administrator\Desktop\poker_source\client\base\md5.cpp"
+"C:\Documents and Settings\administrator\Desktop\poker_source\client\base\misc.cpp"
+"C:\Documents and Settings\administrator\Desktop\poker_source\client\base\player.cpp"
+"C:\Documents and Settings\administrator\Desktop\poker_source\client\base\stateante.cpp"
+"C:\Documents and Settings\administrator\Desktop\poker_source\client\base\statedealcommunity.cpp"
+"C:\Documents and Settings\administrator\Desktop\poker_source\client\base\statedealpocket2.cpp"
+"C:\Documents and Settings\administrator\Desktop\poker_source\client\base\statedealupcard.cpp"
+"C:\Documents and Settings\administrator\Desktop\poker_source\client\base\stateshowdown.cpp"
+"C:\Documents and Settings\administrator\Desktop\poker_source\client\base\statewait.cpp"
+"C:\Documents and Settings\administrator\Desktop\poker_source\client\base\sync.cpp"
+"C:\Documents and Settings\administrator\Desktop\poker_source\client\base\transparentbitmap.cpp"
+"C:\Documents and Settings\administrator\Desktop\poker_source\client\base\turnindicator.cpp"
+"C:\Documents and Settings\administrator\Desktop\poker_source\client\base\winsys.cpp"
+"C:\Documents and Settings\administrator\Desktop\poker_source\client\dib\CDib.cpp"
+"C:\Documents and Settings\administrator\Desktop\poker_source\client\dib\Dib File Handler Targa.cpp"
+"C:\Documents and Settings\administrator\Desktop\poker_source\client\dib\Dib File Handler.cpp"
+"C:\Documents and Settings\administrator\Desktop\poker_source\client\ui\aboutdlg.cpp"
+"C:\Documents and Settings\administrator\Desktop\poker_source\client\ui\actionbar.cpp"
+"C:\Documents and Settings\administrator\Desktop\poker_source\client\ui\ActionButton.cpp"
+"C:\Documents and Settings\administrator\Desktop\poker_source\client\ui\animatewinner.cpp"
+"C:\Documents and Settings\administrator\Desktop\poker_source\client\ui\buyinquerydlg.cpp"
+"C:\Documents and Settings\administrator\Desktop\poker_source\client\ui\chatdlg.cpp"
+"C:\Documents and Settings\administrator\Desktop\poker_source\client\ui\ChatEdit.cpp"
+"C:\Documents and Settings\administrator\Desktop\poker_source\client\ui\chatframe.cpp"
+"C:\Documents and Settings\administrator\Desktop\poker_source\client\ui\ChatView.cpp"
+"C:\Documents and Settings\administrator\Desktop\poker_source\client\ui\checkbutton.cpp"
+"C:\Documents and Settings\administrator\Desktop\poker_source\client\ui\commentdialog.cpp"
+"C:\Documents and Settings\administrator\Desktop\poker_source\client\ui\global.cpp"
+"C:\Documents and Settings\administrator\Desktop\poker_source\client\ui\inputdlg.cpp"
+"C:\Documents and Settings\administrator\Desktop\poker_source\client\ui\logindlg.cpp"
+"C:\Documents and Settings\administrator\Desktop\poker_source\client\ui\maildoc.cpp"
+"C:\Documents and Settings\administrator\Desktop\poker_source\client\ui\mainwnd.cpp"
+"C:\Documents and Settings\administrator\Desktop\poker_source\client\ui\optionsdlg.cpp"
+"C:\Documents and Settings\administrator\Desktop\poker_source\client\ui\ownerdrawmenu.cpp"
+"C:\Documents and Settings\administrator\Desktop\poker_source\client\ui\promptinputdlg.cpp"
+"C:\Documents and Settings\administrator\Desktop\poker_source\client\ui\registry.cpp"
+"C:\Documents and Settings\administrator\Desktop\poker_source\client\ui\soundmanager.cpp"
+"C:\Documents and Settings\administrator\Desktop\poker_source\client\ui\splashwnd.cpp"
+"C:\Documents and Settings\administrator\Desktop\poker_source\client\ui\tableview.cpp"
+"C:\Documents and Settings\administrator\Desktop\poker_source\client\ui\waitdlg.cpp"
+"C:\Documents and Settings\administrator\Desktop\poker_source\client\shell\Poker.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP46.tmp" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP47.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /Zi /Od /I "." /I "..\lib\openssl\inc32" /I "..\lib\common\include" /D "_DEBUG" /D "WIN32" /D "_WINDOWS" /D "_MBCS" /D "_AFXDLL" /D "PCLIENT_MODULE_" /D "HTML_VIEW_" /D "PSPOT_TABLE_MODULE_" /D "NO_TABLEIMPL_DLL_" /Fo"shell\Debug/" /Fd"shell\Debug/" /FD /GZ /c 
+"C:\Documents and Settings\administrator\Desktop\poker_source\client\md5\md5c.c"
+"C:\Documents and Settings\administrator\Desktop\poker_source\lib\COMMON\src\chips.cpp"
+"C:\Documents and Settings\administrator\Desktop\poker_source\lib\COMMON\src\stringoutput.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP47.tmp" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP48.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /Zi /Od /I "." /I "..\lib\openssl\inc32" /I "..\lib\common\include" /D "_DEBUG" /D "WIN32" /D "_WINDOWS" /D "_MBCS" /D "_AFXDLL" /D "PCLIENT_MODULE_" /D "HTML_VIEW_" /D "PSPOT_TABLE_MODULE_" /D "NO_TABLEIMPL_DLL_" /Fp"shell\Debug/Poker.pch" /Yc"stdafx.h" /Fo"shell\Debug/" /Fd"shell\Debug/" /FD /GZ /c 
+"C:\Documents and Settings\administrator\Desktop\poker_source\client\shell\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP48.tmp" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP49.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:yes /pdb:"shell\Debug/holdem.pdb" /map:"shell\Debug/holdem.map" /debug /machine:I386 /out:"holdem.exe" /pdbtype:sept 
+".\shell\Debug\community.obj"
+".\shell\Debug\house.obj"
+".\shell\Debug\remoteplayer.obj"
+".\shell\Debug\statebet.obj"
+".\shell\Debug\statedealpocket.obj"
+".\shell\Debug\statepromptpostblind.obj"
+".\shell\Debug\errorlog.obj"
+".\shell\Debug\network.obj"
+".\shell\Debug\networkbuffer.obj"
+".\shell\Debug\pduaccountbalance.obj"
+".\shell\Debug\pduaction.obj"
+".\shell\Debug\pduactionecho.obj"
+".\shell\Debug\pduactionrequest.obj"
+".\shell\Debug\pduactionrequestspreadlimit.obj"
+".\shell\Debug\pduallin.obj"
+".\shell\Debug\pduannounce.obj"
+".\shell\Debug\pduanteallin.obj"
+".\shell\Debug\pdublindcard.obj"
+".\shell\Debug\pdublindrequest.obj"
+".\shell\Debug\pdubutton.obj"
+".\shell\Debug\pduchat.obj"
+".\shell\Debug\pducommunitycard.obj"
+".\shell\Debug\pducreditcardedit.obj"
+".\shell\Debug\pducreditcardresponse.obj"
+".\shell\Debug\pdudealcards.obj"
+".\shell\Debug\pdudealcardsflex.obj"
+".\shell\Debug\pdueditrules.obj"
+".\shell\Debug\pduerror.obj"
+".\shell\Debug\pdugamenumber.obj"
+".\shell\Debug\pduhandlogrequest.obj"
+".\shell\Debug\pduloginstats.obj"
+".\shell\Debug\pdulounge.obj"
+".\shell\Debug\pdunetworkerror.obj"
+".\shell\Debug\pdunotify.obj"
+".\shell\Debug\pduping.obj"
+".\shell\Debug\pduplayer.obj"
+".\shell\Debug\pduplayerfinished.obj"
+".\shell\Debug\pduplayerinfo.obj"
+".\shell\Debug\pdupocketcard.obj"
+".\shell\Debug\pduqueuefull.obj"
+".\shell\Debug\pduqueueupdate.obj"
+".\shell\Debug\pdureseat.obj"
+".\shell\Debug\pdusetup.obj"
+".\shell\Debug\pdushowcardsquery.obj"
+".\shell\Debug\pdushowdown.obj"
+".\shell\Debug\pdusitinquery.obj"
+".\shell\Debug\pdutournamentparams.obj"
+".\shell\Debug\pduupgraderequest.obj"
+".\shell\Debug\pduverbosetablereply.obj"
+".\shell\Debug\server.obj"
+".\shell\Debug\ssl.obj"
+".\shell\Debug\actionimpl.obj"
+".\shell\Debug\base_registry.obj"
+".\shell\Debug\cards.obj"
+".\shell\Debug\cardsanimate.obj"
+".\shell\Debug\chipsanimate.obj"
+".\shell\Debug\cipher.obj"
+".\shell\Debug\draw.obj"
+".\shell\Debug\gamelogic.obj"
+".\shell\Debug\gamestate.obj"
+".\shell\Debug\graphic_chips.obj"
+".\shell\Debug\jpgimage.obj"
+".\shell\Debug\layout.obj"
+".\shell\Debug\md5.obj"
+".\shell\Debug\misc.obj"
+".\shell\Debug\player.obj"
+".\shell\Debug\stateante.obj"
+".\shell\Debug\statedealcommunity.obj"
+".\shell\Debug\statedealpocket2.obj"
+".\shell\Debug\statedealupcard.obj"
+".\shell\Debug\stateshowdown.obj"
+".\shell\Debug\statewait.obj"
+".\shell\Debug\sync.obj"
+".\shell\Debug\transparentbitmap.obj"
+".\shell\Debug\turnindicator.obj"
+".\shell\Debug\winsys.obj"
+".\shell\Debug\CDib.obj"
+".\shell\Debug\Dib File Handler Targa.obj"
+".\shell\Debug\Dib File Handler.obj"
+".\shell\Debug\aboutdlg.obj"
+".\shell\Debug\actionbar.obj"
+".\shell\Debug\ActionButton.obj"
+".\shell\Debug\animatewinner.obj"
+".\shell\Debug\buyinquerydlg.obj"
+".\shell\Debug\chatdlg.obj"
+".\shell\Debug\ChatEdit.obj"
+".\shell\Debug\chatframe.obj"
+".\shell\Debug\ChatView.obj"
+".\shell\Debug\checkbutton.obj"
+".\shell\Debug\commentdialog.obj"
+".\shell\Debug\global.obj"
+".\shell\Debug\inputdlg.obj"
+".\shell\Debug\logindlg.obj"
+".\shell\Debug\maildoc.obj"
+".\shell\Debug\mainwnd.obj"
+".\shell\Debug\optionsdlg.obj"
+".\shell\Debug\ownerdrawmenu.obj"
+".\shell\Debug\promptinputdlg.obj"
+".\shell\Debug\registry.obj"
+".\shell\Debug\soundmanager.obj"
+".\shell\Debug\splashwnd.obj"
+".\shell\Debug\tableview.obj"
+".\shell\Debug\waitdlg.obj"
+".\shell\Debug\md5c.obj"
+".\shell\Debug\chips.obj"
+".\shell\Debug\stringoutput.obj"
+".\shell\Debug\Poker.obj"
+".\shell\Debug\StdAfx.obj"
+".\shell\Debug\Poker.res"
+]
+Creating command line "link.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP49.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+community.cpp
+house.cpp
+remoteplayer.cpp
+statebet.cpp
+statedealpocket.cpp
+statepromptpostblind.cpp
+errorlog.cpp
+network.cpp
+networkbuffer.cpp
+pduaccountbalance.cpp
+pduaction.cpp
+pduactionecho.cpp
+pduactionrequest.cpp
+pduactionrequestspreadlimit.cpp
+pduallin.cpp
+pduannounce.cpp
+pduanteallin.cpp
+pdublindcard.cpp
+pdublindrequest.cpp
+pdubutton.cpp
+Generating Code...
+Compiling...
+pduchat.cpp
+pducommunitycard.cpp
+pducreditcardedit.cpp
+pducreditcardresponse.cpp
+pdudealcards.cpp
+pdudealcardsflex.cpp
+pdueditrules.cpp
+pduerror.cpp
+pdugamenumber.cpp
+pduhandlogrequest.cpp
+pduloginstats.cpp
+pdulounge.cpp
+pdunetworkerror.cpp
+pdunotify.cpp
+pduping.cpp
+pduplayer.cpp
+pduplayerfinished.cpp
+pduplayerinfo.cpp
+pdupocketcard.cpp
+pduqueuefull.cpp
+Generating Code...
+Compiling...
+pduqueueupdate.cpp
+pdureseat.cpp
+pdusetup.cpp
+pdushowcardsquery.cpp
+pdushowdown.cpp
+pdusitinquery.cpp
+pdutournamentparams.cpp
+pduupgraderequest.cpp
+pduverbosetablereply.cpp
+server.cpp
+ssl.cpp
+actionimpl.cpp
+base_registry.cpp
+cards.cpp
+cardsanimate.cpp
+chipsanimate.cpp
+cipher.cpp
+draw.cpp
+gamelogic.cpp
+gamestate.cpp
+Generating Code...
+Compiling...
+graphic_chips.cpp
+jpgimage.cpp
+layout.cpp
+JPG lib for DLL import
+md5.cpp
+misc.cpp
+player.cpp
+stateante.cpp
+statedealcommunity.cpp
+statedealpocket2.cpp
+statedealupcard.cpp
+stateshowdown.cpp
+statewait.cpp
+sync.cpp
+transparentbitmap.cpp
+turnindicator.cpp
+winsys.cpp
+CDib.cpp
+Dib File Handler Targa.cpp
+Dib File Handler.cpp
+aboutdlg.cpp
+Generating Code...
+Compiling...
+actionbar.cpp
+ActionButton.cpp
+animatewinner.cpp
+buyinquerydlg.cpp
+chatdlg.cpp
+ChatEdit.cpp
+chatframe.cpp
+ChatView.cpp
+checkbutton.cpp
+commentdialog.cpp
+global.cpp
+inputdlg.cpp
+logindlg.cpp
+maildoc.cpp
+mainwnd.cpp
+optionsdlg.cpp
+ownerdrawmenu.cpp
+promptinputdlg.cpp
+registry.cpp
+soundmanager.cpp
+Generating Code...
+Compiling...
+splashwnd.cpp
+tableview.cpp
+waitdlg.cpp
+Poker.cpp
+Generating Code...
+Compiling...
+md5c.c
+Generating Code...
+Compiling...
+chips.cpp
+stringoutput.cpp
+Generating Code...
+Linking...
+
+
+
+<h3>Results</h3>
+holdem.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

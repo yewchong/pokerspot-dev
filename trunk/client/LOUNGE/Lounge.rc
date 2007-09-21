@@ -1,0 +1,456 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// English (U.S.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)\r\n"
+    "#ifdef _WIN32\r\n"
+    "LANGUAGE 9, 1\r\n"
+    "#pragma code_page(1252)\r\n"
+    "#endif //_WIN32\r\n"
+    "#include ""res\\lounge.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "#include ""afxres.rc""         // Standard components\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON    DISCARDABLE     "res\\Lounge.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_ABOUTBOX DIALOG DISCARDABLE  0, 0, 247, 100
+STYLE WS_POPUP | WS_BORDER
+FONT 8, "Arial"
+BEGIN
+    CTEXT           "title",IDC_TITLE,180,12,64,17,SS_NOPREFIX | NOT 
+                    WS_VISIBLE | NOT WS_GROUP
+    CTEXT           "copyright",IDC_COPYRIGHT,180,48,63,30,NOT WS_VISIBLE | 
+                    NOT WS_GROUP
+    DEFPUSHBUTTON   "OK",IDOK,194,83,38,13,WS_GROUP
+    CONTROL         132,IDB_LOGO,"Static",SS_BITMAP,2,6,177,86
+END
+
+
+#ifndef _MAC
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 0,5,0,0
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040904b0"
+        BEGIN
+            VALUE "Comments", "\0"
+            VALUE "CompanyName", "PokerSpot International\0"
+            VALUE "FileDescription", "Poker Application\0"
+            VALUE "FileVersion", "0, 5, 0, 0\0"
+            VALUE "InternalName", "Lounge\0"
+            VALUE "LegalCopyright", "Copyright (C) 1999 PokerSpot International\0"
+            VALUE "LegalTrademarks", "\0"
+            VALUE "OriginalFilename", "Lounge.exe\0"
+            VALUE "PrivateBuild", "\0"
+            VALUE "ProductName", "Poker Application\0"
+            VALUE "ProductVersion", "1, 0, 0, 1\0"
+            VALUE "SpecialBuild", "\0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x409, 1200
+    END
+END
+
+#endif    // !_MAC
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    IDD_ABOUTBOX, DIALOG
+    BEGIN
+        BOTTOMMARGIN, 85
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDR_MAINFRAME MENU DISCARDABLE 
+BEGIN
+    POPUP "&Game"
+    BEGIN
+        MENUITEM "&About",                      ID_APP_ABOUT
+        MENUITEM "&Login",                      ID_LOGIN
+        MENUITEM "&Motd",                       ID_MOTD
+        MENUITEM SEPARATOR
+        MENUITEM "E&xit",                       ID_APP_EXIT
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDB_LOGO                BITMAP  DISCARDABLE     "..\\res\\logo.bmp"
+IDB_CHECK               BITMAP  DISCARDABLE     "..\\res\\check.bmp"
+IDB_CHECKMASK           BITMAP  DISCARDABLE     "..\\res\\checkmask.bmp"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_APP_ABOUT            "Display information about the program"
+    ID_APP_EXIT             "Quit the application"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDC_MOTD                "Display the message of the Day"
+    ID_LOGIN                "Log in to PokerSpot server"
+    ID_FLOORMAP             "Show the floor map view"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_INVALIDNAMEORPASSWORD "Login failed. Retry?"
+END
+
+#endif    // English (U.S.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// Finnish resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_FIN)
+#ifdef _WIN32
+LANGUAGE LANG_FINNISH, SUBLANG_DEFAULT
+#pragma code_page(1252)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDI_ICON1               ICON    DISCARDABLE     "res\\icon1.ico"
+IDI_ICON1SEL            ICON    DISCARDABLE     "res\\icon1sel.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_LOGIN DIALOG DISCARDABLE  0, 0, 196, 102
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Log In"
+FONT 8, "MS Sans Serif"
+BEGIN
+    EDITTEXT        IDC_USERNAME,45,7,113,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_PASSWORD,45,25,113,14,ES_PASSWORD | ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDITHOST,45,43,113,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDITPORT,45,61,113,14,ES_AUTOHSCROLL | ES_NUMBER
+    DEFPUSHBUTTON   "OK",IDOK,40,82,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,106,82,50,14
+    LTEXT           "Username",IDC_STATIC,7,10,33,8
+    LTEXT           "Password",IDC_STATIC,7,27,33,8
+    LTEXT           "Host",IDC_STATIC,7,44,16,8
+    LTEXT           "Port",IDC_STATIC,7,62,14,8
+END
+
+IDD_MOTD DIALOGEX 0, 0, 286, 250
+STYLE WS_POPUP | WS_CAPTION | WS_THICKFRAME
+CAPTION "PokerSpot Message of the Day"
+FONT 8, "MS Sans Serif", 0, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,117,229,50,14
+    GROUPBOX        "",IDC_MESSAGEPANE,7,7,272,218,NOT WS_VISIBLE,
+                    WS_EX_TRANSPARENT
+END
+
+IDD_LOGGINGIN DIALOGEX 0, 0, 169, 37
+STYLE DS_CENTER | WS_POPUP | WS_BORDER
+FONT 8, "Arial", 0, 0, 0x1
+BEGIN
+    CTEXT           "Logging on to PokerSpot, please wait...",IDC_PROMPT,7,7,
+                    155,23,SS_CENTERIMAGE,WS_EX_STATICEDGE
+END
+
+IDD_CHAT DIALOGEX 0, 0, 164, 158
+STYLE WS_POPUP | WS_CAPTION | WS_SYSMENU | WS_THICKFRAME
+EXSTYLE WS_EX_TOOLWINDOW
+CAPTION "Chat"
+FONT 8, "MS Sans Serif", 0, 0, 0x1
+BEGIN
+    EDITTEXT        IDC_EDITCHAT,0,0,164,14,ES_AUTOHSCROLL
+    CONTROL         "Tab1",IDC_TAB1,"SysTabControl32",0x0,0,130,164,21
+END
+
+IDD_PDU DIALOG DISCARDABLE  0, 0, 186, 154
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "PDU Data"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "Send",IDOK,129,7,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,129,24,50,14
+    CONTROL         "List1",IDC_LIST1,"SysListView32",LVS_LIST | 
+                    LVS_EDITLABELS | WS_BORDER | WS_TABSTOP,7,7,116,140
+END
+
+IDD_DIALOG1 DIALOGEX 0, 0, 343, 175
+STYLE WS_CHILD
+EXSTYLE WS_EX_TRANSPARENT
+FONT 8, "MS Sans Serif"
+BEGIN
+    CONTROL         "Tab1",IDC_TAB1,"SysTabControl32",WS_TABSTOP,13,41,317,
+                    109
+    CONTROL         "List1",IDC_LIST1,"SysListView32",LVS_REPORT | 
+                    LVS_OWNERDRAWFIXED | LVS_NOSORTHEADER,17,56,310,91
+    LTEXT           "Username:",IDC_STATIC,11,10,36,8
+    LTEXT           "",IDC_USERNAME,49,9,82,9
+    LTEXT           "Status:",IDC_STATIC,11,23,36,8
+    CONTROL         "",IDC_STATUS,"Static",SS_LEFTNOWORDWRAP | WS_GROUP,49,
+                    23,82,9
+    CONTROL         "View by Game Type/Waiting List",IDC_RADIO1,"Button",
+                    BS_AUTORADIOBUTTON,142,9,119,10
+    CONTROL         "View by Table",IDC_RADIO2,"Button",BS_AUTORADIOBUTTON,
+                    142,22,61,10
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    IDD_LOGIN, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 189
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 98
+    END
+
+    IDD_MOTD, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 279
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 243
+    END
+
+    IDD_LOGGINGIN, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 162
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 30
+    END
+
+    IDD_CHAT, DIALOG
+    BEGIN
+        BOTTOMMARGIN, 151
+    END
+
+    IDD_PDU, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 179
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 147
+    END
+
+    IDD_DIALOG1, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 336
+        BOTTOMMARGIN, 168
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDM_FLOORMAPVIEW MENU DISCARDABLE 
+BEGIN
+    POPUP "&Game"
+    BEGIN
+        MENUITEM "&Login",                      ID_LOGIN
+        MENUITEM "Log&Out",                     ID_LOGOUT
+        MENUITEM SEPARATOR
+        MENUITEM "&About",                      ID_APP_ABOUT
+        MENUITEM "E&xit",                       ID_APP_EXIT
+    END
+    POPUP "&View"
+    BEGIN
+        MENUITEM "&1 Lounge Accept PDU",        ID_FAKE_PDULOUNGEACCEPT
+        MENUITEM "&2 Status PDU",               ID_FAKE_PDUSTATUS
+        MENUITEM "&3 Sitting PDU",              ID_FAKE_PDUSITTING
+        MENUITEM "&4 Logout Warning PDU",       ID_FAKE_PDULOGOUTWARNING
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDB_BACKGROUND          BITMAP  DISCARDABLE     "res\\back.bmp"
+IDB_TABLE               BITMAP  DISCARDABLE     "res\\table.bmp"
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_APP_ABOUT            "Display information about the program"
+    ID_APP_EXIT             "Quit the application"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_LOGIN                "Log in to PokerSpot server"
+    ID_FLOORMAP             "Show the floor map view"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_INVALIDNAMEORPASSWORD "Invalid username or password. Retry?"
+    IDS_LOGINFAILED         "Login failed. <Tell the user what to do now.>"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_INDICATOR_ONLINE     "ONLINE"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_FAKE_PDUSTATUS       "Simulate 10 Status PDUs"
+    ID_FAKE_PDUSITTING      "Simulate a Sitting PDU"
+    ID_LOGOUT               "Log Out from the Lounge"
+END
+
+#endif    // Finnish resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE 9, 1
+#pragma code_page(1252)
+#endif //_WIN32
+#include "res\lounge.rc2"  // non-Microsoft Visual C++ edited resources
+#include "afxres.rc"         // Standard components
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
